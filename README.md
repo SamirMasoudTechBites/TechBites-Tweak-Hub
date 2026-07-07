@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="UpdateMessage/screenshot_1.png" alt="TechBites TweakHub Dashboard" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" width="100%">
+  <img src="Images/screenshot_1.png" alt="TechBites TweakHub Dashboard" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" width="100%">
 
   # TechBites TweakHub
 
@@ -29,12 +29,12 @@ Experience a beautiful, Dark Mode-first WinUI 3 interface designed for both aest
 <div align="center">
   <table style="width:100%">
     <tr>
-      <td align="center" width="50%"><img src="UpdateMessage/screenshot_2.png" alt="Restore Points"><br><b>Robust Restore Points</b></td>
-      <td align="center" width="50%"><img src="UpdateMessage/screenshot_3.png" alt="Deep Optimization"><br><b>Deep Windows Optimization</b></td>
+      <td align="center" width="50%"><img src="Images/screenshot_2.png" alt="Restore Points"><br><b>Robust Restore Points</b></td>
+      <td align="center" width="50%"><img src="Images/screenshot_3.png" alt="Deep Optimization"><br><b>Deep Windows Optimization</b></td>
     </tr>
     <tr>
-      <td align="center" width="50%"><img src="UpdateMessage/screenshot_4.png" alt="Disk Cleanup"><br><b>Thorough Disk Cleanup</b></td>
-      <td align="center" width="50%"><img src="UpdateMessage/screenshot_5.png" alt="System Customization"><br><b>Appearance & UI Customization</b></td>
+      <td align="center" width="50%"><img src="Images/screenshot_4.png" alt="Disk Cleanup"><br><b>Thorough Disk Cleanup</b></td>
+      <td align="center" width="50%"><img src="Images/screenshot_5.png" alt="System Customization"><br><b>Appearance & UI Customization</b></td>
     </tr>
   </table>
 </div>
