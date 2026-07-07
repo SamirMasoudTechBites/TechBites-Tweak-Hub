@@ -1,94 +1,260 @@
-<div align="center">
-  <img src="Images/screenshot_1.png" alt="TechBites TweakHub Dashboard" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" width="100%">
+# <div align="center">
 
-  # TechBites TweakHub
+<img src="Images/screenshot_1.png" width="100%" alt="TechBites TweakHub">
 
-  **The Ultimate Windows Customization & Performance Optimization Suite**
+# 🚀 TechBites TweakHub
 
-  [![WinUI 3](https://img.shields.io/badge/WinUI_3-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://microsoft.github.io/microsoft-ui-xaml/)
-  [![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
-  [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+### The Ultimate Windows Optimization & Customization Suite
 
-  [Overview](#overview) • [Features](#key-features) • [Installation](#installation) • [Usage](#usage) • [Tech Stack](#tech-stack) • [Contributing](#contributing)
+Modern • Powerful • Safe • Built for Windows 11
+
+[![Windows 11](https://img.shields.io/badge/Windows-11-0078D4?style=for-the-badge\&logo=windows\&logoColor=white)](https://www.microsoft.com/windows)
+[![WinUI 3](https://img.shields.io/badge/WinUI-3-0078D4?style=for-the-badge)](https://microsoft.github.io/microsoft-ui-xaml/)
+[![.NET](https://img.shields.io/badge/.NET-9-512BD4?style=for-the-badge\&logo=dotnet\&logoColor=white)](https://dotnet.microsoft.com/)
+[![License](https://img.shields.io/badge/License-Custom-green?style=for-the-badge)](LICENSE)
+
+### ⚡ One Hub. Every Windows Tweak.
+
+Designed for gamers, creators, enthusiasts, and power users who want maximum performance without spending hours editing the registry.
+
+**⭐ If you enjoy this project, don't forget to Star the repository!**
+
 </div>
 
 ---
 
-## 🌟 Overview
- 
-**TechBites TweakHub** is a comprehensive, modern Windows application designed to help you unlock the full potential of your PC. Built with the latest WinUI 3 technologies, TweakHub provides an elegant and intuitive interface for system tuning, memory management, and advanced Windows tweaking.
+# 📖 Overview
 
-Whether you're a gamer looking for maximum frame rates, a power user wanting deeper control over your OS, or someone seeking to debloat their system, TweakHub brings all the essential tools into one unified hub.
+**TechBites TweakHub** is an all-in-one Windows optimization utility built using **WinUI 3** and modern Windows technologies.
+
+Instead of downloading dozens of utilities, scripts, and registry tweaks from different places, TweakHub combines everything into one elegant application with a modern Windows 11 interface.
+
+Whether you want to:
+
+* 🎮 Increase gaming performance
+* 🚀 Speed up Windows
+* 🧹 Clean unnecessary files
+* 🎨 Customize Windows
+* 🧠 Optimize RAM
+* ⚙️ Apply advanced system tweaks
+
+TweakHub gives you complete control in just a few clicks.
 
 ---
 
-## 📸 Inside TweakHub
+# ✨ Features
 
-Experience a beautiful, Dark Mode-first WinUI 3 interface designed for both aesthetics and ultimate functionality.
+## 🚀 Performance Optimization
+
+* Windows Debloating
+* Background Service Optimization
+* Startup Optimization
+* Scheduled Task Cleanup
+* Gaming Performance Presets
+* Power Plan Tweaks
+* Registry Optimizations
+* CPU Scheduling Tweaks
+
+---
+
+## 🧠 Memory Optimization
+
+Powered by trusted Microsoft utilities and industry-standard tools.
+
+Features include:
+
+* RAMMap Integration
+* EmptyStandbyList Integration
+* Working Set Cleanup
+* Modified Page List Cleanup
+* Standby Memory Cleanup
+* Memory Usage Monitoring
+
+---
+
+## 🎨 Windows Customization
+
+Personalize Windows exactly how you like it.
+
+Available tweaks include:
+
+* Taskbar Tweaks
+* Explorer Tweaks
+* Context Menu Tweaks
+* Desktop Tweaks
+* Dark Mode
+* Hidden Windows Features
+* Visual Effects
+* Mica & Fluent Design Support
+
+---
+
+## 🧹 System Cleanup
+
+Keep Windows running like new.
+
+Includes:
+
+* Temporary Files Cleanup
+* Windows Update Cleanup
+* Browser Cache Cleanup
+* Recycle Bin Cleanup
+* Prefetch Cleanup
+* Delivery Optimization Cache Cleanup
+
+---
+
+## 🛡️ System Protection
+
+Safety always comes first.
+
+Before making major changes, TweakHub can:
+
+* Create Restore Points
+* Backup Registry Keys
+* Restore Default Settings
+* Undo Applied Tweaks
+
+---
+
+## 🤖 AI Features *(Experimental)*
+
+Future versions will include AI-powered recommendations using Windows AI and ONNX Runtime.
+
+Examples include:
+
+* Automatic performance recommendations
+* Hardware-aware tweak suggestions
+* Smart optimization profiles
+* Personalized Windows tuning
+
+---
+
+# 📸 Screenshots
+
+## Dashboard
+
+<img src="Images/screenshot_1.png">
+
+---
+
+## Restore Point Manager
+
+<img src="Images/screenshot_2.png">
+
+---
+
+## Optimization Center
+
+<img src="Images/screenshot_3.png">
+
+---
+
+## Disk Cleanup
+
+<img src="Images/screenshot_4.png">
+
+---
+
+## Customization
+
+<img src="Images/screenshot_5.png">
+
+---
+
+# ⚙️ Installation
+
+1. Download the latest release from the **Releases** page.
+2. Extract the archive if necessary.
+3. Run:
+
+```text
+TechBites TweakHub.exe
+```
+
+Administrator privileges are recommended for applying system tweaks.
+
+---
+
+# 💻 System Requirements
+
+| Component        | Requirement              |
+| ---------------- | ------------------------ |
+| Operating System | Windows 11 (Recommended) |
+| Architecture     | x64                      |
+| RAM              | 4 GB Minimum             |
+| Storage          | 300 MB                   |
+| .NET             | Included                 |
+
+
+---
+
+# ❤️ Support Development
+
+If TechBites TweakHub helped improve your PC, consider supporting the project.
+
+## 📺 YouTube
+
+https://www.youtube.com/@TechBites_SamirMasoud
+
+## ☕
+
+PayPal
+
+https://www.paypal.com/paypalme/TechBitesSamirMasoud
+
+## 💸 InstaPay
+
+https://ipn.eg/S/samirmasoudtb/instapay/7von5o
+
+Every contribution helps improve the project.
+
+---
+
+# ⚠️ Disclaimer
+
+This software modifies Windows settings.
+
+Although every tweak is tested before release, no software can guarantee compatibility with every Windows installation.
+
+Always create a Restore Point before applying advanced tweaks.
+
+Use this software at your own risk.
+
+---
+
+# 📜 License
+
+TechBites TweakHub is **source-available but not fully open source**.
+
+Some components (documentation, tweak scripts, and supporting files) are released under the MIT License.
+
+The WinUI application, interface, branding, assets, and proprietary logic remain the intellectual property of TechBites.
+
+See the LICENSE file for full details.
+
+---
+
+# 🤝 Contributing
+
+Bug reports, feature requests, and feedback are always welcome.
+
+Please open an Issue before submitting major changes.
+
+---
+
+# ⭐ Star the Project
+
+If you like TechBites TweakHub, consider giving the repository a ⭐.
+
+It helps the project grow and motivates future development.
+
+---
 
 <div align="center">
-  <table style="width:100%">
-    <tr>
-      <td align="center" width="50%"><img src="Images/screenshot_2.png" alt="Restore Points"><br><b>Robust Restore Points</b></td>
-      <td align="center" width="50%"><img src="Images/screenshot_3.png" alt="Deep Optimization"><br><b>Deep Windows Optimization</b></td>
-    </tr>
-    <tr>
-      <td align="center" width="50%"><img src="Images/screenshot_4.png" alt="Disk Cleanup"><br><b>Thorough Disk Cleanup</b></td>
-      <td align="center" width="50%"><img src="Images/screenshot_5.png" alt="System Customization"><br><b>Appearance & UI Customization</b></td>
-    </tr>
-  </table>
-</div>
 
----
+Made with ❤️ by **Samir Masoud (TechBites)**
 
-## 🚀 Key Features
+**Thank you for supporting the project!**
 
-### ⚡ Performance Optimization
-- **System Debloating:** Safely remove unnecessary background processes and pre-installed Windows apps to free up resources.
-- **Service Tweaking:** Optimize Windows services for specific workloads (Gaming, Productivity, or Battery Saving).
-
-### 🧠 Advanced Memory Management
-- **Intelligent RAM Cleaning:** Integrated with industry-leading tools like `RamMap` and `EmptyStandbyList` to securely clear your standby list and modified page lists.
-- **Real-time Monitoring:** Keep an eye on system resources with zero-overhead telemetry.
-
-### 🎨 UI Customization
-- **Modern Experience:** A gorgeous, fluent design interface powered by WinUI 3, fully supporting Windows 11 design guidelines, Dark Mode, and Mica materials.
-- **Deep Windows Customization:** Tweak Taskbar behaviors, File Explorer settings, and hidden Windows features with a single click.
-
-### 🤖 AI-Powered Capabilities (Experimental)
-- Incorporating OnnxRuntime and Windows AI capabilities for smart optimizations and recommendations tailored to your hardware and usage patterns.
-
----
-
-## ⚙️ Installation
-
-1. Go to the [Releases](https://github.com/SamirMasoudTechBites/TechBites-Tweak-Hub/releases) page.
-2. Download the latest `.exe` .
-3. Run `TechBites TweakHub.exe`.
-
-> **Note:** Administrator privileges may be required to apply certain system tweaks.
-
----
-## 💖 Support & Donate
-
-If you find **TechBites TweakHub** useful, please consider supporting the development!
-
-- 📺 **Subscribe on YouTube:** [@TechBites_SamirMasoud](https://www.youtube.com/@TechBites_SamirMasoud)
-- ☕ **Donate via PayPal:** [paypal.me/TechBitesSamirMasoud](https://www.paypal.com/paypalme/TechBitesSamirMasoud)
-- 💸 **Donate via InstaPay:** [instapay/7von5o](https://ipn.eg/S/samirmasoudtb/instapay/7von5o)
-
-Your support keeps the updates coming!
-
----
-
-## 🛡️ Disclaimer & License
-
-**Disclaimer:** Use this software at your own risk. While we have tested these tweaks thoroughly, applying system-level changes can sometimes lead to unexpected behavior. Always create a System Restore point before applying major tweaks.
-
-**License:** 
-Portions of this repository (such as the tweak scripts and documentation) are distributed under the **[MIT License](https://opensource.org/license/mit)**. However, please note that **TechBites TweakHub is not fully open-source**. The core application is proprietary software. See the `LICENSE` file for more information on the open-source components.
-
----
-<div align="center">
-  <i>Developed with ❤️ by <a href="https://github.com/SamirMasoudTechBites">Samir Masoud / TechBites</a></i>
 </div>
