@@ -1,5 +1,14 @@
-v-0.02
-New Update
-🆕 Fixed Some bugs in the app 
-🆕 Rearrange some tweaks
-🆕 Fixed Some tweaking bugs
+v-0.03
+🚀 TechBites TweakHub — Release Notes
+
+ 🆕 What's New in This Build
+
+⚡ Real-Time System Detection on Startup**
+   *Fixed a bug* where the dashboard would show stale toggle states if you made registry or system setting changes outside of the app. TweakHub now runs a fresh, live system scan every time the application boots up.
+⚙️ Smarter Registry Value Matching**
+*Fixed a bug* where the app would mistakenly report a tweak as "disabled" if Windows used an alternative non-zero value for an enabled feature. Any non-zero DWORD/QWORD value is now correctly read as "enabled" when the target expected value is `1`.
+🎛️ New Advanced Multi-Option Dropdowns**
+**Alt+Tab Filter**: Converted from a simple toggle to a dropdown. You can now select exactly how many Edge tabs appear in your Alt+Tab view (*Show all tabs*, *5 tabs*, *3 tabs*, or *Windows only*).
+**Show Drive Letters**: Converted to a dropdown supporting all four Windows Explorer display modes (*Show after labels*, *Network drives only*, *Hide completely*, or *Show all before labels*).
+**💾 Preserved Option Backups & Revert**
+*Fixed a bug* where reverting selection-based tweaks would reset them to a generic default state. The app now backs up the exact prior option and restores it perfectly when reverted.
