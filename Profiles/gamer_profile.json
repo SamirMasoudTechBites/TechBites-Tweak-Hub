@@ -1,0 +1,13 @@
+{
+  "Id": "0e5ab374-2c26-4b2a-89a5-123456789abc",
+  "Name": "Gamer Profile",
+  "Description": "Optimizes system for maximum gaming performance by disabling background telemetry and tweaking power plans.",
+  "Author": "TechBites",
+  "Icon": "\uE7FC",
+  "CreatedAt": "2026-07-13T20:00:00Z",
+  "TweakStates": {
+    "security-automatic-maintenance": "1",
+    "privacy-diagnostics": "1",
+    "performance-game-mode": "1"
+  }
+}
