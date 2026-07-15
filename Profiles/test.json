@@ -147,5 +147,6 @@
     "opt-advanced-device-guard-optimizations": "Applied",
     "opt-advanced-power-settings-optimizations": "Applied",
     "taskbar-search-box": "search-icon-only"
-  }
+  },
+  "UsageCount": 1
 }
