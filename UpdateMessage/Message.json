@@ -1,14 +1,40 @@
-v-0.03
-🚀 TechBites TweakHub — Release Notes
+v-0.04
+🚀 TechBites TweakHub — Release Notes 🚀
+🆕 What's New & Major Upgrades
 
- 🆕 What's New in This Build
+⭐ Global Favorites System: Easily favorite your top tweaks! Plus, favorites are now synced so all users can see and share what's trending.
 
-⚡ Real-Time System Detection on Startup**
-   *Fixed a bug* where the dashboard would show stale toggle states if you made registry or system setting changes outside of the app. TweakHub now runs a fresh, live system scan every time the application boots up.
-⚙️ Smarter Registry Value Matching**
-*Fixed a bug* where the app would mistakenly report a tweak as "disabled" if Windows used an alternative non-zero value for an enabled feature. Any non-zero DWORD/QWORD value is now correctly read as "enabled" when the target expected value is `1`.
-🎛️ New Advanced Multi-Option Dropdowns**
-**Alt+Tab Filter**: Converted from a simple toggle to a dropdown. You can now select exactly how many Edge tabs appear in your Alt+Tab view (*Show all tabs*, *5 tabs*, *3 tabs*, or *Windows only*).
-**Show Drive Letters**: Converted to a dropdown supporting all four Windows Explorer display modes (*Show after labels*, *Network drives only*, *Hide completely*, or *Show all before labels*).
-**💾 Preserved Option Backups & Revert**
-*Fixed a bug* where reverting selection-based tweaks would reset them to a generic default state. The app now backs up the exact prior option and restores it perfectly when reverted.
+👤 Community Profile System: Achieve peak performance with 1-Click Optimizations. Create your own custom profiles, share them with the community, and climb the new Profile Rankings!
+
+🛠️ Windows Fix (Troubleshooting Hub): A dedicated engine to detect, troubleshoot, and patch common Windows errors and bugs automatically.
+
+🔄 One-Click Redo/Revert: Messed up a setting? The new dashboard Redo option lets you instantly revert your latest applied tweaks without hunting them down individually.
+
+🖼️ Wallpaper Engine: Browse, choose, and apply custom Windows wallpapers seamlessly directly from the app.
+
+📊 Network Usage Tracker: Live bandwidth tracking to monitor your system usage. (Under Development 🛠️)
+
+🖱️ Cursor Customizer: Personalize your Windows cursor with custom themes. (Under Testing & Development 🧪)
+
+⚙️ Reworks & Bug Fixes
+
+📦 Software Manager Rework: Re-engineered the app installer backend to depend on Chocolatey instead of Winget to eliminate package deployment bugs.
+
+🖼️ App Icon Fix: Resolved an issue where software application icons were failing to load or displaying incorrectly.
+
+🎨 Customization Engine: Fixed various bugs affecting UI personalization and layout saving.
+
+🛡️ Crash Fix: Patched critical system error code 7A82C7.
+
+🔧 Tweak Patches & Optimizations
+
+The following background tweaks have been refined and fixed for maximum stability and lower latency:
+
+🧠 Reduce Memory Compression
+🛡️ Microsoft Compatibility Appraiser Task
+📊 Diagnostics and Compatibility background data collection
+🌙 Reduce Away Mode
+⚡ Reduce Core Parking
+🤖 Windows AI Tasks
+🔒 Family Safety Monitor Task
+🎮 Graphics Scheduler scheduling Optimizations
