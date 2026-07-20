@@ -5,10 +5,14 @@
   "Author": "Samir Masoud",
   "Icon": "\uE713",
   "IsCustomLocalProfile": false,
+  "IsCommunityProfile": true,
+  "PasswordHash": null,
+  "PasswordSalt": null,
   "Comments": [
-    "\u0627\u0644\u0628\u0631\u0648\u0641\u0627\u064A\u0644 \u062F\u0647 \u0645\u0645\u0643\u0646 \u064A\u0648\u0642\u0641 \u0645\u0639\u0627\u0643 \u0627\u0644 wifi \u0645\u062A\u0639\u0645\u0644\u0647\u0648\u0634 \u0644\u0648 \u0627\u0646\u062A \u0628\u062A\u0633\u062A\u062E\u062F\u0645 \u0644\u0627\u0628 \u062A\u0648\u0628"
+    "\u0627\u0644\u0628\u0631\u0648\u0641\u0627\u064A\u0644 \u062F\u0647 \u0645\u0645\u0643\u0646 \u064A\u0648\u0642\u0641 \u0645\u0639\u0627\u0643 \u0627\u0644 wifi \u0645\u062A\u0639\u0645\u0644\u0647\u0648\u0634 \u0644\u0648 \u0627\u0646\u062A \u0628\u062A\u0633\u062A\u062E\u062F\u0645 \u0644\u0627\u0628 \u062A\u0648\u0628",
+    "nice"
   ],
-  "LastCommentDate": "2026-07-17T22:27:40.0487277+03:00",
+  "LastCommentDate": "2026-07-20T06:57:09.2480731+03:00",
   "TweakStates": {
     "security-uac-level": "never-notify",
     "security-workplace-join-messages": "Applied",
