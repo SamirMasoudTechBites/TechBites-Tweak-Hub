@@ -307,7 +307,6 @@
     "opt-gpu-nvidia-nvidia-gpu-optimizations": "Applied",
     "opt-gpu-nvidia-graphics-driver-optimization": "Applied",
     "opt-gpu-nvidia-optimize-boot": "Applied",
-    "opt-gpu-nvidia-nvidia-power-mizer-optimizations": "Applied",
     "opt-gpu-nvidia-nvidia-scheduled-tasks-optimizations": "Applied",
     "opt-gpu-nvidia-graphics-tdr-optimizations": "Applied",
     "opt-gpu-nvidia-gpu-device-optimizations": "Applied",
