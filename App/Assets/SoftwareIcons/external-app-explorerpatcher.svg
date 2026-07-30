@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="35" y1="25" x2="220" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0ea5e9"/>
+      <stop offset="0.55" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="patch" x1="62" y1="54" x2="194" y2="202" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="52" fill="#07111f"/>
+  <rect x="22" y="22" width="212" height="212" rx="42" fill="url(#bg)"/>
+  <path fill="#0f172a" opacity=".18" d="M22 144h212v48c0 23.2-18.8 42-42 42H64c-23.2 0-42-18.8-42-42v-48z"/>
+  <path fill="url(#patch)" d="M66 60h124c10 0 18 8 18 18v72c0 10-8 18-18 18h-48v28h34c7.2 0 13 5.8 13 13s-5.8 13-13 13H80c-7.2 0-13-5.8-13-13s5.8-13 13-13h34v-28H66c-10 0-18-8-18-18V78c0-10 8-18 18-18zm10 28v52h104V88H76z"/>
+  <path fill="#38bdf8" d="M102 108h52c6.1 0 11 4.9 11 11s-4.9 11-11 11h-52c-6.1 0-11-4.9-11-11s4.9-11 11-11z"/>
+  <path fill="#1e40af" d="M174.5 64.4l19.1 19.1-73.3 73.3-19.1-19.1 73.3-73.3z"/>
+  <path fill="#f8fafc" d="M181.6 57.3c4.8-4.8 12.7-4.8 17.5 0 4.8 4.8 4.8 12.7 0 17.5l-5.5 5.5-17.5-17.5 5.5-5.5z"/>
+</svg>
