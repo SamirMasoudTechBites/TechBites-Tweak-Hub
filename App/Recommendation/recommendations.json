@@ -1,0 +1,81 @@
+[
+  {
+    "Id": "rec-techbites-samir",
+    "Name": "TechBites - Samir Masoud",
+    "Description": "Official TechBites YouTube channel covering tech talks, PC hardware reviews, Windows performance tweaks, and deep optimization guides.",
+    "Url": "https://www.youtube.com/@TechBites_SamirMasoud",
+    "Type": "YouTube Channel",
+    "Category": "Creators & Guides",
+    "Tags": ["TechTalks", "Reviews", "Tweaks", "Optimization", "Windows"],
+    "Rating": 4.8,
+    "IsFeatured": true,
+    "PriceType": "Free",
+    "Badge": "Official Channel",
+    "Publisher": "Samir Masoud",
+    "Features": [
+      "PC Hardware Reviews & Benchmark Tests",
+      "Windows Tweak & Latency Guides",
+      "Live Tech Talks & Discussions",
+      "Official TechBites Hub Community Support"
+    ]
+  },
+  {
+    "Id": "rec-techbites-gaming",
+    "Name": "TechBites Gaming",
+    "Description": "Official TechBites Gaming channel dedicated to game optimization tests, FPS benchmarks, competitive esports tweaks, and gaming performance reviews.",
+    "Url": "https://www.youtube.com/@TechBitesGaming",
+    "Type": "YouTube Channel",
+    "Category": "Gaming & Streaming",
+    "Tags": ["Gaming", "FPS", "Benchmarks", "Esports", "Optimization"],
+    "Rating": 4.2,
+    "IsFeatured": false,
+    "PriceType": "Free",
+    "Badge": "Official Gaming Channel",
+    "Publisher": "Samir Masoud",
+    "Features": [
+      "Game Performance & FPS Benchmark Tests",
+      "Competitive Esports Latency Tweaks",
+      "PC Gaming Setup & Optimization Guides",
+      "Game Gameplay & High Refresh Rate Tests"
+    ]
+  },
+  {
+    "Id": "rec-yahia-nader",
+    "Name": "Yahia Nader Tech",
+    "Description": "Educational tech channel delivering in-depth hardware reviews, gaming setup recommendations, and software guides.",
+    "Url": "https://www.youtube.com/@yahianadermahmoudtech",
+    "Type": "YouTube Channel",
+    "Category": "Creators & Guides",
+    "Tags": ["Tech", "Reviews", "Hardware", "Gaming", "Guides"],
+    "Rating": 4,
+    "IsFeatured": false,
+    "PriceType": "Free",
+    "Badge": "Verified Creator",
+    "Publisher": "Yahia Nader",
+    "Features": [
+      "Smartphone & Hardware Reviews",
+      "Gaming Setup Optimization",
+      "Tech Discussions & Buyer Guides"
+    ]
+  },
+  {
+    "Id": "rec-easeus-voice",
+    "Name": "EaseUS Voice Changer",
+    "Description": "Transform your voice in real-time with custom sound effects and AI voice filters for Discord, Twitch, and gaming.",
+    "Url": "https://bit.ly/4pIi56k",
+    "Type": "App",
+    "Category": "Software & Apps",
+    "Tags": ["Voice", "AI", "Audio", "Discord"],
+    "Rating": 4.9,
+    "IsFeatured": false,
+    "PriceType": "Freemium",
+    "Badge": "Verified Safe",
+    "Publisher": "EaseUS",
+    "Features": [
+      "Real-time Voice Morphing",
+      "AI Noise Reduction",
+      "Hotkey Soundboard Triggers",
+      "Discord, OBS & Game Compatibility"
+    ]
+  }
+]
