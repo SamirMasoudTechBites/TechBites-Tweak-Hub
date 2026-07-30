@@ -450,8 +450,8 @@
   },
   "WallpaperUrl": "https://w.wallhaven.cc/full/e8/wallhaven-e8xlgw.png",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-hd-v2.zip",
-  "NvidiaProfileUrl": null,
-  "NvidiaProfileName": null,
-  "PowerPlanUrl": null,
-  "PowerPlanName": null
+  "NvidiaProfileUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Nvidia%20Profiles/RTX%20Profile%20(use%20it%20for%20RTX%20GPU).nip",
+  "NvidiaProfileName": "RTX Profile (use it for RTX GPU)",
+  "PowerPlanUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/PowerPlans/Tech Bites Intel CPUs (12th, 13th, 14th Gen P-Cores \u002B E-Cores).pow",
+  "PowerPlanName": "Tech Bites Intel CPUs (12th, 13th, 14th Gen P-Cores \u002B E-Cores)"
 }
