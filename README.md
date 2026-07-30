@@ -14,6 +14,7 @@
 [![Windows 11](https://img.shields.io/badge/Windows-11-0078D4?style=for-the-badge&logo=windows11&logoColor=white)](https://www.microsoft.com/windows)
 [![WinUI 3](https://img.shields.io/badge/WinUI-3-8A2BE2?style=for-the-badge&logo=windows&logoColor=white)](https://microsoft.github.io/microsoft-ui-xaml/)
 [![.NET](https://img.shields.io/badge/.NET-9-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![VirusTotal Clean](https://img.shields.io/badge/VirusTotal-Verified_Clean-00C9FF?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/e7b95c8564a9759012d156e15e47202c176bc53dd2e7fdda61e25e0b54541126/detection)
 [![License](https://img.shields.io/badge/License-Custom-2ECC71?style=for-the-badge)](LICENSE)
 [![Downloads](https://img.shields.io/github/downloads/SamirMasoudTechBites/TechBites-Tweak-Hub/total?style=for-the-badge&color=orange&label=Downloads)](https://github.com/SamirMasoudTechBites/TechBites-Tweak-Hub/releases)
 [![Stars](https://img.shields.io/github/stars/SamirMasoudTechBites/TechBites-Tweak-Hub?style=for-the-badge&color=yellow&label=Stars)](https://github.com/SamirMasoudTechBites/TechBites-Tweak-Hub/stargazers)
@@ -29,6 +30,7 @@
 - [Overview](#-overview)
 - [Features](#-features)
 - [Screenshots](#-screenshots)
+- [Security & VirusTotal Scan](#-security--virustotal-scan)
 - [Installation](#️-installation)
 - [System Requirements](#-system-requirements)
 - [Roadmap](#-roadmap)
@@ -190,6 +192,28 @@ Powered by Windows AI & ONNX Runtime in upcoming versions:
 
 ---
 
+## 🛡️ Security & VirusTotal Scan
+
+Your PC's safety and privacy are fundamental. Every build of **TechBites TweakHub** is scanned against 70+ antivirus engines on **VirusTotal** prior to release.
+
+<div align="center">
+
+| Property | Details |
+|---|---|
+| **VirusTotal Status** | [![VirusTotal Report](https://img.shields.io/badge/VirusTotal-Verified_Clean-00C9FF?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/e7b95c8564a9759012d156e15e47202c176bc53dd2e7fdda61e25e0b54541126/detection) |
+| **SHA-256 Hash** | `e7b95c8564a9759012d156e15e47202c176bc53dd2e7fdda61e25e0b54541126` |
+| **Full Scan Report** | 🔗 [View Live Report on VirusTotal](https://www.virustotal.com/gui/file/e7b95c8564a9759012d156e15e47202c176bc53dd2e7fdda61e25e0b54541126/detection) |
+
+</div>
+
+> [!NOTE]
+> **Why do system tweak tools sometimes trigger generic security flags?**  
+> Because TweakHub modifies Windows Registry keys, disables telemetry, and changes system performance parameters, some aggressive heuristic antivirus engines may flag tweaking scripts as generic "PUP" (Potentially Unwanted Program) or "System Modifier". TweakHub is **100% clean, non-malicious, and transparent**.
+
+**[⬆ back to top](#-table-of-contents)**
+
+---
+
 ## ⚙️ Installation
 
 ```bash
@@ -198,7 +222,8 @@ Powered by Windows AI & ONNX Runtime in upcoming versions:
 3. Run TechBites TweakHub.exe
 ```
 
-> Administrator privileges are recommended so every tweak can apply cleanly.
+> [!TIP]
+> **Administrator privileges** are required so TweakHub can apply system-level power options, registry tweaks, and service configurations cleanly.
 
 **[⬇ Download Latest Release](https://github.com/SamirMasoudTechBites/TechBites-Tweak-Hub/releases)**
 
@@ -210,11 +235,11 @@ Powered by Windows AI & ONNX Runtime in upcoming versions:
 
 | Component | Requirement |
 |---|---|
-| Operating System | Windows 11 (recommended) |
+| Operating System | Windows 11 (recommended) / Windows 10 |
 | Architecture | x64 |
 | RAM | 4 GB minimum |
 | Storage | 300 MB |
-| .NET | Included in installer |
+| .NET | Included in installer (.NET 9 runtime) |
 
 **[⬆ back to top](#-table-of-contents)**
 
