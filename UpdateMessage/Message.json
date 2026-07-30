@@ -1,40 +1,39 @@
-v-0.055
-🚀 TechBites TweakHub — Release Notes 🚀
-🆕 What's New & Major Upgrades
+v-0.056
+🚀 TechBites Hub - Huge New Update! 🚀
 
-⭐ Global Favorites System: Easily favorite your top tweaks! Plus, favorites are now synced so all users can see and share what's trending.
+Hey everyone! A brand new update is live with massive new features, deeper optimizations, and critical fixes to take your PC's performance to the next level! Here is everything new in this release:
 
-👤 Community Profile System: Achieve peak performance with 1-Click Optimizations. Create your own custom profiles, share them with the community, and climb the new Profile Rankings!
+✨ What's New
+• 🔎 Added New Search Option (Press Ctrl + K to instantly search tweaks!)
+• 🛒 Added New Game Store – Egypt Only (Currently under testing & development 🛠️)
+• 🟢 Added New NVIDIA Deep Optimization
+• ⚡ Added New Power Deep Optimization
+• 🖥️ Added New BIOS Optimizations
+• 👤 Added New Profile System
+• 🤝 Added New Recommendations & Partnerships
+• 🎯 Added PUBG GameLoop Tweaks (Under Development 🛠️)
+• 📊 Added New DPC / ISR Latency Monitor
+• 🛠️ Added New Windows Fixes
+• 🖱️ Added New Context Menu Design
+• 📺 Added New Monitor Tweaks
 
-🛠️ Windows Fix (Troubleshooting Hub): A dedicated engine to detect, troubleshoot, and patch common Windows errors and bugs automatically.
+📈 Enhancements & Improvements
+• 🌡️ Enhanced Dashboard Design & System Detections (Now detects CPU/GPU Temperature!)
+• 🎨 Enhanced App UI Design
+• 🔍 Enhanced System Hardware Detection
+• 🚀 Enhanced Tweak Execution Speed & Applying Methods
+• 🔒 Enhanced App Security & System Stability
+• 🛡️ Enhanced Tweak Reverts & Backup System
+• 🧹 Enhanced System Cleanup Engine
 
-🔄 One-Click Redo/Revert: Messed up a setting? The new dashboard Redo option lets you instantly revert your latest applied tweaks without hunting them down individually.
+🔧 Bug Fixes
+• 🐛 Fixed Debloat System Bugs
+• 📦 Fixed App Installation Bugs
+• 🔄 Fixed Multiple Profile Loading Issues
+• 💤 Fixed Reduce Away Mode Bug
+• 🚫 Fixed Error Code [B2E57A]
+• 🟢 Fixed Various NVIDIA Optimization Bugs
 
-🖼️ Wallpaper Engine: Browse, choose, and apply custom Windows wallpapers seamlessly directly from the app.
-
-📊 Network Usage Tracker: Live bandwidth tracking to monitor your system usage. (Under Development 🛠️)
-
-🖱️ Cursor Customizer: Personalize your Windows cursor with custom themes. (Under Testing & Development 🧪)
-
-⚙️ Reworks & Bug Fixes
-
-📦 Software Manager Rework: Re-engineered the app installer backend to depend on Chocolatey instead of Winget to eliminate package deployment bugs.
-
-🖼️ App Icon Fix: Resolved an issue where software application icons were failing to load or displaying incorrectly.
-
-🎨 Customization Engine: Fixed various bugs affecting UI personalization and layout saving.
-
-🛡️ Crash Fix: Patched critical system error code 7A82C7.
-
-🔧 Tweak Patches & Optimizations
-
-The following background tweaks have been refined and fixed for maximum stability and lower latency:
-
-🧠 Reduce Memory Compression
-🛡️ Microsoft Compatibility Appraiser Task
-📊 Diagnostics and Compatibility background data collection
-🌙 Reduce Away Mode
-⚡ Reduce Core Parking
-🤖 Windows AI Tasks
-🔒 Family Safety Monitor Task
-🎮 Graphics Scheduler scheduling Optimizations
+🙏 Thanks for using TechBites Hub!
+Best regards,
+Samir Masoud ❤️
