@@ -8,8 +8,10 @@
   "IsCommunityProfile": true,
   "PasswordHash": "nFzP6eizTl3wF4YKgSg6I5NpFXZtfFNKFcyNCLmtnNg=",
   "PasswordSalt": "7SWAE5\u002BHvodPKmpyzdrE\u002BQ==",
-  "Comments": [],
-  "LastCommentDate": null,
+  "Comments": [
+    "\u0627\u062E\u0628\u0627\u0631 \u0627\u0644\u0628\u0648\u0641\u0627\u064A\u0644 \u0645\u0639\u0627\u0643\u0645 \u0627\u064A\u0647"
+  ],
+  "LastCommentDate": "2026-08-02T04:38:30.8513532+03:00",
   "TweakStates": {
     "security-uac-level": "notify-when-apps-try-to-make-changes",
     "security-workplace-join-messages": "Applied",
