@@ -9,9 +9,10 @@
   "PasswordHash": "tTLJARmzksFZ06v9aZBKNmVOBq7T/5yDQntSPhSuCBk=",
   "PasswordSalt": "9djyuVuKWfOVH1dnSsQ0Uw==",
   "Comments": [
-    "\u064A\u0627\u0631\u064A\u062A \u0627\u0644\u0643\u0644 \u064A\u0637\u0645\u0646\u064A \u0627\u0647 \u0627\u0644\u062F\u0646\u064A\u0627"
+    "\u064A\u0627\u0631\u064A\u062A \u0627\u0644\u0643\u0644 \u064A\u0637\u0645\u0646\u064A \u0627\u0647 \u0627\u0644\u062F\u0646\u064A\u0627",
+    "\u062C\u0627\u0645\u062F"
   ],
-  "LastCommentDate": "2026-08-02T07:41:26.6574474+03:00",
+  "LastCommentDate": "2026-08-05T00:07:56.9882142+03:00",
   "TweakStates": {
     "security-uac-level": "notify-when-apps-try-to-make-changes",
     "security-workplace-join-messages": "Applied",
