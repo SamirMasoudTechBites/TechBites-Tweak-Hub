@@ -9,9 +9,10 @@
   "PasswordHash": "beBRN7gTvVEXFyCzZuS2A1EgjQMwBwsdGMMwG6A//OQ=",
   "PasswordSalt": "38IiXO\u002B/m27HYplgoXbBaQ==",
   "Comments": [
-    "\u0627\u062E\u0628\u0627\u0631 \u0627\u0644\u0628\u0631\u0648\u0641\u0627\u064A\u0644 \u0645\u0639\u0627\u0643\u0645 \u0627\u064A\u0647 \u061F"
+    "\u0627\u062E\u0628\u0627\u0631 \u0627\u0644\u0628\u0631\u0648\u0641\u0627\u064A\u0644 \u0645\u0639\u0627\u0643\u0645 \u0627\u064A\u0647 \u061F",
+    "\u062C\u0627\u0645\u062F \u062C\u062F\u0627 \u0627\u0644\u062C\u0647\u0627\u0632 \u0628\u0642\u064A \u0633\u0631\u064A\u0639 \u0648 \u0641\u0631\u0642 \u062C\u0627\u0645\u062F"
   ],
-  "LastCommentDate": "2026-07-30T15:13:56.9378047+03:00",
+  "LastCommentDate": "2026-08-06T07:27:21.7770753+03:00",
   "TweakStates": {
     "security-uac-level": "never-notify",
     "security-workplace-join-messages": "Applied",
