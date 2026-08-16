@@ -10,9 +10,10 @@
   "PasswordSalt": "9djyuVuKWfOVH1dnSsQ0Uw==",
   "Comments": [
     "\u064A\u0627\u0631\u064A\u062A \u0627\u0644\u0643\u0644 \u064A\u0637\u0645\u0646\u064A \u0627\u0647 \u0627\u0644\u062F\u0646\u064A\u0627",
-    "\u062C\u0627\u0645\u062F"
+    "\u062C\u0627\u0645\u062F",
+    "\u0627\u0644\u0628\u0631\u0648\u0641\u0627\u064A\u0644 \u0641\u064A\u0647 \u0645\u0634\u0643\u0644\u0629 \u0641\u064A \u062D\u062C\u0627\u062A \u0645\u0628\u0641\u062A\u0634 \u0634\u063A\u0627\u0644\u0647 \u0645\u0639\u0627\u064A\u0627"
   ],
-  "LastCommentDate": "2026-08-05T00:07:56.9882142+03:00",
+  "LastCommentDate": "2026-08-16T08:27:57.8021998+03:00",
   "TweakStates": {
     "security-uac-level": "notify-when-apps-try-to-make-changes",
     "security-workplace-join-messages": "Applied",
