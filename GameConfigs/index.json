@@ -1,0 +1,117 @@
+﻿{
+    "Version":  1,
+    "Profiles":  [
+                     {
+                         "ProfilePath":  "profiles/valorant.json",
+                         "Verified":  true,
+                         "Category":  "Competitive FPS",
+                         "DisplayName":  "VALORANT",
+                         "Id":  "valorant"
+                     },
+                     {
+                         "ProfilePath":  "profiles/fortnite.json",
+                         "Verified":  true,
+                         "Category":  "Battle Royale / Shooter",
+                         "DisplayName":  "Fortnite",
+                         "Id":  "fortnite"
+                     },
+                     {
+                         "ProfilePath":  "profiles/cs2.json",
+                         "Verified":  true,
+                         "Category":  "Competitive FPS",
+                         "DisplayName":  "Counter-Strike 2",
+                         "Id":  "cs2"
+                     },
+                     {
+                         "ProfilePath":  "profiles/apex_legends.json",
+                         "Verified":  true,
+                         "Category":  "Battle Royale / Shooter",
+                         "DisplayName":  "Apex Legends",
+                         "Id":  "apex_legends"
+                     },
+                     {
+                         "ProfilePath":  "profiles/pubg.json",
+                         "Verified":  true,
+                         "Category":  "Battle Royale / Shooter",
+                         "DisplayName":  "PUBG: BATTLEGROUNDS",
+                         "Id":  "pubg"
+                     },
+                     {
+                         "ProfilePath":  "profiles/cod_warzone.json",
+                         "Verified":  true,
+                         "Category":  "Battle Royale / Shooter",
+                         "DisplayName":  "Call of Duty: Warzone",
+                         "Id":  "cod_warzone"
+                     },
+                     {
+                         "ProfilePath":  "profiles/gtav.json",
+                         "Verified":  true,
+                         "Category":  "Action / Open World",
+                         "DisplayName":  "Grand Theft Auto V / FiveM",
+                         "Id":  "gtav"
+                     },
+                     {
+                         "ProfilePath":  "profiles/overwatch2.json",
+                         "Verified":  true,
+                         "Category":  "Competitive FPS",
+                         "DisplayName":  "Overwatch 2",
+                         "Id":  "overwatch2"
+                     },
+                     {
+                         "ProfilePath":  "profiles/r6_siege.json",
+                         "Verified":  true,
+                         "Category":  "Tactical Shooter",
+                         "DisplayName":  "Rainbow Six Siege",
+                         "Id":  "r6_siege"
+                     },
+                     {
+                         "ProfilePath":  "profiles/cyberpunk2077.json",
+                         "Verified":  true,
+                         "Category":  "Action / RPG",
+                         "DisplayName":  "Cyberpunk 2077",
+                         "Id":  "cyberpunk2077"
+                     },
+                     {
+                         "ProfilePath":  "profiles/rocket_league.json",
+                         "Verified":  true,
+                         "Category":  "Sports / Competitive",
+                         "DisplayName":  "Rocket League",
+                         "Id":  "rocket_league"
+                     },
+                     {
+                         "ProfilePath":  "profiles/rust.json",
+                         "Verified":  true,
+                         "Category":  "Survival / Multiplayer",
+                         "DisplayName":  "Rust",
+                         "Id":  "rust"
+                     },
+                     {
+                         "ProfilePath":  "profiles/escape_from_tarkov.json",
+                         "Verified":  true,
+                         "Category":  "Tactical Shooter / Extraction",
+                         "DisplayName":  "Escape from Tarkov",
+                         "Id":  "escape_from_tarkov"
+                     },
+                     {
+                         "ProfilePath":  "profiles/roblox.json",
+                         "Verified":  true,
+                         "Category":  "Sandbox / Multi-Platform",
+                         "DisplayName":  "Roblox",
+                         "Id":  "roblox"
+                     },
+                     {
+                         "ProfilePath":  "profiles/minecraft.json",
+                         "Verified":  true,
+                         "Category":  "Sandbox / Survival",
+                         "DisplayName":  "Minecraft",
+                         "Id":  "minecraft"
+                     },
+                     {
+                         "ProfilePath":  "profiles/league_of_legends.json",
+                         "Verified":  true,
+                         "Category":  "MOBA / Competitive",
+                         "DisplayName":  "League of Legends",
+                         "Id":  "league_of_legends"
+                     }
+                 ]
+}

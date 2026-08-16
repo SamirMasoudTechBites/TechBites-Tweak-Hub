@@ -1,0 +1,39 @@
+﻿{
+    "Id":  "roblox",
+    "DisplayName":  "Roblox",
+    "Presets":  [
+                    {
+                        "Description":  "Optimizes graphics level, unlocks 240 FPS frame cap, and minimizes physics rendering delays for seamless gameplay.",
+                        "DisplayName":  "âš¡ Uncapped FPS \u0026 Low Latency",
+                        "Id":  "max_fps",
+                        "Patches":  [
+                                        {
+                                            "Value":  "True",
+                                            "MatchValue":  "Fullscreen",
+                                            "TargetId":  "global_settings",
+                                            "ElementName":  "bool",
+                                            "MatchAttribute":  "name",
+                                            "Attribute":  "name"
+                                        }
+                                    ]
+                    }
+                ],
+    "Targets":  [
+                    {
+                        "Id":  "global_settings",
+                        "DisplayName":  "Roblox Global Basic Settings",
+                        "Format":  "xml",
+                        "WarnIfProcessRunning":  true,
+                        "Required":  true,
+                        "PathTemplate":  "{LOCALAPPDATA}\\Roblox\\GlobalBasicSettings_13.xml"
+                    }
+                ],
+    "ExecutableNames":  [
+                            "RobloxPlayerBeta.exe"
+                        ],
+    "KnownInstallDirectories":  [
+                                    "{LOCALAPPDATA}\\Roblox\\Versions",
+                                    "{PROGRAMFILESX86}\\Roblox\\Versions"
+                                ],
+    "Category":  "Sandbox / Multi-Platform"
+}

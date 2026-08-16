@@ -1,0 +1,73 @@
+﻿{
+    "Id":  "rocket_league",
+    "DisplayName":  "Rocket League",
+    "Presets":  [
+                    {
+                        "Description":  "Disables motion blur, lens flare, bloom, ambient occlusion, and weather effects for razor-sharp ball tracking and 240Hz+ response.",
+                        "DisplayName":  "âš¡ Competitive Pro Max FPS (240Hz+)",
+                        "Id":  "max_fps",
+                        "Patches":  [
+                                        {
+                                            "Key":  "DynamicShadows",
+                                            "TargetId":  "system_settings",
+                                            "Section":  "SystemSettings",
+                                            "Value":  "False"
+                                        },
+                                        {
+                                            "Key":  "MotionBlur",
+                                            "TargetId":  "system_settings",
+                                            "Section":  "SystemSettings",
+                                            "Value":  "False"
+                                        },
+                                        {
+                                            "Key":  "DepthOfField",
+                                            "TargetId":  "system_settings",
+                                            "Section":  "SystemSettings",
+                                            "Value":  "False"
+                                        },
+                                        {
+                                            "Key":  "Bloom",
+                                            "TargetId":  "system_settings",
+                                            "Section":  "SystemSettings",
+                                            "Value":  "False"
+                                        },
+                                        {
+                                            "Key":  "LensFlares",
+                                            "TargetId":  "system_settings",
+                                            "Section":  "SystemSettings",
+                                            "Value":  "False"
+                                        },
+                                        {
+                                            "Key":  "AllowPerFrameSleep",
+                                            "TargetId":  "system_settings",
+                                            "Section":  "SystemSettings",
+                                            "Value":  "False"
+                                        },
+                                        {
+                                            "Key":  "UseVSync",
+                                            "TargetId":  "system_settings",
+                                            "Section":  "SystemSettings",
+                                            "Value":  "False"
+                                        }
+                                    ]
+                    }
+                ],
+    "Targets":  [
+                    {
+                        "Id":  "system_settings",
+                        "DisplayName":  "Rocket League System Settings",
+                        "Format":  "ini",
+                        "WarnIfProcessRunning":  true,
+                        "Required":  true,
+                        "PathTemplate":  "{DOCUMENTS}\\My Games\\Rocket League\\TAGame\\Config\\TASystemSettings.ini"
+                    }
+                ],
+    "ExecutableNames":  [
+                            "RocketLeague.exe"
+                        ],
+    "KnownInstallDirectories":  [
+                                    "C:\\Program Files\\Epic Games\\rocketleague\\Binaries\\Win64",
+                                    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\rocketleague\\Binaries\\Win64"
+                                ],
+    "Category":  "Sports / Competitive"
+}

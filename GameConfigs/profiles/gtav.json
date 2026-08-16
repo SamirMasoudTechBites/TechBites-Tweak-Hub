@@ -1,0 +1,81 @@
+﻿{
+    "Id":  "gtav",
+    "DisplayName":  "Grand Theft Auto V / FiveM",
+    "Presets":  [
+                    {
+                        "Description":  "Optimizes grass quality, shadow rendering, reflection blur, and post FX for smooth 144+ FPS in heavy FiveM servers and Los Santos.",
+                        "DisplayName":  "âš¡ Max FPS / FiveM Low Latency",
+                        "Id":  "max_fps",
+                        "Patches":  [
+                                        {
+                                            "TargetId":  "settings_xml",
+                                            "ElementName":  "ShadowQuality",
+                                            "Value":  "0",
+                                            "Attribute":  "value"
+                                        },
+                                        {
+                                            "TargetId":  "settings_xml",
+                                            "ElementName":  "ReflectionQuality",
+                                            "Value":  "0",
+                                            "Attribute":  "value"
+                                        },
+                                        {
+                                            "TargetId":  "settings_xml",
+                                            "ElementName":  "GrassQuality",
+                                            "Value":  "0",
+                                            "Attribute":  "value"
+                                        },
+                                        {
+                                            "TargetId":  "settings_xml",
+                                            "ElementName":  "ParticlesQuality",
+                                            "Value":  "0",
+                                            "Attribute":  "value"
+                                        },
+                                        {
+                                            "TargetId":  "settings_xml",
+                                            "ElementName":  "WaterQuality",
+                                            "Value":  "0",
+                                            "Attribute":  "value"
+                                        },
+                                        {
+                                            "TargetId":  "settings_xml",
+                                            "ElementName":  "PostFX",
+                                            "Value":  "0",
+                                            "Attribute":  "value"
+                                        },
+                                        {
+                                            "TargetId":  "settings_xml",
+                                            "ElementName":  "AnisotropicFiltering",
+                                            "Value":  "4",
+                                            "Attribute":  "value"
+                                        },
+                                        {
+                                            "TargetId":  "settings_xml",
+                                            "ElementName":  "VSync",
+                                            "Value":  "0",
+                                            "Attribute":  "value"
+                                        }
+                                    ]
+                    }
+                ],
+    "Targets":  [
+                    {
+                        "Id":  "settings_xml",
+                        "DisplayName":  "GTA V Settings XML",
+                        "Format":  "xml",
+                        "WarnIfProcessRunning":  true,
+                        "Required":  true,
+                        "PathTemplate":  "{DOCUMENTS}\\Rockstar Games\\GTA V\\settings.xml"
+                    }
+                ],
+    "ExecutableNames":  [
+                            "GTA5.exe",
+                            "FiveM.exe"
+                        ],
+    "KnownInstallDirectories":  [
+                                    "C:\\Program Files\\Rockstar Games\\Grand Theft Auto V",
+                                    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Grand Theft Auto V",
+                                    "D:\\SteamLibrary\\steamapps\\common\\Grand Theft Auto V"
+                                ],
+    "Category":  "Action / Open World"
+}

@@ -1,0 +1,86 @@
+﻿{
+    "Id":  "r6_siege",
+    "DisplayName":  "Rainbow Six Siege",
+    "Presets":  [
+                    {
+                        "Description":  "Optimizes LOD quality, sets shadow quality to medium for enemy shadows while disabling bloom, lens flare, and ambient occlusion.",
+                        "DisplayName":  "âš¡ Tactical Low Latency Max FPS",
+                        "Id":  "max_fps",
+                        "Patches":  [
+                                        {
+                                            "Key":  "VSync",
+                                            "TargetId":  "gamesettings_ini",
+                                            "Section":  "DISPLAY",
+                                            "Value":  "0"
+                                        },
+                                        {
+                                            "Key":  "GPUAdapter",
+                                            "TargetId":  "gamesettings_ini",
+                                            "Section":  "HARDWARE_INFO",
+                                            "Value":  "0"
+                                        },
+                                        {
+                                            "Key":  "OverallQuality",
+                                            "TargetId":  "gamesettings_ini",
+                                            "Section":  "QUALITY",
+                                            "Value":  "Custom"
+                                        },
+                                        {
+                                            "Key":  "ShadowQuality",
+                                            "TargetId":  "gamesettings_ini",
+                                            "Section":  "QUALITY",
+                                            "Value":  "Medium"
+                                        },
+                                        {
+                                            "Key":  "ShadingQuality",
+                                            "TargetId":  "gamesettings_ini",
+                                            "Section":  "QUALITY",
+                                            "Value":  "Low"
+                                        },
+                                        {
+                                            "Key":  "ReflectionQuality",
+                                            "TargetId":  "gamesettings_ini",
+                                            "Section":  "QUALITY",
+                                            "Value":  "Low"
+                                        },
+                                        {
+                                            "Key":  "AmbientOcclusionQuality",
+                                            "TargetId":  "gamesettings_ini",
+                                            "Section":  "QUALITY",
+                                            "Value":  "Off"
+                                        },
+                                        {
+                                            "Key":  "LensEffects",
+                                            "TargetId":  "gamesettings_ini",
+                                            "Section":  "QUALITY",
+                                            "Value":  "Off"
+                                        },
+                                        {
+                                            "Key":  "ZoomInDepthOfField",
+                                            "TargetId":  "gamesettings_ini",
+                                            "Section":  "QUALITY",
+                                            "Value":  "Off"
+                                        }
+                                    ]
+                    }
+                ],
+    "Targets":  [
+                    {
+                        "Id":  "gamesettings_ini",
+                        "DisplayName":  "Siege Game Settings",
+                        "Format":  "ini",
+                        "WarnIfProcessRunning":  true,
+                        "Required":  true,
+                        "PathTemplate":  "{DOCUMENTS}\\My Games\\Rainbow Six - Siege\\{USER_ID}\\GameSettings.ini"
+                    }
+                ],
+    "ExecutableNames":  [
+                            "RainbowSix.exe",
+                            "RainbowSix_Vulkan.exe"
+                        ],
+    "KnownInstallDirectories":  [
+                                    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Tom Clancy\u0027s Rainbow Six Siege",
+                                    "C:\\Program Files (x86)\\Ubisoft\\Ubisoft Game Launcher\\games\\Tom Clancy\u0027s Rainbow Six Siege"
+                                ],
+    "Category":  "Tactical Shooter"
+}

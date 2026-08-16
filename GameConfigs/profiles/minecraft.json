@@ -1,0 +1,63 @@
+﻿{
+    "Id":  "minecraft",
+    "DisplayName":  "Minecraft",
+    "Presets":  [
+                    {
+                        "Description":  "Disables smooth lighting, fancy particles, entity shadows, and enables fast graphics mode for buttery smooth chunk loading.",
+                        "DisplayName":  "âš¡ Ultra Max FPS (Render Optimization)",
+                        "Id":  "max_fps",
+                        "Patches":  [
+                                        {
+                                            "TargetId":  "options_txt",
+                                            "Key":  "graphicsMode",
+                                            "Value":  "0"
+                                        },
+                                        {
+                                            "TargetId":  "options_txt",
+                                            "Key":  "ao",
+                                            "Value":  "0"
+                                        },
+                                        {
+                                            "TargetId":  "options_txt",
+                                            "Key":  "particles",
+                                            "Value":  "2"
+                                        },
+                                        {
+                                            "TargetId":  "options_txt",
+                                            "Key":  "entityShadows",
+                                            "Value":  "False"
+                                        },
+                                        {
+                                            "TargetId":  "options_txt",
+                                            "Key":  "enableVsync",
+                                            "Value":  "False"
+                                        },
+                                        {
+                                            "TargetId":  "options_txt",
+                                            "Key":  "maxFps",
+                                            "Value":  "260"
+                                        }
+                                    ]
+                    }
+                ],
+    "Targets":  [
+                    {
+                        "Id":  "options_txt",
+                        "DisplayName":  "Minecraft Options File",
+                        "Format":  "keyvalue",
+                        "WarnIfProcessRunning":  true,
+                        "Required":  true,
+                        "PathTemplate":  "{APPDATA}\\.minecraft\\options.txt"
+                    }
+                ],
+    "ExecutableNames":  [
+                            "javaw.exe",
+                            "Minecraft.exe",
+                            "BedrockLauncher.exe"
+                        ],
+    "KnownInstallDirectories":  [
+                                    "{APPDATA}\\.minecraft",
+                                    "{LOCALAPPDATA}\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang"
+                                ],
+    "Category":  "Sandbox / Survival"
+}

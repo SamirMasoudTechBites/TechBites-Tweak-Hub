@@ -1,0 +1,148 @@
+﻿{
+    "Id":  "fortnite",
+    "DisplayName":  "Fortnite",
+    "Presets":  [
+                    {
+                        "Description":  "Switches to low mesh fidelity, disables shadows and post-processing, optimizes texture streaming pool, and reduces input latency.",
+                        "DisplayName":  "âš¡ Max FPS (Performance Mode)",
+                        "Id":  "max_fps",
+                        "Patches":  [
+                                        {
+                                            "Key":  "bUseVSync",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "/Script/FortniteGame.FortGameUserSettings",
+                                            "Value":  "False"
+                                        },
+                                        {
+                                            "Key":  "bShowGrass",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "/Script/FortniteGame.FortGameUserSettings",
+                                            "Value":  "False"
+                                        },
+                                        {
+                                            "Key":  "bShowFPS",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "/Script/FortniteGame.FortGameUserSettings",
+                                            "Value":  "True"
+                                        },
+                                        {
+                                            "Key":  "bDisableMouseAcceleration",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "/Script/FortniteGame.FortGameUserSettings",
+                                            "Value":  "True"
+                                        },
+                                        {
+                                            "Key":  "sg.ResolutionQuality",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "ScalabilityGroups",
+                                            "Value":  "100.000000"
+                                        },
+                                        {
+                                            "Key":  "sg.ViewDistanceQuality",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "ScalabilityGroups",
+                                            "Value":  "0"
+                                        },
+                                        {
+                                            "Key":  "sg.AntiAliasingQuality",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "ScalabilityGroups",
+                                            "Value":  "0"
+                                        },
+                                        {
+                                            "Key":  "sg.ShadowQuality",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "ScalabilityGroups",
+                                            "Value":  "0"
+                                        },
+                                        {
+                                            "Key":  "sg.PostProcessQuality",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "ScalabilityGroups",
+                                            "Value":  "0"
+                                        },
+                                        {
+                                            "Key":  "sg.TextureQuality",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "ScalabilityGroups",
+                                            "Value":  "0"
+                                        },
+                                        {
+                                            "Key":  "sg.EffectsQuality",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "ScalabilityGroups",
+                                            "Value":  "0"
+                                        },
+                                        {
+                                            "Key":  "sg.FoliageQuality",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "ScalabilityGroups",
+                                            "Value":  "0"
+                                        },
+                                        {
+                                            "Key":  "sg.ShadingQuality",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "ScalabilityGroups",
+                                            "Value":  "0"
+                                        }
+                                    ]
+                    },
+                    {
+                        "Description":  "Medium view distance and textures for optimal enemy clarity while retaining high frame rates.",
+                        "DisplayName":  "âš–ï¸ Balanced Performance",
+                        "Id":  "balanced",
+                        "Patches":  [
+                                        {
+                                            "Key":  "sg.ResolutionQuality",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "ScalabilityGroups",
+                                            "Value":  "100.000000"
+                                        },
+                                        {
+                                            "Key":  "sg.ViewDistanceQuality",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "ScalabilityGroups",
+                                            "Value":  "2"
+                                        },
+                                        {
+                                            "Key":  "sg.TextureQuality",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "ScalabilityGroups",
+                                            "Value":  "1"
+                                        },
+                                        {
+                                            "Key":  "sg.ShadowQuality",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "ScalabilityGroups",
+                                            "Value":  "0"
+                                        },
+                                        {
+                                            "Key":  "bUseVSync",
+                                            "TargetId":  "game_user_settings",
+                                            "Section":  "/Script/FortniteGame.FortGameUserSettings",
+                                            "Value":  "False"
+                                        }
+                                    ]
+                    }
+                ],
+    "Targets":  [
+                    {
+                        "Id":  "game_user_settings",
+                        "DisplayName":  "Fortnite Game User Settings",
+                        "Format":  "ini",
+                        "WarnIfProcessRunning":  true,
+                        "Required":  true,
+                        "PathTemplate":  "{LOCALAPPDATA}\\FortniteGame\\Saved\\Config\\WindowsClient\\GameUserSettings.ini"
+                    }
+                ],
+    "ExecutableNames":  [
+                            "FortniteClient-Win64-Shipping.exe",
+                            "FortniteLauncher.exe"
+                        ],
+    "KnownInstallDirectories":  [
+                                    "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Binaries\\Win64",
+                                    "D:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Binaries\\Win64",
+                                    "D:\\Epic Games\\Fortnite\\FortniteGame\\Binaries\\Win64"
+                                ],
+    "Category":  "Battle Royale / Shooter"
+}
