@@ -1,0 +1,12 @@
+"VideoConfig"
+{
+	"setting.defaultres"		"2560"
+	"setting.defaultresheight"		"1440"
+	"setting.fullscreen"		"1"
+	"setting.nowindowborder"		"0"
+	"setting.mat_vsync"		"0"
+	"setting.mat_antialias"		"8"
+	"setting.mat_aaquality"		"2"
+	"setting.mat_forceaniso"		"16"
+	"setting.mat_motion_blur_enabled"		"0"
+}
