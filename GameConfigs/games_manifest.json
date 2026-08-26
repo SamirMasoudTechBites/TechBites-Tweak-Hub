@@ -1,0 +1,998 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-08-26",
+  "games": [
+    {
+      "id": "fortnite",
+      "name": "Fortnite",
+      "developer": "Epic Games",
+      "category": "Battle Royale",
+      "engine": "Unreal Engine 5",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#3B1D5A,#0F172A",
+      "configType": "ini",
+      "configFileName": "GameUserSettings.ini",
+      "genericConfigPaths": [
+        "%LOCALAPPDATA%\\FortniteGame\\Saved\\Config\\WindowsClient\\GameUserSettings.ini",
+        "%LOCALAPPDATA%\\FortniteGame\\Saved\\Config\\Windows\\GameUserSettings.ini"
+      ],
+      "steamAppId": null,
+      "epicAppName": "Fortnite",
+      "riotGameFolder": null,
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "Lowest possible graphics for maximum FPS and lowest input latency. Visuals stripped to the bone.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Playable visuals with FPS priority. Medium textures and effects, low shadows and post-processing.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "High-end visuals with FPS-smart choices. Keeps textures and view distance high without wasting GPU on fluff.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "sg.ResolutionQuality", "name": "3D Resolution Scale", "description": "Internal render resolution percentage. Biggest FPS lever.", "category": "Display", "type": "Slider", "section": "ScalabilityGroups", "defaultValue": "100", "currentValue": "", "minValue": 50, "maxValue": 120, "step": 5, "options": [] },
+        { "key": "sg.ViewDistanceQuality", "name": "View Distance", "description": "0=Low 1=Medium 2=High 3=Epic", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Low", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] },
+        { "key": "sg.ShadowQuality", "name": "Shadows", "description": "0=Off 3=Epic", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] },
+        { "key": "sg.AntiAliasingQuality", "name": "Anti-Aliasing", "description": "0=Off 3=Epic (TSR)", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] },
+        { "key": "sg.TextureQuality", "name": "Textures", "description": "VRAM usage", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Low", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] },
+        { "key": "bUseVSync", "name": "VSync", "description": "Adds input lag. Keep off for competitive.", "category": "Esports", "type": "Toggle", "section": "/Script/FortniteGame.FortniteGameUserSettings", "defaultValue": "False", "currentValue": "", "minValue": 0, "maxValue": 1, "step": 1, "options": [
+          { "label": "Off", "value": "False" }, { "label": "On", "value": "True" }
+        ] }
+      ]
+    },
+    {
+      "id": "valorant",
+      "name": "VALORANT",
+      "developer": "Riot Games",
+      "category": "Competitive Shooter",
+      "engine": "Unreal Engine 4",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#8F1D2C,#0F172A",
+      "configType": "ini",
+      "configFileName": "GameUserSettings.ini",
+      "genericConfigPaths": [
+        "%LOCALAPPDATA%\\VALORANT\\Saved\\Config\\Windows\\GameUserSettings.ini",
+        "%LOCALAPPDATA%\\VALORANT\\Saved\\Config\\WindowsClient\\GameUserSettings.ini"
+      ],
+      "steamAppId": null,
+      "epicAppName": null,
+      "riotGameFolder": "VALORANT",
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "Everything on lowest. VALORANT already runs fast - this squeezes out every last frame and minimizes latency.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Clean visuals on player models and maps while keeping frame times tight.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "Max visuals. VALORANT is light, so even this keeps FPS high on most PCs.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "sg.ResolutionQuality", "name": "3D Resolution Scale", "description": "Internal render resolution percentage.", "category": "Display", "type": "Slider", "section": "ScalabilityGroups", "defaultValue": "100", "currentValue": "", "minValue": 50, "maxValue": 120, "step": 5, "options": [] },
+        { "key": "sg.ShadowQuality", "name": "Shadows", "description": "0=Off 3=Epic", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] },
+        { "key": "sg.EffectsQuality", "name": "Effects", "description": "Ability VFX detail", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Low", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] },
+        { "key": "sg.TextureQuality", "name": "Textures", "description": "VRAM usage", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Low", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] }
+      ]
+    },
+    {
+      "id": "cs2",
+      "name": "Counter-Strike 2",
+      "developer": "Valve",
+      "category": "Competitive Shooter",
+      "engine": "Source 2",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#8A5A1D,#0F172A",
+      "configType": "cfg",
+      "configFileName": "autoexec.cfg",
+      "genericConfigPaths": [
+        "C:\\Program Files (x86)\\Steam\\userdata\\*\\730\\local\\cfg\\autoexec.cfg"
+      ],
+      "steamAppId": "730",
+      "epicAppName": null,
+      "riotGameFolder": null,
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "Uncapped FPS, low latency convars, no focus throttling. Applied as autoexec.cfg so it loads every launch.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.cfg",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "High FPS with a small frame cap for smoother frame pacing and lower heat/noise.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.cfg",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "Visual fidelity convars while keeping input latency low.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.cfg",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "fps_max", "name": "FPS Cap", "description": "0 = unlimited", "category": "Esports", "type": "Slider", "section": "", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 1000, "step": 10, "options": [] },
+        { "key": "r_low_latency", "name": "Reflex / Low Latency", "description": "0=Off 1=Enabled 2=Boost", "category": "Esports", "type": "Select", "section": "", "defaultValue": "1", "currentValue": "", "minValue": 0, "maxValue": 2, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "Enabled", "value": "1" }, { "label": "Boost", "value": "2" }
+        ] },
+        { "key": "engine_no_focus_sleep", "name": "Background Throttle", "description": "0 = keep rendering when tabbed out", "category": "Engine", "type": "Toggle", "section": "", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 1, "step": 1, "options": [
+          { "label": "Throttle", "value": "1" }, { "label": "No Throttle", "value": "0" }
+        ] }
+      ]
+    },
+    {
+      "id": "apex_legends",
+      "name": "Apex Legends",
+      "developer": "Respawn / EA",
+      "category": "Battle Royale",
+      "engine": "Source",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#7A1D1D,#0F172A",
+      "configType": "txt",
+      "configFileName": "videoconfig.txt",
+      "genericConfigPaths": [
+        "%USERPROFILE%\\Saved Games\\Respawn\\Apex\\local\\videoconfig.txt"
+      ],
+      "steamAppId": "1172470",
+      "epicAppName": null,
+      "riotGameFolder": null,
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "Lowest settings, adaptive res off, VSync off, uncapped frames. The classic competitive Apex videoconfig.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.txt",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Medium detail with stable high FPS for ranked grinding.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.txt",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "High/ultra detail with latency-conscious extras disabled.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.txt",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "setting.defaultres", "name": "Resolution Width", "description": "Render width", "category": "Display", "type": "Slider", "section": "VideoConfig", "defaultValue": "1920", "currentValue": "", "minValue": 1280, "maxValue": 3840, "step": 10, "options": [] },
+        { "key": "setting.defaultresheight", "name": "Resolution Height", "description": "Render height", "category": "Display", "type": "Slider", "section": "VideoConfig", "defaultValue": "1080", "currentValue": "", "minValue": 720, "maxValue": 2160, "step": 10, "options": [] },
+        { "key": "setting.fullscreen", "name": "Fullscreen", "description": "1=Exclusive fullscreen (lowest latency)", "category": "Display", "type": "Toggle", "section": "VideoConfig", "defaultValue": "1", "currentValue": "", "minValue": 0, "maxValue": 1, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "On", "value": "1" }
+        ] }
+      ]
+    },
+    {
+      "id": "r6_siege",
+      "name": "Rainbow Six Siege X",
+      "developer": "Ubisoft",
+      "category": "Competitive Shooter",
+      "engine": "Anvil",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#1D3A5F,#0F172A",
+      "configType": "ini",
+      "configFileName": "GameSettings.ini",
+      "genericConfigPaths": [
+        "%USERPROFILE%\\Documents\\My Games\\Rainbow Six - Siege\\*\\GameSettings.ini",
+        "%USERPROFILE%\\Documents\\My Games\\Rainbow Six Siege\\*\\GameSettings.ini"
+      ],
+      "steamAppId": "359550",
+      "epicAppName": null,
+      "riotGameFolder": null,
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "Everything low/off, VSync off, LOD tweaks for max visible FPS in Siege X.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Medium quality with high, stable frame rates.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "High/ultra visuals while keeping latency low.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "Width", "name": "Resolution Width", "description": "", "category": "Display", "type": "Slider", "section": "DISPLAY", "defaultValue": "1920", "currentValue": "", "minValue": 1280, "maxValue": 3840, "step": 10, "options": [] },
+        { "key": "Height", "name": "Resolution Height", "description": "", "category": "Display", "type": "Slider", "section": "DISPLAY", "defaultValue": "1080", "currentValue": "", "minValue": 720, "maxValue": 2160, "step": 10, "options": [] },
+        { "key": "VSync", "name": "VSync", "description": "Keep off for competitive play", "category": "Esports", "type": "Toggle", "section": "DISPLAY", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 1, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "On", "value": "1" }
+        ] }
+      ]
+    },
+    {
+      "id": "pubg",
+      "name": "PUBG: BATTLEGROUNDS",
+      "developer": "Krafton",
+      "category": "Battle Royale",
+      "engine": "Unreal Engine 4",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#5A5A1D,#0F172A",
+      "configType": "ini",
+      "configFileName": "GameUserSettings.ini",
+      "genericConfigPaths": [
+        "%LOCALAPPDATA%\\TslGame\\Saved\\Config\\Windows\\GameUserSettings.ini",
+        "%LOCALAPPDATA%\\TslGame\\Saved\\Config\\WindowsNoEditor\\GameUserSettings.ini"
+      ],
+      "steamAppId": "578080",
+      "epicAppName": null,
+      "riotGameFolder": null,
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "All scalability groups to 0, resolution scale tuned. The classic competitive PUBG config.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Medium groups with FPS-first view distance for spotting enemies.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "High/epic groups for streamers and cinematic play.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "sg.ResolutionQuality", "name": "3D Resolution Scale", "description": "", "category": "Display", "type": "Slider", "section": "ScalabilityGroups", "defaultValue": "100", "currentValue": "", "minValue": 50, "maxValue": 120, "step": 5, "options": [] },
+        { "key": "sg.ViewDistanceQuality", "name": "View Distance", "description": "Keep at least Medium to spot enemies", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Low", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] },
+        { "key": "sg.AntiAliasingQuality", "name": "Anti-Aliasing", "description": "", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] },
+        { "key": "sg.ShadowQuality", "name": "Shadows", "description": "", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] }
+      ]
+    },
+    {
+      "id": "rocket_league",
+      "name": "Rocket League",
+      "developer": "Psyonix",
+      "category": "Sports / Competitive",
+      "engine": "Unreal Engine 3",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#1D5A5A,#0F172A",
+      "configType": "ini",
+      "configFileName": "TAMaster.ini",
+      "genericConfigPaths": [
+        "%LOCALAPPDATA%\\RocketLeague\\Saved\\Config\\WindowsNoEditor\\TAMaster.ini",
+        "%LOCALAPPDATA%\\RocketLeague\\Saved\\Config\\Windows\\TAMaster.ini"
+      ],
+      "steamAppId": "252950",
+      "epicAppName": "Rocket League",
+      "riotGameFolder": null,
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "All quality off, uncapped FPS, no VSync. Zero visual clutter for ball cam clarity.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Clean arena visuals with high stable FPS.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "Max visuals for a polished arena experience.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "r.ScreenPercentage", "name": "Render Scale", "description": "Internal resolution percentage", "category": "Display", "type": "Slider", "section": "System Settings", "defaultValue": "100", "currentValue": "", "minValue": 50, "maxValue": 120, "step": 5, "options": [] },
+        { "key": "r.MaxFPS", "name": "FPS Cap", "description": "0 = unlimited", "category": "Esports", "type": "Slider", "section": "System Settings", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 360, "step": 10, "options": [] },
+        { "key": "r.VSync", "name": "VSync", "description": "Adds input lag", "category": "Esports", "type": "Toggle", "section": "System Settings", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 1, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "On", "value": "1" }
+        ] }
+      ]
+    },
+    {
+      "id": "overwatch2",
+      "name": "Overwatch 2",
+      "developer": "Blizzard",
+      "category": "Hero Shooter",
+      "engine": "Proprietary (Blizzard)",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#B36B1D,#0F172A",
+      "configType": "ini",
+      "configFileName": "Settings_v0.ini",
+      "genericConfigPaths": [
+        "%USERPROFILE%\\Documents\\Overwatch\\Settings\\Settings_v0.ini"
+      ],
+      "steamAppId": "2357570",
+      "epicAppName": null,
+      "riotGameFolder": null,
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "Low preset, VSync off, frame cap unlocked, reduced buffering for minimum latency.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Medium quality with high stable FPS.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "Ultra visuals, OW2 still runs great on most GPUs.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "VSync", "name": "VSync", "description": "Keep off for lowest latency", "category": "Esports", "type": "Toggle", "section": "Display.0", "defaultValue": "0x00000000", "currentValue": "", "minValue": 0, "maxValue": 1, "step": 1, "options": [
+          { "label": "Off", "value": "0x00000000" }, { "label": "On", "value": "0x00000001" }
+        ] },
+        { "key": "FullScreen", "name": "Fullscreen", "description": "Exclusive fullscreen for lowest latency", "category": "Display", "type": "Toggle", "section": "Display.0", "defaultValue": "0x00000001", "currentValue": "", "minValue": 0, "maxValue": 1, "step": 1, "options": [
+          { "label": "Off", "value": "0x00000000" }, { "label": "On", "value": "0x00000001" }
+        ] }
+      ]
+    },
+    {
+      "id": "cod_warzone",
+      "name": "Call of Duty: Warzone",
+      "developer": "Activision / Raven",
+      "category": "Battle Royale",
+      "engine": "IW Engine",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#3A5A1D,#0F172A",
+      "configType": "txt",
+      "configFileName": "options.txt",
+      "genericConfigPaths": [
+        "%USERPROFILE%\\Documents\\Call of Duty\\players\\options.4.19.txt",
+        "%USERPROFILE%\\Documents\\Call of Duty\\players\\options.4.20.txt",
+        "%USERPROFILE%\\Documents\\Call of Duty\\players\\options.txt"
+      ],
+      "steamAppId": "1968450",
+      "epicAppName": null,
+      "riotGameFolder": null,
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "Low preset values, VSync off, uncapped framerate, minimal effects for maximum frames.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.txt",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Medium quality with FPS priority.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.txt",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "High/ultra settings with latency-conscious toggles.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.txt",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "VSync", "name": "VSync", "description": "", "category": "Esports", "type": "Toggle", "section": "", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 1, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "On", "value": "1" }
+        ] }
+      ]
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft: Java Edition",
+      "developer": "Mojang",
+      "category": "Sandbox",
+      "engine": "Java / LWJGL",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#3D6B2F,#0F172A",
+      "configType": "txt",
+      "configFileName": "options.txt",
+      "genericConfigPaths": [
+        "%APPDATA%\\.minecraft\\options.txt"
+      ],
+      "steamAppId": null,
+      "epicAppName": null,
+      "riotGameFolder": null,
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "Fast graphics, tiny render distance, all particles off, entity shadows off, mipmap 0. Maximum chunk FPS.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.txt",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Normal graphics with 12 chunk render distance and capped particles.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.txt",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "Fancy graphics, 32 chunks, full particles, smooth lighting max.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.txt",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "renderDistance", "name": "Render Distance", "description": "Chunks", "category": "Quality", "type": "Slider", "section": "", "defaultValue": "8", "currentValue": "", "minValue": 2, "maxValue": 32, "step": 1, "options": [] },
+        { "key": "maxFps", "name": "Max FPS", "description": "260 = effectively unlimited", "category": "Esports", "type": "Slider", "section": "", "defaultValue": "260", "currentValue": "", "minValue": 30, "maxValue": 260, "step": 10, "options": [] },
+        { "key": "mipmapLevels", "name": "Mipmap Levels", "description": "0 = off (faster)", "category": "Quality", "type": "Slider", "section": "", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 4, "step": 1, "options": [] }
+      ]
+    },
+    {
+      "id": "gtav",
+      "name": "Grand Theft Auto V",
+      "developer": "Rockstar",
+      "category": "Open World",
+      "engine": "RAGE",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#1D6B4F,#0F172A",
+      "configType": "xml",
+      "configFileName": "settings.xml",
+      "genericConfigPaths": [
+        "%USERPROFILE%\\Documents\\Rockstar Games\\GTA V\\settings.xml",
+        "%USERPROFILE%\\Documents\\Rockstar Games\\GTA V Enhanced\\settings.xml"
+      ],
+      "steamAppId": "271590",
+      "epicAppName": null,
+      "riotGameFolder": null,
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "Everything off/lowest, MSAA off, FXAA off, extended distance low. Big FPS gains in GTA Online.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.xml",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Normal/High mix that keeps Los Santos looking good with strong FPS.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.xml",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "Very High/Ultra across the board for the best-looking Los Santos.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.xml",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "Shadow_Quality", "name": "Shadow Quality", "description": "0-3", "category": "Quality", "type": "Slider", "section": "graphics", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [] },
+        { "key": "Reflection_Quality", "name": "Reflection Quality", "description": "0-3", "category": "Quality", "type": "Slider", "section": "graphics", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [] },
+        { "key": "PostFX", "name": "Post Effects", "description": "0-3", "category": "Quality", "type": "Slider", "section": "graphics", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [] }
+      ]
+    },
+    {
+      "id": "marvel_rivals",
+      "name": "Marvel Rivals",
+      "developer": "NetEase",
+      "category": "Hero Shooter",
+      "engine": "Unreal Engine 5",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#5A1D6B,#0F172A",
+      "configType": "ini",
+      "configFileName": "GameUserSettings.ini",
+      "genericConfigPaths": [
+        "%LOCALAPPDATA%\\Marvel\\Saved\\Config\\Windows\\GameUserSettings.ini",
+        "%LOCALAPPDATA%\\Marvel\\Saved\\Config\\WindowsClient\\GameUserSettings.ini"
+      ],
+      "steamAppId": "2767030",
+      "epicAppName": null,
+      "riotGameFolder": null,
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "All scalability to 0, resolution scale down, VSync off. UE5 heaviness tamed for competitive play.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Medium groups with high FPS for ranked matches.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "Epic groups with Lumen-friendly choices.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "sg.ResolutionQuality", "name": "3D Resolution Scale", "description": "", "category": "Display", "type": "Slider", "section": "ScalabilityGroups", "defaultValue": "100", "currentValue": "", "minValue": 50, "maxValue": 120, "step": 5, "options": [] },
+        { "key": "sg.ShadowQuality", "name": "Shadows", "description": "", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] },
+        { "key": "sg.GlobalIlluminationQuality", "name": "Global Illumination", "description": "Lumen - heavy on FPS", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] },
+        { "key": "sg.ReflectionQuality", "name": "Reflections", "description": "", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] }
+      ]
+    },
+    {
+      "id": "rust",
+      "name": "Rust",
+      "developer": "Facepunch",
+      "category": "Survival",
+      "engine": "Unity",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#8A4A1D,#0F172A",
+      "configType": "cfg",
+      "configFileName": "client.cfg",
+      "genericConfigPaths": [
+        "C:\\Program Files (x86)\\Steam\\userdata\\*\\252490\\local\\cfg\\client.cfg"
+      ],
+      "steamAppId": "252490",
+      "epicAppName": null,
+      "riotGameFolder": null,
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "Quality 0, shadows off, draw distance trimmed, grass displacement off. The classic PvP Rust config.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.cfg",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Quality 1-2 mix with good visibility and solid FPS.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.cfg",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "Max quality Rust with all eye candy enabled.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.cfg",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "graphics.quality", "name": "Overall Quality", "description": "0-4 preset", "category": "Quality", "type": "Slider", "section": "", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 4, "step": 1, "options": [] },
+        { "key": "graphics.drawdistance", "name": "Draw Distance", "description": "Terrain/object draw distance in meters", "category": "Quality", "type": "Slider", "section": "", "defaultValue": "500", "currentValue": "", "minValue": 200, "maxValue": 2500, "step": 50, "options": [] },
+        { "key": "fps.limit", "name": "FPS Limit", "description": "-1 = unlimited", "category": "Esports", "type": "Slider", "section": "", "defaultValue": "-1", "currentValue": "", "minValue": -1, "maxValue": 400, "step": 10, "options": [] },
+        { "key": "grass.displacement", "name": "Grass Displacement", "description": "Physics grass - costs FPS", "category": "Quality", "type": "Toggle", "section": "", "defaultValue": "false", "currentValue": "", "minValue": 0, "maxValue": 1, "step": 1, "options": [
+          { "label": "Off", "value": "false" }, { "label": "On", "value": "true" }
+        ] }
+      ]
+    },
+    {
+      "id": "league_of_legends",
+      "name": "League of Legends",
+      "developer": "Riot Games",
+      "category": "MOBA",
+      "engine": "Proprietary (Riot)",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#1D2B6B,#0F172A",
+      "configType": "ini",
+      "configFileName": "game.cfg",
+      "genericConfigPaths": [
+        "C:\\Riot Games\\League of Legends\\Config\\game.cfg"
+      ],
+      "steamAppId": null,
+      "epicAppName": null,
+      "riotGameFolder": "League of Legends",
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "Very Low quality, no VSync, uncapped frames, minimal effects for locked high FPS in teamfights.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Medium quality with high stable FPS.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "Very High quality, all effects on.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "WaitVSync", "name": "VSync", "description": "Adds input lag", "category": "Esports", "type": "Toggle", "section": "General", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 1, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "On", "value": "1" }
+        ] },
+        { "key": "FrameCapType", "name": "Frame Cap Type", "description": "Frame limiter mode", "category": "Esports", "type": "Select", "section": "General", "defaultValue": "5", "currentValue": "", "minValue": 0, "maxValue": 8, "step": 1, "options": [] }
+      ]
+    },
+    {
+      "id": "roblox",
+      "name": "Roblox",
+      "developer": "Roblox Corporation",
+      "category": "Sandbox / Platform",
+      "engine": "Roblox Engine",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#2A2A2A,#0F172A",
+      "configType": "json",
+      "configFileName": "ClientAppSettings.json",
+      "genericConfigPaths": [
+        "%LOCALAPPDATA%\\Roblox\\Versions\\*\\ClientSettings\\ClientAppSettings.json"
+      ],
+      "steamAppId": null,
+      "epicAppName": null,
+      "riotGameFolder": null,
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "FastGraphics, shadows off, post FX off, FPS cap unlocked via FFlags. Applied as ClientAppSettings.json.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.json",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Level 5 graphics with unlocked FPS.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.json",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "Level 21 graphics with post-processing kept on.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.json",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "DFIntTaskSchedulerTargetFps", "name": "FPS Target", "description": "Roblox FPS unlock flag", "category": "Esports", "type": "Slider", "section": "", "defaultValue": "360", "currentValue": "", "minValue": 60, "maxValue": 999, "step": 10, "options": [] },
+        { "key": "FIntRenderShadowIntensity", "name": "Shadow Intensity", "description": "0 = shadows off", "category": "Quality", "type": "Slider", "section": "", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 100, "step": 5, "options": [] }
+      ]
+    },
+    {
+      "id": "the_finals",
+      "name": "THE FINALS",
+      "developer": "Embark Studios",
+      "category": "Competitive Shooter",
+      "engine": "Unreal Engine 5",
+      "iconGlyph": "\uE7FC",
+      "bannerGradient": "#6B5A1D,#0F172A",
+      "configType": "ini",
+      "configFileName": "GameUserSettings.ini",
+      "genericConfigPaths": [
+        "%LOCALAPPDATA%\\TheFinals\\Saved\\Config\\Windows\\GameUserSettings.ini",
+        "%LOCALAPPDATA%\\TheFinals\\Saved\\Config\\WindowsClient\\GameUserSettings.ini"
+      ],
+      "steamAppId": "2073850",
+      "epicAppName": null,
+      "riotGameFolder": null,
+      "preserveKeys": [],
+      "presets": [
+        {
+          "id": "max_fps",
+          "name": "Max FPS",
+          "description": "All scalability low, resolution scale trimmed, VSync off. Tames UE5 destruction for max frames.",
+          "tier": "MaxFPS",
+          "badgeText": "MAX FPS",
+          "fileName": "max_fps.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": true
+        },
+        {
+          "id": "balanced",
+          "name": "Balanced",
+          "description": "Medium groups with strong FPS in heavy destruction fights.",
+          "tier": "Competitive",
+          "badgeText": "BALANCED",
+          "fileName": "balanced.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        },
+        {
+          "id": "ultra_quality",
+          "name": "High Quality",
+          "description": "Epic visuals with GI/reflections tuned for performance.",
+          "tier": "UltraQuality",
+          "badgeText": "HIGH QUALITY",
+          "fileName": "ultra_quality.ini",
+          "downloadUrl": "",
+          "size": 0,
+          "isRecommended": false
+        }
+      ],
+      "tweakableSettings": [
+        { "key": "sg.ResolutionQuality", "name": "3D Resolution Scale", "description": "", "category": "Display", "type": "Slider", "section": "ScalabilityGroups", "defaultValue": "100", "currentValue": "", "minValue": 50, "maxValue": 120, "step": 5, "options": [] },
+        { "key": "sg.GlobalIlluminationQuality", "name": "Global Illumination", "description": "Lumen - heavy", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] },
+        { "key": "sg.ReflectionQuality", "name": "Reflections", "description": "", "category": "Quality", "type": "Select", "section": "ScalabilityGroups", "defaultValue": "0", "currentValue": "", "minValue": 0, "maxValue": 3, "step": 1, "options": [
+          { "label": "Off", "value": "0" }, { "label": "Medium", "value": "1" }, { "label": "High", "value": "2" }, { "label": "Epic", "value": "3" }
+        ] }
+      ]
+    }
+  ]
+}

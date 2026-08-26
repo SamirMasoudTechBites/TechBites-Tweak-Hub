@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+  <version value="27" />
+  <configSource>SMC_AUTO</configSource>
+  <graphics>
+    <Tessellation value="1" />
+    <LodScale value="0.800000" />
+    <PedLodBias value="0.200000" />
+    <VehicleLodBias value="0.200000" />
+    <ShadowQuality value="2" />
+    <ReflectionQuality value="1" />
+    <ReflectionMSAA value="0" />
+    <SSAO value="1" />
+    <AnisotropicFiltering value="4" />
+    <MSAA value="0" />
+    <MSAAFragments value="0" />
+    <MSAAQuality value="0" />
+    <SamplingMode value="0" />
+    <TextureQuality value="2" />
+    <ParticleQuality value="1" />
+    <WaterQuality value="1" />
+    <GrassQuality value="1" />
+    <ShaderQuality value="1" />
+    <Shadow_SoftShadows value="1" />
+    <UltraShadows_Enabled value="false" />
+    <Shadow_ParticleShadows value="true" />
+    <Shadow_Distance value="1.000000" />
+    <Shadow_LongShadows value="false" />
+    <Shadow_SplitZStart value="0.930000" />
+    <Shadow_SplitZEnd value="0.890000" />
+    <Shadow_aircraftExpWeight value="0.990000" />
+    <Shadow_DisableScreenSizeCheck value="false" />
+    <Reflection_MipBlur value="true" />
+    <FXAA_Enabled value="true" />
+    <TXAA_Enabled value="false" />
+    <Lighting_FogVolumes value="true" />
+    <Shader_SSA value="true" />
+    <DX_Version value="2" />
+    <FirstPersonVehicleShadowQuality value="1" />
+    <FirstPersonPedShadowQuality value="1" />
+  </graphics>
+  <system>
+    <numBytesPerReplayBlock value="9000000" />
+    <numReplayBlocks value="36" />
+    <maxSizeOfStreamingReplay value="1024" />
+    <maxFileStorageSizeForReplay value="1024" />
+  </system>
+  <audio>
+    <Audio3d value="true" />
+  </audio>
+  <video>
+    <AdapterIndex value="0" />
+    <OutputIndex value="0" />
+    <ScreenWidth value="1920" />
+    <ScreenHeight value="1080" />
+    <RefreshRate value="144" />
+    <Windowed value="0" />
+    <VSync value="0" />
+    <Stereo value="0" />
+    <Convergence value="0.100000" />
+    <Separation value="1.000000" />
+    <PauseOnFocusLoss value="1" />
+    <AspectRatio value="0" />
+  </video>
+</Settings>

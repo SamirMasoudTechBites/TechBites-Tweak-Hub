@@ -1,0 +1,9 @@
+{
+  "FFlagDebugGraphicsPreferD3D11": "True",
+  "DFIntTaskSchedulerTargetFps": "360",
+  "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+  "FFlagDisablePostFx": "False",
+  "FIntRenderShadowIntensity": "50",
+  "FIntDebugFRMQualityLevelOverride": "5",
+  "DFIntDebugFRMQualityLevelOverride": "5"
+}

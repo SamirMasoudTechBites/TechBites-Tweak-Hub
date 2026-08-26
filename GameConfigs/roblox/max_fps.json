@@ -1,0 +1,14 @@
+{
+  "FFlagDebugGraphicsPreferD3D11": "True",
+  "DFIntTaskSchedulerTargetFps": "360",
+  "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+  "FFlagDisablePostFx": "True",
+  "FIntRenderShadowIntensity": "0",
+  "FIntDebugFRMQualityLevelOverride": "1",
+  "DFIntDebugFRMQualityLevelOverride": "1",
+  "FFlagDebugSkyGray": "True",
+  "DFFlagDebugPauseVoxelizer": "True",
+  "FIntRenderLocalLightFadeInMs": "0",
+  "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+  "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647"
+}
