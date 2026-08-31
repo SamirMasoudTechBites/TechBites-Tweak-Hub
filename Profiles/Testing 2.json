@@ -1,0 +1,942 @@
+{
+  "Id": "cc53bd0c1eb04037a7a6f3bc39bc3a8b",
+  "Name": "Testing 2",
+  "Description": "",
+  "Author": "Samir Masoud",
+  "Icon": "\uD83D\uDE80",
+  "IsCommunityProfile": true,
+  "PasswordHash": "GiPPBzu6eBgMzv8dmGl6GSYsW2wmIyJf7nZSNuJB6uc=",
+  "PasswordSalt": "lrufu8vkL7fEy67xlcHUbA==",
+  "Comments": [],
+  "LastCommentDate": null,
+  "Rating": 5,
+  "ReviewCount": 1,
+  "DownloadCount": 0,
+  "Tags": [],
+  "Version": "1.0",
+  "HasUpdateAvailable": false,
+  "TweakStates": {
+    "security-uac-level": "never-notify",
+    "security-workplace-join-messages": "Applied",
+    "security-smart-app-control": "off",
+    "privacy-content-delivery-allowed": "Applied",
+    "privacy-subscribed-content": "Applied",
+    "privacy-soft-landing": "Applied",
+    "privacy-oem-preinstalled-apps": "Applied",
+    "privacy-preinstalled-apps": "Applied",
+    "privacy-silent-installed-apps": "Applied",
+    "privacy-lock-screen": "Applied",
+    "privacy-rotating-lock-screen": "Applied",
+    "privacy-settings-content": "Applied",
+    "privacy-settings-notifications": "Applied",
+    "privacy-narrator-online-services": "Applied",
+    "privacy-narrator-scripting": "Applied",
+    "privacy-inking-typing-dictionary": "Applied",
+    "privacy-improve-inking-typing": "Applied",
+    "privacy-feedback-frequency": "Applied",
+    "privacy-activity-history": "Applied",
+    "privacy-timeline-suggestions": "Applied",
+    "privacy-search-history": "Applied",
+    "privacy-search-highlights": "Applied",
+    "privacy-search-msa-cloud": "Applied",
+    "privacy-search-aad-cloud": "Applied",
+    "privacy-allow-cortana": "Applied",
+    "privacy-camera-access": "Applied",
+    "privacy-microphone-access": "Applied",
+    "privacy-account-info-access": "Applied",
+    "privacy-app-diagnostic-access": "Applied",
+    "privacy-onedrive-auto-backup": "Applied",
+    "privacy-disable-copilot-hardware-key": "Applied",
+    "privacy-disable-copilot-nudges": "Applied",
+    "privacy-word-copilot": "Applied",
+    "privacy-excel-copilot": "Applied",
+    "privacy-onenote-copilot": "Applied",
+    "gaming-performance-explorer-mouse-precision": "Applied",
+    "gaming-performance-mouse-hover-time": "400ms-default",
+    "gaming-background-apps": "user-in-control-default",
+    "gaming-performance-explorer-menu-show-delay": "default-400ms",
+    "gaming-system-responsiveness": "default",
+    "gaming-gpu-priority": "realtime",
+    "gaming-fullscreen-optimizations": "Applied",
+    "gaming-performance-desktop-composition": "Applied",
+    "gaming-disable-mpo": "Applied",
+    "gaming-disable-all-overlays": "Applied",
+    "gaming-disable-mpo-min-fps": "Applied",
+    "gaming-game-bar-controller": "Applied",
+    "gaming-game-bar-tips": "Applied",
+    "gaming-windows-search-service": "serviceoption-automatic",
+    "gaming-print-spooler-service": "serviceoption-automatic",
+    "gaming-telemetry-service": "serviceoption-automatic",
+    "gaming-connected-devices-platform-service": "serviceoption-automatic",
+    "gaming-compatibility-assistant-service": "serviceoption-automatic",
+    "gaming-error-reporting-service": "serviceoption-manualrecommended",
+    "gaming-geolocation-service": "serviceoption-manualrecommended",
+    "gaming-retail-demo-service": "serviceoption-manualrecommended",
+    "gaming-insider-service": "serviceoption-manualrecommended",
+    "gaming-phone-service": "serviceoption-manualrecommended",
+    "gaming-wallet-service": "serviceoption-manualrecommended",
+    "gaming-smart-card-services": "serviceoption-manualrecommended",
+    "gaming-maps-broker-service": "serviceoption-automatic",
+    "gaming-wmp-network-service": "serviceoption-manual",
+    "gaming-mobile-hotspot-service": "serviceoption-manualrecommended",
+    "gaming-sms-router-service": "serviceoption-manualrecommended",
+    "gaming-parental-controls-service": "serviceoption-manualrecommended",
+    "gaming-payments-nfc-service": "serviceoption-manualrecommended",
+    "gaming-spot-verifier-service": "serviceoption-manualrecommended",
+    "gaming-remote-access-manager": "serviceoption-manualrecommended",
+    "gaming-remote-access-auto": "serviceoption-manualrecommended",
+    "gaming-remote-desktop-services": "serviceoption-manualrecommended",
+    "gaming-remote-desktop-configuration": "serviceoption-manualrecommended",
+    "gaming-remote-desktop-port-redirector": "serviceoption-manualrecommended",
+    "gaming-xbox-auth-manager": "serviceoption-manualrecommended",
+    "gaming-xbox-game-save": "serviceoption-manualrecommended",
+    "gaming-xbox-networking": "serviceoption-manualrecommended",
+    "gaming-biometric-service": "serviceoption-manualrecommended",
+    "gaming-touch-keyboard-service": "serviceoption-disabledrecommended",
+    "gaming-telephony-service": "serviceoption-manualrecommended",
+    "gaming-sensor-monitoring-service": "serviceoption-manualrecommended",
+    "gaming-sensor-data-service": "serviceoption-manualrecommended",
+    "gaming-ai-fabric-service": "serviceoption-automatic",
+    "gaming-task-usb-ceip": "Applied",
+    "gaming-task-maps-update": "Applied",
+    "taskbar-animations": "Applied",
+    "enable-peek": "Applied",
+    "show-thumbnails": "Applied",
+    "translucent-selection": "Applied",
+    "drag-full-windows": "Applied",
+    "font-smoothing": "Applied",
+    "drop-shadows": "Applied",
+    "gaming-narrator-hotkey": "Applied",
+    "accessibility-stickykeys-hotkey": "Applied",
+    "accessibility-filterkeys-hotkey": "Applied",
+    "accessibility-togglekeys-hotkey": "Applied",
+    "accessibility-highcontrast-hotkey": "Applied",
+    "usb-hub-selective-suspend-timeout": "Applied",
+    "processor-min-state": "Applied",
+    "processor-max-state": "Applied",
+    "critical-battery-level": "Applied",
+    "reserve-battery-level": "Applied",
+    "start-power-lock-option": "Applied",
+    "start-power-sleep-option": "Applied",
+    "updates-delivery-optimization": "serviceoption-disabled",
+    "updates-driver-coinstallers": "Applied",
+    "notifications-tips-suggestions": "Applied",
+    "notifications-system-pane-suggestions": "Applied",
+    "theme-mode-windows": "dark-mode",
+    "taskbar-transparent": "windows-default",
+    "start-recommended-section": "show",
+    "explorer-customization-shortcut-suffix": "keep-shortcut-suffix",
+    "explorer-customization-shortcut-arrow": "show-arrow-icon",
+    "explorer-context-menu-windows-terminal": "Applied",
+    "devices-dynamic-lighting-ambient": "Applied",
+    "devices-default-printer-management": "Applied",
+    "explorer-customization-show-office-files": "Applied",
+    "explorer-customization-icon-thumbnails": "Applied",
+    "explorer-customization-icon-cache-size": "windows-default",
+    "explorer-customization-folder-tips": "Applied",
+    "explorer-customization-show-hidden-files": "Applied",
+    "explorer-customization-hide-empty-drives": "Applied",
+    "explorer-customization-show-file-ext": "Applied",
+    "explorer-customization-hide-merge-conflicts": "Applied",
+    "explorer-customization-show-drive-letters": "after-labels",
+    "explorer-customization-popup-descriptions": "Applied",
+    "explorer-customization-preview-handlers": "Applied",
+    "explorer-customization-status-bar": "Applied",
+    "explorer-customization-disable-sync-provider-notifications": "Applied",
+    "explorer-customization-sharing-wizard": "Applied",
+    "explorer-customization-typing-behavior": "select-the-typed-item-in-the-view",
+    "explorer-customization-nav-saf-desktop": "Applied",
+    "explorer-customization-nav-saf-documents": "Applied",
+    "explorer-customization-nav-saf-downloads": "Applied",
+    "explorer-customization-nav-saf-music": "Applied",
+    "explorer-customization-nav-saf-pictures": "Applied",
+    "explorer-customization-nav-saf-videos": "Applied",
+    "explorer-long-file-paths": "Applied",
+    "explorer-customization-short-date": "m-d-yyyy",
+    "explorer-customization-first-day-of-week": "sunday",
+    "explorer-customization-number-decimal": "period",
+    "explorer-customization-list-separator": "comma",
+    "explorer-customization-measurement-system": "u-s-imperial",
+    "explorer-customization-currency-decimal": "period",
+    "opt-gen-monitor-latency": "Applied",
+    "theme-color-prevalence": "Applied",
+    "theme-dwm-color-prevalence": "Applied",
+    "opt-cpu-power-settings-visibility": "Applied",
+    "opt-cpu-usb-selective-suspend": "Applied",
+    "opt-cpu-power-pdc-activators": "Applied",
+    "opt-cpu-idle-scrub-profile": "windows-default",
+    "opt-cpu-spectre-meltdown-mitigations": "Applied",
+    "opt-cpu-dynamic-tick": "Applied",
+    "opt-cpu-vendor-power-managers": "Applied",
+    "opt-cpu-active-cooling": "Applied",
+    "opt-cpu-optimize-ac-values": "Applied",
+    "opt-power-sleep-hibernation": "windows-default",
+    "opt-mouse-queue-size": "windows-default",
+    "opt-keyboard-accessibility-profile": "windows-default",
+    "opt-keyboard-typing-response-profile": "low-latency",
+    "opt-keyboard-queue-size": "windows-default",
+    "opt-keyboard-thread-priority": "Applied",
+    "opt-keyboard-legacy-extras": "Applied",
+    "opt-ram-memory-management-profile": "windows-default",
+    "opt-ram-usb-hidden-power-savings": "Applied",
+    "opt-priority-service-host-priority": "Applied",
+    "opt-priority-win32-priority-separation": "default",
+    "opt-priority-window-manager-mmcss-priority": "Applied",
+    "opt-usb-device-driver-thread-priority": "Applied",
+    "opt-usb-usb-system-thread-priority": "Applied",
+    "opt-usb-usb-low-latency-core": "Applied",
+    "opt-usb-usb-power-management-optimization": "Applied",
+    "opt-usb-usb-controller-device-priority": "Applied",
+    "opt-usb-disable-hidden-usb-power-savings": "Applied",
+    "opt-gpu-nvidia-nvidia-backend-optimizations": "Applied",
+    "opt-gpu-nvidia-set-driver-acceleration": "Applied",
+    "opt-advanced-direct-x-kernel-latency-settings": "Applied",
+    "opt-advanced-graphics-drivers-settings": "Applied",
+    "sys-opt-verbose-logon": "Applied",
+    "sys-opt-window-snapping": "Applied",
+    "opt-system-port-thread-priority": "Applied",
+    "modern-sec-rdp-disable": "Applied",
+    "modern-customize-spotlight-disable": "Applied",
+    "modern-customize-window-animations-disable": "Applied",
+    "modern-services-remote-registry-disable": "Applied",
+    "modern-explorer-firstlogon-speedup": "Applied",
+    "modern-services-shpamsvc-disable": "Applied",
+    "modern-services-uev-agent-disable": "Applied",
+    "modern-security-cpu-mitigations-disable": "Applied",
+    "legacy-monitor-hags-mode": "hags-default",
+    "legacy-monitor-hdr-mode": "hdr-default",
+    "legacy-monitor-nvidia-pre-rendered-frames": "prerender-default",
+    "legacy-security-authenticode-off": "Applied",
+    "legacy-settings-enhanced-storage-tcg": "Applied",
+    "taskbar-search-box": "search-box"
+  },
+  "WallpaperUrl": null,
+  "CursorUrl": null,
+  "NvidiaProfileUrl": null,
+  "NvidiaProfileName": null,
+  "PowerPlanUrl": null,
+  "PowerPlanName": "TechBites Ultimate Power",
+  "MsiConfig": {
+    "EnableLowLatencyBoost": true,
+    "DeviceRules": [
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "High Definition Audio Controller",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "High Definition Audio Controller",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 5
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 3
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "NVIDIA",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Standard NVM Express Controller",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 2048
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Standard SATA AHCI Controller",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 8
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Standard SATA AHCI Controller",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 8
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "VMware VMCI Host Device",
+        "MsiEnabled": true,
+        "InterruptPriority": 0,
+        "MessageLimit": 2
+      }
+    ]
+  },
+  "BiosConfig": null,
+  "StartupConfig": {
+    "Rules": [
+      {
+        "AppName": "AntDM",
+        "ExecutableName": "Program",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "AntDM",
+        "ExecutableName": "Program",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "com.squirrel.Teams.Teams",
+        "ExecutableName": "Samir",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "com.squirrel.Teams.Teams",
+        "ExecutableName": "Samir",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Discord",
+        "ExecutableName": "Update.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "EpicGamesLauncher",
+        "ExecutableName": "EpicGamesLauncher.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "EpicGamesLauncher",
+        "ExecutableName": "EpicGamesLauncher.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Everything",
+        "ExecutableName": "Everything.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "MicrosoftEdgeAutoLaunch_011DA32910B0DEBE65567567A7BFA6A5",
+        "ExecutableName": "msedge.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "MicrosoftEdgeAutoLaunch_011DA32910B0DEBE65567567A7BFA6A5",
+        "ExecutableName": "msedge.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "NetLimiter",
+        "ExecutableName": "nlclientapp.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "NetLimiter",
+        "ExecutableName": "nlclientapp.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "NVIDIA Broadcast ",
+        "ExecutableName": "NVIDIA Broadcast.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "NVIDIA Broadcast ",
+        "ExecutableName": "NVIDIA Broadcast.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "OneDrive",
+        "ExecutableName": "OneDrive.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Riot Vanguard",
+        "ExecutableName": "vgtray.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "RiotClient",
+        "ExecutableName": "Riot",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "RiotClient",
+        "ExecutableName": "Riot",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "RtkAudUService",
+        "ExecutableName": "RtkAudUService64.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "SecurityHealth",
+        "ExecutableName": "SecurityHealthSystray.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Steam",
+        "ExecutableName": "steam.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Steam",
+        "ExecutableName": "steam.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "TeamsMachineInstaller",
+        "ExecutableName": "Teams",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "vmware-tray.exe",
+        "ExecutableName": "vmware-tray.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": ".NET Framework NGEN v4.0.30319",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": ".NET Framework NGEN v4.0.30319 64",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "AD RMS Rights Policy Template Management (Automated)",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "AD RMS Rights Policy Template Management (Manual)",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Automatic-Device-Join",
+        "ExecutableName": "dsregcmd.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "AutomaticOfflineMemoryDiagnostic",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "BraveSoftwareUpdateTaskMachineCore{DDC2C131-BA85-4534-9FD1-75B1C0316B5D}",
+        "ExecutableName": "BraveUpdate.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "CacheTask",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Calibration Loader",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Data Integrity Check And Scan",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Device Install Reboot Required",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Device User",
+        "ExecutableName": "devicecensus.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "DirectXDatabaseUpdater",
+        "ExecutableName": "directxdatabaseupdater.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Driver Recovery on Reboot",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "DXGIAdapterCache",
+        "ExecutableName": "dxgiadaptercache.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "ExploitGuard MDM policy Refresh",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "GoogleUpdaterTaskSystem152.0.7933.0{FA75F4C0-E751-4210-A627-8FD2C9EB51C9}",
+        "ExecutableName": "updater.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "InitialConfiguration",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "InitialConfiguration",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Installation",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "KeyPreGenTask",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "License Validation",
+        "ExecutableName": "ClipUp.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "LicenseImdsIntegration",
+        "ExecutableName": "fclip.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "LoginCheck",
+        "ExecutableName": "sc.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Logon",
+        "ExecutableName": "ProvTool.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Logon Synchronization",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "MdmDiagnosticsCleanup",
+        "ExecutableName": "MdmDiagnosticsTool.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Microsoft-Windows-DiskDiagnosticResolver",
+        "ExecutableName": "DFDWiz.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "MicrosoftEdgeUpdateTaskMachineCore{9412D7B7-E726-459D-8914-944046822D81}",
+        "ExecutableName": "Program",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Monitoring",
+        "ExecutableName": "cmd.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "MsCtfMonitor",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "MSI Task Host - LEDKeeper2_Host",
+        "ExecutableName": "Program",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "NcsiIdentifyUserProxies",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Office Automatic Updates 2.0",
+        "ExecutableName": "Program",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Office Feature Updates Logon",
+        "ExecutableName": "Program",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "OneDrive Startup Task-S-1-5-21-1367512571-2687168222-153811858-1001",
+        "ExecutableName": "Program",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "PITRTask",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Pre-staged app cleanup",
+        "ExecutableName": "rundll32.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Proxy",
+        "ExecutableName": "rundll32.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "QueueReporting",
+        "ExecutableName": "wermgr.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "RecommendedTroubleshootingScanner",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "ReconcileLanguageResources",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Recovery-Check",
+        "ExecutableName": "dsregcmd.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "RegisterUserDevice",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "RemediateHardwareChange",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Retry",
+        "ExecutableName": "ProvTool.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "RunOnReboot",
+        "ExecutableName": "ProvTool.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Secure-Boot-Update",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "SmartRetry",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "SpaceAgentTask",
+        "ExecutableName": "SpaceAgent.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "SpaceManagerTask",
+        "ExecutableName": "spaceman.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "SvcRestartTaskLogon",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Synchronize Language Settings",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "SystemSoundsService",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "SystemTask",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "TechBitesHub SmartCleaner",
+        "ExecutableName": "TechBites Hub.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "UCPD velocity",
+        "ExecutableName": "UCPDMgr.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "UserTask",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "VerifiedPublisherCertStoreCheck",
+        "ExecutableName": "appidcertstorecheck.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Work Folders Logon Synchronization",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Work Folders Maintenance Work",
+        "ExecutableName": "",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      }
+    ]
+  },
+  "DebloatConfig": {
+    "PresetName": null,
+    "PackageIds": [
+      "external-app-aimp",
+      "external-app-blender",
+      "external-app-dropbox",
+      "external-app-evernote",
+      "external-app-foobar2000",
+      "external-app-freac",
+      "external-app-inkscape",
+      "external-app-itunes",
+      "external-app-krita",
+      "external-app-libreoffice",
+      "external-app-librewolf",
+      "external-app-mediainfo-gui",
+      "external-app-musicbee",
+      "external-app-nanazip",
+      "external-app-naps2",
+      "external-app-okular",
+      "external-app-powershell",
+      "external-app-python313",
+      "external-app-sharex",
+      "external-app-smplayer",
+      "external-app-spotify",
+      "external-app-whatsapp",
+      "external-app-winscp",
+      "windows-app-3d-viewer",
+      "windows-app-ai-manager",
+      "windows-app-ai-workloads",
+      "windows-app-alarms-clock",
+      "windows-app-bing-search",
+      "windows-app-calculator",
+      "windows-app-camera",
+      "windows-app-clipchamp",
+      "windows-app-copilot",
+      "windows-app-copilot-plus-pc",
+      "windows-app-cortana",
+      "windows-app-edge-game-assist",
+      "windows-app-feedback-hub",
+      "windows-app-get-help",
+      "windows-app-mail-calendar",
+      "windows-app-maps",
+      "windows-app-media-player",
+      "windows-app-family-safety",
+      "windows-app-microsoft-news",
+      "windows-app-store",
+      "windows-app-teams",
+      "windows-app-mixed-reality-portal",
+      "windows-app-movies-tv",
+      "windows-app-office-hub",
+      "windows-app-msn-weather",
+      "windows-app-notepad",
+      "windows-app-office-actions-server",
+      "windows-app-onedrive",
+      "windows-app-onenote",
+      "windows-app-outlook",
+      "windows-app-paint",
+      "windows-app-paint-3d",
+      "windows-app-people",
+      "windows-app-phone-link",
+      "windows-app-photos",
+      "windows-app-power-automate",
+      "windows-app-quick-assist",
+      "windows-app-skype",
+      "windows-app-snipping-tool",
+      "windows-app-solitaire",
+      "windows-app-sound-recorder",
+      "windows-app-sticky-notes",
+      "windows-app-terminal",
+      "windows-app-tips",
+      "windows-app-todo",
+      "windows-app-dev-home",
+      "windows-app-client-aix",
+      "windows-app-client-copilot",
+      "windows-app-writing-assistant",
+      "windows-app-xbox",
+      "windows-app-xbox-game-bar",
+      "windows-app-xbox-game-bar-plugin",
+      "windows-app-xbox-identity-provider",
+      "windows-app-xbox-live-ingame",
+      "capability-internet-explorer",
+      "capability-notepad",
+      "capability-openssh-client",
+      "capability-openssh-server",
+      "capability-paint-legacy",
+      "capability-powershell-ise",
+      "capability-quick-assist",
+      "capability-steps-recorder",
+      "capability-windows-media-player",
+      "capability-wordpad"
+    ]
+  },
+  "CleanupConfig": {
+    "RunCleanupOnApply": true,
+    "TargetIds": [
+      "full-system-cleanup"
+    ]
+  },
+  "SoftwareConfig": {
+    "PackageIds": [
+      "external-app-discord"
+    ]
+  },
+  "WindowsUpdateConfig": {
+    "PauseUpdates": false,
+    "PauseDays": 365,
+    "BlockWindowsUpdateCompletely": true,
+    "ExcludeDrivers": true,
+    "DisableAutoReboot": true,
+    "DeliveryOptimizationMode": 0,
+    "TargetReleaseVersion": null,
+    "DisableTelemetry": false,
+    "DisableActivityHistory": false,
+    "DisableLocationTracking": false,
+    "DisableAdvertisingId": false,
+    "DisableCortanaSearch": false,
+    "DisableFeedbackPrompts": false,
+    "DisableConsumerFeatures": false
+  }
+}
