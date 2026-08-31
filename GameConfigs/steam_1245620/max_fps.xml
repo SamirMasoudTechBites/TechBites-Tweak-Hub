@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<GraphicsConfig>
+  <ScreenMode>FULLSCREEN</ScreenMode>
+  <Resolution-FullScreenX>1920</Resolution-FullScreenX>
+  <Resolution-FullScreenY>1080</Resolution-FullScreenY>
+  <Quality>CUSTOM</Quality>
+  <TextureQuality>LOW</TextureQuality>
+  <AntialiasingQuality>LOW</AntialiasingQuality>
+  <SSAO>DISABLE</SSAO>
+  <DepthOfField>DISABLE</DepthOfField>
+  <MotionBlur>DISABLE</MotionBlur>
+  <ShadowQuality>LOW</ShadowQuality>
+  <LightingQuality>LOW</LightingQuality>
+  <EffectsQuality>LOW</EffectsQuality>
+  <ReflectionQuality>LOW</ReflectionQuality>
+  <WaterSurfaceQuality>LOW</WaterSurfaceQuality>
+  <ShadingQuality>LOW</ShadingQuality>
+  <VolumetricEffectQuality>LOW</VolumetricEffectQuality>
+  <RaytracingQuality>DISABLE</RaytracingQuality>
+</GraphicsConfig>

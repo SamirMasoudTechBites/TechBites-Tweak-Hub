@@ -1,0 +1,13 @@
+<renderer_config>
+  <variable name="aspect_ratio" value="1.77778"/>
+  <variable name="brightness" value="1"/>
+  <variable name="effect_quality" value="medium"/>
+  <variable name="environment_detail" value="medium"/>
+  <variable name="light_adaption_quality" value="medium"/>
+  <variable name="post_effect_quality" value="medium"/>
+  <variable name="shadow_quality" value="medium"/>
+  <variable name="streaming_chunk_kb" value="4096"/>
+  <variable name="texture_quality" value="medium"/>
+  <variable name="v_sync" value="0"/>
+  <variable name="windowed" value="false"/>
+</renderer_config>

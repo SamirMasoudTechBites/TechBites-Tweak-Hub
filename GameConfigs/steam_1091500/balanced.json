@@ -1,0 +1,37 @@
+{
+  "Settings": {
+    "Graphics": {
+      "Basic": {
+        "MotionBlur": "Off",
+        "FilmGrain": "Off",
+        "ChromaticAberration": "Off",
+        "DepthOfField": "Off",
+        "LensFlares": "On"
+      },
+      "Advanced": {
+        "ContactShadows": "On",
+        "FacialLightingGeometry": "On",
+        "Anisotropy": "8",
+        "LocalShadowMeshQuality": "Medium",
+        "LocalShadowsQuality": "Medium",
+        "CascadedShadowsResolution": "Medium",
+        "DistantShadowsResolution": "High",
+        "VolumetricFogResolution": "Medium",
+        "VolumetricCloudsQuality": "Medium",
+        "DecalsQuality": "Medium",
+        "SubsurfaceScatteringQuality": "Medium",
+        "AmbientOcclusion": "Low",
+        "ColorPrecision": "High",
+        "RayTracing": "Off"
+      },
+      "DynamicResolutionScaling": {
+        "DynamicResolutionScaling": "Off"
+      },
+      "Resolution": {
+        "WindowMode": "Fullscreen",
+        "VSync": "Off",
+        "MaximumFramesPerSecond": "Off"
+      }
+    }
+  }
+}

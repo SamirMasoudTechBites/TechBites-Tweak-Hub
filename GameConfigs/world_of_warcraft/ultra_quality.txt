@@ -1,0 +1,8 @@
+SET gxVSync "0"
+SET maxFPS "0"
+SET shadowMode "3"
+SET particleDensity "100"
+SET waterDetail "3"
+SET groundEffectDensity "256"
+SET groundEffectDist "260"
+SET graphicsShadowQuality "6"

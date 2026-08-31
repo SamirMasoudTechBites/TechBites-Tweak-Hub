@@ -1,14 +1,10 @@
 {
-  "FFlagDebugGraphicsPreferD3D11": "True",
-  "DFIntTaskSchedulerTargetFps": "360",
-  "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+  "DFIntTaskSchedulerTargetFps": 9999,
+  "FFlagDebugGraphicsDisableDirect3D11": "True",
+  "FFlagDebugGraphicsPreferVulkan": "True",
   "FFlagDisablePostFx": "True",
-  "FIntRenderShadowIntensity": "0",
-  "FIntDebugFRMQualityLevelOverride": "1",
-  "DFIntDebugFRMQualityLevelOverride": "1",
-  "FFlagDebugSkyGray": "True",
-  "DFFlagDebugPauseVoxelizer": "True",
-  "FIntRenderLocalLightFadeInMs": "0",
-  "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
-  "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647"
+  "FIntRenderShadowIntensity": 0,
+  "DFIntCSGLevelOfDetailSwitchingDistance": 0,
+  "FFlagGlobalWindActivated": "False",
+  "FIntCameraMaxZoomDistance": 10000
 }

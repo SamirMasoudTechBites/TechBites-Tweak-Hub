@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphics>
+  <tAALevel value="2" />
+  <anisotropicFiltering value="16" />
+  <shadowQuality value="2" />
+  <farShadowQuality value="2" />
+  <ssao value="2" />
+  <reflectionQuality value="2" />
+  <waterQuality value="2" />
+  <volumetricsQuality value="2" />
+  <particleQuality value="2" />
+  <decalQuality value="2" />
+  <grassQuality value="2" />
+  <treeQuality value="2" />
+  <motionBlur value="false" />
+  <vSync value="0" />
+  <tripleBuffered value="false" />
+  <windowed value="0" />
+</graphics>

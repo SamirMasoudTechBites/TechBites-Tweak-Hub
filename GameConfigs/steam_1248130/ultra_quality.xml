@@ -1,0 +1,8 @@
+<game>
+  <graphicPreferences>
+    <vsync>false</vsync>
+    <shadowQuality>2</shadowQuality>
+    <lightsQuality>2</lightsQuality>
+    <cloudQuality>2</cloudQuality>
+  </graphicPreferences>
+</game>

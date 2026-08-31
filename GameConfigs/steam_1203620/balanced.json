@@ -1,0 +1,9 @@
+{
+  "graphics": {
+    "vsync": false,
+    "shadow_quality": "medium",
+    "voxel_detail": "medium",
+    "fog_quality": "balanced",
+    "contact_shadows": true
+  }
+}

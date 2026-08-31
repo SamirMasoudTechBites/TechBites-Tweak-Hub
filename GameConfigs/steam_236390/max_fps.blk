@@ -1,0 +1,37 @@
+graphics{
+  advancedShore:b=no
+  anisotropy:i=2
+  backgroundScale:r=1
+  clipmapScale:r=0.5
+  cloudsQuality:i=0
+  contactShadowsQuality:i=0
+  dirtFx:b=no
+  displacementQuality:i=0
+  effectsFrameRate:i=1
+  enableSuspensionAnimation:b=no
+  foamQuality:t="low"
+  fxDensityMul:r=0.2
+  fxTarget:t="low"
+  giQuality:t="low"
+  grassRadiusMul:r=0.1
+  landquality:i=0
+  lastClipSize:i=1024
+  lenseFlares:b=no
+  motionBlur:b=no
+  panoramaResolution:i=1024
+  physicsQuality:i=0
+  rendinstDistMul:r=0.5
+  riGpuObjects:b=no
+  shadowQuality:t="ultralow"
+  skyQuality:i=0
+  texquality:t="low"
+  tireTracksQuality:i=0
+  waterEffectsQuality:t="low"
+  waterQuality:t="low"
+}
+video{
+  vsync:b=no
+  adaptive_vsync:b=no
+  resolution:t="1920 x 1080"
+  mode:t="fullscreen"
+}

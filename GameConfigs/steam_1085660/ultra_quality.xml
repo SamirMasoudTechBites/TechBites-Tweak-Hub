@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cvar_descriptions>
+  <cvar name="framerate_cap" value="0" />
+  <cvar name="vsync_mode" value="0" />
+  <cvar name="low_latency_mode" value="2" />
+  <cvar name="shadow_quality" value="2" />
+  <cvar name="depth_of_field" value="1" />
+  <cvar name="motion_blur" value="0" />
+  <cvar name="wind_impulse" value="1" />
+  <cvar name="environment_detail_distance" value="2" />
+  <cvar name="character_detail_distance" value="2" />
+  <cvar name="foliage_detail_distance" value="2" />
+  <cvar name="ambient_occlusion_quality" value="2" />
+</cvar_descriptions>

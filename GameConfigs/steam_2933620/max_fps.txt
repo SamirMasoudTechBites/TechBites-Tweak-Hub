@@ -1,0 +1,9 @@
+// Call of Duty Black Ops 6 Competitive Configuration
+LowLatencyMode = "On+Boost"
+VSync = "Off"
+ShadowQuality = "Very Low"
+VolumetricQuality = "Low"
+WaterQuality = "Off"
+ParticleQuality = "Low"
+MotionBlur = "Off"
+DepthOfField = "Off"
