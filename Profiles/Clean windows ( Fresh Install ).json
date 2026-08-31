@@ -156,9 +156,9 @@
     "taskbar-alignment": "left",
     "taskbar-meet-now": "Applied",
     "taskbar-news-and-interests": "Applied",
-    "taskbar-end-task": "Applied",
     "start-menu-layout": "more-pins",
     "start-all-apps-view": "category",
+    "start-recommended-section": "hide",
     "start-show-recently-added-apps": "Applied",
     "start-show-suggestions": "Applied",
     "start-show-recommended-files": "Applied",
@@ -188,6 +188,8 @@
     "opt-gen-pcie-mem-mapping": "Applied",
     "taskbar-chat": "Applied",
     "taskbar-seconds-clock": "Applied",
+    "start-menu-pin-essentials": "Applied",
+    "taskbar-pin-explorer-only": "Applied",
     "opt-cpu-processor-idle-states": "Applied",
     "opt-cpu-processor-power-management": "Applied",
     "opt-cpu-maximum-performance-power": "Applied",
@@ -319,7 +321,6 @@
     "opt-advanced-power-settings-optimizations": "Applied",
     "opt-advanced-bcd-edit-optimizations": "Applied",
     "opt-advanced-service-host-memory-optimization": "god-mode",
-    "opt-advanced-disable-page-combining": "Applied",
     "opt-advanced-disable-hpet-device": "Applied",
     "monitor-pixel-response-overdrive": "Applied",
     "monitor-dpst-disable": "Applied",
@@ -327,13 +328,22 @@
     "monitor-dwm-low-latency": "Applied",
     "monitor-gpu-stretched-scaling": "Applied",
     "sys-opt-brave-debloat": "Applied",
+    "sys-opt-remove-windows-ai": "Applied",
+    "modern-ai-copilot-disable": "Applied",
+    "modern-ai-recall-disable": "Applied",
+    "modern-ai-suggested-actions-disable": "Applied",
+    "modern-ai-edge-copilot-disable": "Applied",
+    "modern-ai-click-to-do-disable": "Applied",
+    "modern-ai-settings-agent-disable": "Applied",
+    "modern-ai-notepad-rewrite-disable": "Applied",
+    "modern-ai-hide-settings-components": "Applied",
     "taskbar-search-box": "hide",
     "start-menu-clean": "Applied"
   },
-  "WallpaperUrl": "C:\\Users\\Samir Masoud\\AppData\\Local\\TechBites\\Hub\\Wallpapers\\rrxm2j.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rrxm2j.png",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": null,
-  "NvidiaProfileName": null,
+  "NvidiaProfileName": "Ultra Low Latency (Max FPS)",
   "PowerPlanUrl": null,
   "PowerPlanName": "TechBites Ultimate Power",
   "MsiConfig": {
@@ -365,13 +375,6 @@
         "DeviceMatchPattern": "Intel",
         "MsiEnabled": true,
         "InterruptPriority": 3,
-        "MessageLimit": 5
-      },
-      {
-        "DeviceCategory": "Device",
-        "DeviceMatchPattern": "Intel",
-        "MsiEnabled": true,
-        "InterruptPriority": 3,
         "MessageLimit": 1
       },
       {
@@ -386,7 +389,14 @@
         "DeviceMatchPattern": "Intel",
         "MsiEnabled": true,
         "InterruptPriority": 3,
-        "MessageLimit": 3
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
       },
       {
         "DeviceCategory": "Device",
@@ -400,28 +410,28 @@
         "DeviceMatchPattern": "Standard NVM Express Controller",
         "MsiEnabled": true,
         "InterruptPriority": 3,
-        "MessageLimit": 2048
+        "MessageLimit": 1
       },
       {
         "DeviceCategory": "Device",
         "DeviceMatchPattern": "Standard SATA AHCI Controller",
         "MsiEnabled": true,
         "InterruptPriority": 3,
-        "MessageLimit": 8
+        "MessageLimit": 1
       },
       {
         "DeviceCategory": "Device",
         "DeviceMatchPattern": "Standard SATA AHCI Controller",
         "MsiEnabled": true,
         "InterruptPriority": 3,
-        "MessageLimit": 8
+        "MessageLimit": 1
       },
       {
         "DeviceCategory": "Device",
         "DeviceMatchPattern": "VMware VMCI Host Device",
         "MsiEnabled": true,
-        "InterruptPriority": 0,
-        "MessageLimit": 2
+        "InterruptPriority": 3,
+        "MessageLimit": 1
       }
     ]
   },
@@ -493,14 +503,34 @@
         "ExecutableName": "Teams",
         "TargetEnabled": true,
         "PreferredSource": null
+      },
+      {
+        "AppName": "vmware-tray.exe",
+        "ExecutableName": "vmware-tray.exe",
+        "TargetEnabled": true,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "BraveSoftwareUpdateTaskMachineCore{DDC2C131-BA85-4534-9FD1-75B1C0316B5D}",
+        "ExecutableName": "BraveUpdate.exe",
+        "TargetEnabled": true,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "MicrosoftEdgeUpdateTaskMachineCore{9412D7B7-E726-459D-8914-944046822D81}",
+        "ExecutableName": "Program",
+        "TargetEnabled": true,
+        "PreferredSource": null
       }
     ]
   },
   "DebloatConfig": {
     "PresetName": null,
     "PackageIds": [
+      "external-app-whatsapp",
       "windows-app-3d-viewer",
       "windows-app-ai-manager",
+      "windows-app-ai-workloads",
       "windows-app-bing-search",
       "windows-app-camera",
       "windows-app-clipchamp",
@@ -534,8 +564,12 @@
       "windows-app-sticky-notes",
       "windows-app-tips",
       "windows-app-todo",
+      "windows-app-ai-full-debloat",
+      "windows-app-copilot-provider",
       "windows-app-client-aix",
       "windows-app-client-copilot",
+      "windows-app-client-coreai",
+      "feature-recall",
       "windows-app-writing-assistant",
       "capability-internet-explorer",
       "capability-notepad",
@@ -574,5 +608,20 @@
     "DisableCortanaSearch": false,
     "DisableFeedbackPrompts": false,
     "DisableConsumerFeatures": false
+  },
+  "ContextMenuConfig": {
+    "EnableClassicContextMenu": true,
+    "EnablePowerPlanSwitcher": true,
+    "EnableNvidiaProfilesSwitcher": false,
+    "EnabledBuiltinIds": [
+      "taskmgr",
+      "restart-explorer",
+      "disk-cleanup",
+      "cmd-here",
+      "ps-here",
+      "takeown-folder",
+      "defender-scan"
+    ],
+    "DisabledThirdPartyItemIds": []
   }
 }
