@@ -1,7 +1,7 @@
 {
   "Id": "4b377a0c25d246c3b9909dd4561c7cde",
   "Name": "Clean windows ( Fresh Install )",
-  "Description": "Clean gaming and debloat profile with essential pins only and zero animations.",
+  "Description": "Clean gaming and debloat profile with zero animations and full performance.",
   "Author": "Samir Masoud",
   "Icon": "🛡️",
   "IsCommunityProfile": true,
@@ -24,6 +24,7 @@
     "security-remote-assistance": "Applied",
     "security-smart-app-control": "off",
     "security-developer-mode": "Applied",
+    "security-powershell-execution-policy": "remotesigned",
     "privacy-content-delivery-allowed": "Applied",
     "privacy-subscribed-content": "Applied",
     "privacy-feature-management": "Applied",
@@ -134,11 +135,8 @@
     "gaming-task-windows-ai": "Applied",
     "gaming-task-office-actions-server": "Applied",
     "visual-effects-mode": "adjust-for-best-performance",
-    "enable-peek": "Applied",
-    "show-thumbnails": "Applied",
-    "drag-full-windows": "Applied",
     "font-smoothing": "Applied",
-    "drop-shadows": "Applied",
+    "show-thumbnails": "Applied",
     "power-fast-startup": "Applied",
     "start-power-hibernate-option": "Applied",
     "processor-min-state": "Applied",
@@ -348,14 +346,14 @@
   "BiosConfig": null,
   "StartupConfig": {
     "Rules": [
-      { "AppName": "com.squirrel.Teams.Teams", "ExecutableName": "Samir", "TargetEnabled": true, "PreferredSource": null },
-      { "AppName": "Discord", "ExecutableName": "Update.exe", "TargetEnabled": true, "PreferredSource": null },
-      { "AppName": "EpicGamesLauncher", "ExecutableName": "EpicGamesLauncher.exe", "TargetEnabled": true, "PreferredSource": null },
-      { "AppName": "MicrosoftEdgeAutoLaunch_011DA32910B0DEBE65567567A7BFA6A5", "ExecutableName": "msedge.exe", "TargetEnabled": true, "PreferredSource": null },
-      { "AppName": "OneDrive", "ExecutableName": "OneDrive.exe", "TargetEnabled": true, "PreferredSource": null },
-      { "AppName": "Steam", "ExecutableName": "steam.exe", "TargetEnabled": true, "PreferredSource": null },
-      { "AppName": "TeamsMachineInstaller", "ExecutableName": "Teams", "TargetEnabled": true, "PreferredSource": null },
-      { "AppName": "vmware-tray.exe", "ExecutableName": "vmware-tray.exe", "TargetEnabled": true, "PreferredSource": null }
+      { "AppName": "com.squirrel.Teams.Teams", "ExecutableName": "Samir", "TargetEnabled": false, "PreferredSource": null },
+      { "AppName": "Discord", "ExecutableName": "Update.exe", "TargetEnabled": false, "PreferredSource": null },
+      { "AppName": "EpicGamesLauncher", "ExecutableName": "EpicGamesLauncher.exe", "TargetEnabled": false, "PreferredSource": null },
+      { "AppName": "MicrosoftEdgeAutoLaunch_011DA32910B0DEBE65567567A7BFA6A5", "ExecutableName": "msedge.exe", "TargetEnabled": false, "PreferredSource": null },
+      { "AppName": "OneDrive", "ExecutableName": "OneDrive.exe", "TargetEnabled": false, "PreferredSource": null },
+      { "AppName": "Steam", "ExecutableName": "steam.exe", "TargetEnabled": false, "PreferredSource": null },
+      { "AppName": "TeamsMachineInstaller", "ExecutableName": "Teams", "TargetEnabled": false, "PreferredSource": null },
+      { "AppName": "vmware-tray.exe", "ExecutableName": "vmware-tray.exe", "TargetEnabled": false, "PreferredSource": null }
     ]
   },
   "DebloatConfig": {
