@@ -1,7 +1,7 @@
 {
-  "Id": "c6e93eec707344e1b6e13e261e7b6cb9",
-  "Name": "Clean windows ( Max Performance )",
-  "Description": "God-mode ultimate performance profile with 420+ optimizations: VBS & Core Isolation disabled, Spectre/Meltdown mitigations disabled, 0.5ms kernel timer, game-specific high CPU priorities, full NVIDIA DRS & GPU low-latency pipeline, extreme RAM & CPU tuning, zero animations, and full debloat.",
+  "Id": "cb5012d322dd40638d850767acc5e223",
+  "Name": "Clean windows ( Max Performance - 100% Compatible )",
+  "Description": "Ultimate god-mode performance profile with 400+ optimizations for extreme gaming, ultra-low latency, and maximum FPS across any hardware, with Windows Update, Microsoft Store, Wi-Fi, Notepad, and Printer services 100% intact.",
   "Author": "Samir Masoud",
   "Icon": "⚡",
   "IsCommunityProfile": true,
@@ -16,7 +16,9 @@
     "Gaming",
     "MaxPerformance",
     "LowLatency",
-    "Debloat"
+    "DailySafe",
+    "StoreCompatible",
+    "100PercentCompatible"
   ],
   "Version": "1.0",
   "HasUpdateAvailable": false,
@@ -381,7 +383,6 @@
     "opt-net-tcpip-advanced-throughput": "Applied",
     "sys-opt-standby-fix": "Applied",
     "sys-opt-reserved-storage": "Applied",
-    "opt-system-port-thread-priority": "Applied",
     "opt-system-font-driver-host": "Applied",
     "opt-ram-pool-usage-tuning": "Applied",
     "reduce-startup-time": "Applied",
@@ -529,7 +530,6 @@
       "windows-app-ai-manager",
       "windows-app-ai-workloads",
       "windows-app-bing-search",
-      "windows-app-camera",
       "windows-app-clipchamp",
       "windows-app-copilot",
       "windows-app-copilot-plus-pc",
@@ -539,7 +539,6 @@
       "windows-app-get-help",
       "windows-app-mail-calendar",
       "windows-app-maps",
-      "windows-app-media-player",
       "windows-app-microsoft-news",
       "windows-app-teams",
       "windows-app-mixed-reality-portal",
@@ -557,7 +556,6 @@
       "windows-app-quick-assist",
       "windows-app-skype",
       "windows-app-solitaire",
-      "windows-app-sound-recorder",
       "windows-app-sticky-notes",
       "windows-app-tips",
       "windows-app-todo",
@@ -570,8 +568,7 @@
       "windows-app-writing-assistant",
       "capability-internet-explorer",
       "capability-quick-assist",
-      "capability-steps-recorder",
-      "capability-windows-media-player"
+      "capability-steps-recorder"
     ]
   },
   "CleanupConfig": {

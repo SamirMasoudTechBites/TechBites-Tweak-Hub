@@ -1,5 +1,5 @@
 {
-  "Id": "4b377a0c25d246c3b9909dd4561c7cde",
+  "Id": "e0daa1d365f8497f8182080878ad391e",
   "Name": "Clean windows ( Fresh Install )",
   "Description": "Clean gaming and debloat profile with zero animations and full performance.",
   "Author": "Samir Masoud",
@@ -12,7 +12,12 @@
   "Rating": 5,
   "ReviewCount": 1,
   "DownloadCount": 0,
-  "Tags": [],
+  "Tags": [
+    "Gaming",
+    "LowLatency",
+    "Debloat",
+    "FreshInstall"
+  ],
   "Version": "1.0",
   "HasUpdateAvailable": false,
   "TweakStates": {
@@ -114,7 +119,6 @@
     "gaming-scheduling-category": "Applied",
     "gaming-gpu-priority": "realtime",
     "gaming-directx-flip-model": "Applied",
-    "gaming-nvidia-sharpening": "Applied",
     "gaming-fullscreen-optimizations": "Applied",
     "gaming-performance-desktop-composition": "Applied",
     "gaming-disable-mpo": "Applied",
@@ -298,7 +302,6 @@
     "opt-network-ecn-capability": "Applied",
     "opt-network-disable-rsc": "Applied",
     "opt-storage-disable-8dot3": "Applied",
-    "opt-gpu-intel-intel-gpu-tweaks": "Applied",
     "opt-advanced-global-timer-resolution-requests": "Applied",
     "opt-advanced-direct-x-kernel-thread-priority-settings": "Applied",
     "opt-advanced-i-o-priority-tweaks": "Applied",
@@ -329,31 +332,109 @@
   "WallpaperUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rrxm2j.png",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": null,
-  "NvidiaProfileName": "Ultra Low Latency (Max FPS)",
-  "PowerPlanUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/PowerPlans/TechBites%20Ultimate%20Power.pow",
-  "PowerPlanName": "TechBites Ultimate Power",
+  "NvidiaProfileName": null,
+  "PowerPlanUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/PowerPlans/Tech%20Bites%20Esports%200-Delay%20%28Desktop%20PC%20or%20Heavy-Cooled%20Laptop%29.pow",
+  "PowerPlanName": "Tech Bites Esports 0-Delay (Desktop PC or Heavy-Cooled Laptop)",
   "MsiConfig": {
     "EnableLowLatencyBoost": true,
     "DeviceRules": [
-      { "DeviceCategory": "Device", "DeviceMatchPattern": "Intel", "MsiEnabled": true, "InterruptPriority": 3, "MessageLimit": 1 },
-      { "DeviceCategory": "Device", "DeviceMatchPattern": "High Definition Audio Controller", "MsiEnabled": true, "InterruptPriority": 3, "MessageLimit": 1 },
-      { "DeviceCategory": "Device", "DeviceMatchPattern": "NVIDIA", "MsiEnabled": true, "InterruptPriority": 3, "MessageLimit": 1 },
-      { "DeviceCategory": "Device", "DeviceMatchPattern": "Standard NVM Express Controller", "MsiEnabled": true, "InterruptPriority": 3, "MessageLimit": 1 },
-      { "DeviceCategory": "Device", "DeviceMatchPattern": "Standard SATA AHCI Controller", "MsiEnabled": true, "InterruptPriority": 3, "MessageLimit": 1 },
-      { "DeviceCategory": "Device", "DeviceMatchPattern": "VMware VMCI Host Device", "MsiEnabled": true, "InterruptPriority": 3, "MessageLimit": 1 }
+      {
+        "DeviceCategory": "GPU",
+        "DeviceMatchPattern": "NVIDIA",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "GPU",
+        "DeviceMatchPattern": "AMD",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "GPU",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Network",
+        "DeviceMatchPattern": "Realtek",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Network",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Storage",
+        "DeviceMatchPattern": "Standard NVM Express Controller",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Storage",
+        "DeviceMatchPattern": "Standard SATA AHCI Controller",
+        "MsiEnabled": true,
+        "InterruptPriority": 2,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Audio",
+        "DeviceMatchPattern": "High Definition Audio Controller",
+        "MsiEnabled": true,
+        "InterruptPriority": 2,
+        "MessageLimit": 1
+      }
     ]
   },
   "BiosConfig": null,
   "StartupConfig": {
     "Rules": [
-      { "AppName": "com.squirrel.Teams.Teams", "ExecutableName": "Samir", "TargetEnabled": false, "PreferredSource": null },
-      { "AppName": "Discord", "ExecutableName": "Update.exe", "TargetEnabled": false, "PreferredSource": null },
-      { "AppName": "EpicGamesLauncher", "ExecutableName": "EpicGamesLauncher.exe", "TargetEnabled": false, "PreferredSource": null },
-      { "AppName": "MicrosoftEdgeAutoLaunch_011DA32910B0DEBE65567567A7BFA6A5", "ExecutableName": "msedge.exe", "TargetEnabled": false, "PreferredSource": null },
-      { "AppName": "OneDrive", "ExecutableName": "OneDrive.exe", "TargetEnabled": false, "PreferredSource": null },
-      { "AppName": "Steam", "ExecutableName": "steam.exe", "TargetEnabled": false, "PreferredSource": null },
-      { "AppName": "TeamsMachineInstaller", "ExecutableName": "Teams", "TargetEnabled": false, "PreferredSource": null },
-      { "AppName": "vmware-tray.exe", "ExecutableName": "vmware-tray.exe", "TargetEnabled": false, "PreferredSource": null }
+      {
+        "AppName": "Discord",
+        "ExecutableName": "Discord.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Epic Games Launcher",
+        "ExecutableName": "EpicGamesLauncher.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Microsoft OneDrive",
+        "ExecutableName": "OneDrive.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Steam",
+        "ExecutableName": "Steam.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Spotify",
+        "ExecutableName": "Spotify.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "Microsoft Edge",
+        "ExecutableName": "msedge.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      }
     ]
   },
   "DebloatConfig": {
@@ -404,7 +485,6 @@
       "feature-recall",
       "windows-app-writing-assistant",
       "capability-internet-explorer",
-      "capability-notepad",
       "capability-quick-assist",
       "capability-steps-recorder",
       "capability-windows-media-player"
