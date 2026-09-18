@@ -1,9 +1,9 @@
 {
   "Id": "33dc2d6fbb0a435ab67b1e1751b665ac",
-  "Name": "Clean windows ( Fresh Install - AMD Edition + No Updates )",
+  "Name": "Clean windows ( Fresh Install - AMD Edition \u002B No Updates )",
   "Description": "Clean gaming and debloat profile for AMD Radeon users with zero animations, aggressive 3D profile, ULPS disabled, power gating eliminated, low-latency graphics scheduling, and Windows Updates fully blocked.",
   "Author": "Samir Masoud",
-  "Icon": "⚡",
+  "Icon": "\u26A1",
   "IsCommunityProfile": true,
   "PasswordHash": "8PwfLYhgy5Ajrzc59WE82yRmnzqftMtI2J9KKYHN8Og=",
   "PasswordSalt": "YfrxBJpXnMzOBdNvt4ZM6g==",
@@ -138,16 +138,29 @@
     "gaming-fax-service": "serviceoption-disabledrecommended",
     "gaming-mixed-reality-service": "serviceoption-disabled",
     "gaming-mobile-hotspot-service": "serviceoption-disabled",
+    "gaming-task-program-data-updater": "Applied",
     "gaming-task-usb-ceip": "Applied",
+    "gaming-task-maps-update": "Applied",
     "gaming-task-windows-ai": "Applied",
     "gaming-task-office-actions-server": "Applied",
     "visual-effects-mode": "adjust-for-best-performance",
-    "font-smoothing": "Applied",
     "show-thumbnails": "Applied",
+    "font-smoothing": "Applied",
     "power-fast-startup": "Applied",
     "start-power-hibernate-option": "Applied",
     "processor-min-state": "Applied",
     "power-throttling": "Applied",
+    "updates-policy-mode": "disabled-not-recommended-security-risk",
+    "updates-delivery-optimization": "serviceoption-disabled",
+    "updates-latest-updates": "Applied",
+    "updates-other-products": "Applied",
+    "updates-metered-connection": "Applied",
+    "updates-driver-controls": "Applied",
+    "updates-driver-coinstallers": "Applied",
+    "updates-disable-wu-access": "Applied",
+    "updates-disable-waasmedic": "Applied",
+    "updates-disable-usosvc": "Applied",
+    "updates-disable-dosvc": "Applied",
     "theme-mode-windows": "dark-mode",
     "taskbar-clean": "Applied",
     "taskbar-alignment": "left",
@@ -251,6 +264,7 @@
     "opt-windows-search-cortana-web": "Applied",
     "opt-windows-background-browsers": "Applied",
     "opt-windows-device-capability-access": "Applied",
+    "opt-windows-update-driver-security-pack": "Applied",
     "opt-network-network-system-profile": "Applied",
     "opt-network-lanman-server-throughput": "Applied",
     "opt-network-lanman-workstation-throughput": "Applied",
@@ -305,10 +319,23 @@
     "opt-network-ecn-capability": "Applied",
     "opt-network-disable-rsc": "Applied",
     "opt-storage-disable-8dot3": "Applied",
+    "opt-gpu-amd-disable-amd-gpu-preemptions": "Applied",
+    "opt-gpu-amd-amd-aggressive-3d-profile": "Applied",
+    "opt-gpu-amd-amd-logging-services-off": "Applied",
+    "opt-gpu-amd-amd-tweak-pack-part-1": "Applied",
+    "opt-gpu-amd-amd-tweak-pack-part-2": "Applied",
     "opt-advanced-global-timer-resolution-requests": "Applied",
+    "opt-advanced-graphics-power-latency-settings": "Applied",
+    "opt-advanced-graphics-driver-power-optimizations": "Applied",
+    "opt-advanced-graphics-driver-preemption-settings": "Applied",
+    "opt-advanced-direct-x-kernel-latency-settings": "Applied",
     "opt-advanced-direct-x-kernel-thread-priority-settings": "Applied",
+    "opt-advanced-graphics-power-system-settings": "Applied",
     "opt-advanced-i-o-priority-tweaks": "Applied",
     "opt-advanced-disable-cpu-power-throttling": "Applied",
+    "opt-advanced-graphics-drivers-scheduler-optimizations": "Applied",
+    "opt-advanced-graphics-drivers-settings": "Applied",
+    "opt-advanced-gpu-scheduler-optimizations": "Applied",
     "opt-advanced-gaming-task-priority-optimizations": "Applied",
     "opt-advanced-i-o-memory-policy-optimizations": "Applied",
     "opt-advanced-power-settings-optimizations": "Applied",
@@ -322,6 +349,7 @@
     "monitor-gpu-stretched-scaling": "Applied",
     "sys-opt-brave-debloat": "Applied",
     "sys-opt-remove-windows-ai": "Applied",
+    "opt-gpu-tdr-debug-mode": "Applied",
     "modern-ai-copilot-disable": "Applied",
     "modern-ai-recall-disable": "Applied",
     "modern-ai-suggested-actions-disable": "Applied",
@@ -331,85 +359,85 @@
     "modern-ai-notepad-rewrite-disable": "Applied",
     "modern-ai-hide-settings-components": "Applied",
     "taskbar-search-box": "hide",
-    "opt-gpu-amd-disable-amd-gpu-preemptions": "Applied",
-    "opt-gpu-amd-amd-aggressive-3d-profile": "Applied",
-    "opt-gpu-amd-amd-logging-services-off": "Applied",
-    "opt-gpu-amd-amd-tweak-pack-part-1": "Applied",
-    "opt-gpu-amd-amd-tweak-pack-part-2": "Applied",
-    "opt-gpu-tdr-debug-mode": "Applied",
     "gpu-write-combining": "Applied",
     "gpu-tdr": "Applied",
-    "gpu-preemption": "Applied",
-    "opt-advanced-gpu-scheduler-optimizations": "Applied",
-    "opt-advanced-graphics-power-latency-settings": "Applied",
-    "opt-advanced-graphics-driver-power-optimizations": "Applied",
-    "opt-advanced-graphics-driver-preemption-settings": "Applied",
-    "opt-advanced-direct-x-kernel-latency-settings": "Applied",
-    "opt-advanced-graphics-power-system-settings": "Applied",
-    "opt-advanced-graphics-drivers-scheduler-optimizations": "Applied",
-    "opt-advanced-graphics-drivers-settings": "Applied",
-    "updates-disable-wu-access": "Applied",
-    "updates-disable-waasmedic": "Applied",
-    "updates-disable-usosvc": "Applied",
-    "updates-disable-dosvc": "Applied",
-    "updates-policy-mode": "disabled-not-recommended-security-risk",
-    "updates-delivery-optimization": "serviceoption-disabled",
-    "updates-driver-controls": "Applied",
-    "updates-driver-coinstallers": "Applied",
-    "updates-latest-updates": "Applied",
-    "updates-other-products": "Applied",
-    "updates-metered-connection": "Applied",
-    "opt-windows-update-driver-security-pack": "Applied",
-    "gaming-task-program-data-updater": "Applied",
-    "gaming-task-maps-update": "Applied"
+    "gpu-preemption": "Applied"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rrxm2j.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/3l/wallhaven-3lzjev.png",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": null,
-  "NvidiaProfileName": null,
-  "PowerPlanUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/PowerPlans/Tech%20Bites%20AMD%20Ryzen%20CPUs%20%28Ryzen%203000%20%205000%20%207000%20%209000%20%26%20X3D%29.pow",
-  "PowerPlanName": "Tech Bites AMD Ryzen CPUs (Ryzen 3000  5000  7000  9000 & X3D)",
+  "NvidiaProfileName": "Ultra Low Latency (Max FPS)",
+  "PowerPlanUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/PowerPlans/Tech%20Bites%20AMD%20Ryzen%20CPUs%20(Ryzen%203000%20%205000%20%207000%20%209000%20%26%20X3D).pow",
+  "PowerPlanName": "Tech Bites AMD Ryzen CPUs (Ryzen 3000  5000  7000  9000 \u0026 X3D)",
   "MsiConfig": {
     "EnableLowLatencyBoost": true,
     "DeviceRules": [
       {
-        "DeviceCategory": "GPU",
-        "DeviceMatchPattern": "AMD",
-        "MsiEnabled": true,
-        "InterruptPriority": 3,
-        "MessageLimit": 1
-      },
-      {
-        "DeviceCategory": "Network",
-        "DeviceMatchPattern": "Realtek",
-        "MsiEnabled": true,
-        "InterruptPriority": 3,
-        "MessageLimit": 1
-      },
-      {
-        "DeviceCategory": "Network",
+        "DeviceCategory": "Device",
         "DeviceMatchPattern": "Intel",
         "MsiEnabled": true,
         "InterruptPriority": 3,
         "MessageLimit": 1
       },
       {
-        "DeviceCategory": "Storage",
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "High Definition Audio Controller",
+        "MsiEnabled": true,
+        "InterruptPriority": 2,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "High Definition Audio Controller",
+        "MsiEnabled": true,
+        "InterruptPriority": 2,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
         "DeviceMatchPattern": "Standard NVM Express Controller",
         "MsiEnabled": true,
         "InterruptPriority": 3,
         "MessageLimit": 1
       },
       {
-        "DeviceCategory": "Storage",
+        "DeviceCategory": "Device",
         "DeviceMatchPattern": "Standard SATA AHCI Controller",
         "MsiEnabled": true,
         "InterruptPriority": 2,
         "MessageLimit": 1
       },
       {
-        "DeviceCategory": "Audio",
-        "DeviceMatchPattern": "High Definition Audio Controller",
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Standard SATA AHCI Controller",
         "MsiEnabled": true,
         "InterruptPriority": 2,
         "MessageLimit": 1
@@ -421,37 +449,43 @@
     "Rules": [
       {
         "AppName": "Discord",
-        "ExecutableName": "Discord.exe",
+        "ExecutableName": "Update.exe",
         "TargetEnabled": false,
         "PreferredSource": null
       },
       {
-        "AppName": "Epic Games Launcher",
+        "AppName": "EpicGamesLauncher",
         "ExecutableName": "EpicGamesLauncher.exe",
         "TargetEnabled": false,
         "PreferredSource": null
       },
       {
-        "AppName": "Microsoft OneDrive",
+        "AppName": "MicrosoftEdgeAutoLaunch_011DA32910B0DEBE65567567A7BFA6A5",
+        "ExecutableName": "msedge.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "MicrosoftEdgeAutoLaunch_011DA32910B0DEBE65567567A7BFA6A5",
+        "ExecutableName": "msedge.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "OneDrive",
         "ExecutableName": "OneDrive.exe",
         "TargetEnabled": false,
         "PreferredSource": null
       },
       {
         "AppName": "Steam",
-        "ExecutableName": "Steam.exe",
+        "ExecutableName": "steam.exe",
         "TargetEnabled": false,
         "PreferredSource": null
       },
       {
-        "AppName": "Spotify",
-        "ExecutableName": "Spotify.exe",
-        "TargetEnabled": false,
-        "PreferredSource": null
-      },
-      {
-        "AppName": "Microsoft Edge",
-        "ExecutableName": "msedge.exe",
+        "AppName": "Steam",
+        "ExecutableName": "steam.exe",
         "TargetEnabled": false,
         "PreferredSource": null
       }
@@ -526,7 +560,7 @@
     ]
   },
   "WindowsUpdateConfig": {
-    "PauseUpdates": true,
+    "PauseUpdates": false,
     "PauseDays": 3650,
     "BlockWindowsUpdateCompletely": true,
     "ExcludeDrivers": true,

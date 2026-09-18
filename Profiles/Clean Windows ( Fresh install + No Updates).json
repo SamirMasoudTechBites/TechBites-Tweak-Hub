@@ -1,9 +1,9 @@
 {
   "Id": "4b377a0c25d246c3b9909dd4561c7cde",
-  "Name": "Clean Windows ( Fresh Install + No Updates )",
+  "Name": "Clean Windows ( Fresh Install \u002B No Updates )",
   "Description": "Clean gaming and debloat profile with zero animations, Windows updates completely blocked, Microsoft Store working, and full performance.",
   "Author": "Samir Masoud",
-  "Icon": "🛡️",
+  "Icon": "\uD83D\uDEE1\uFE0F",
   "IsCommunityProfile": true,
   "PasswordHash": "8PwfLYhgy5Ajrzc59WE82yRmnzqftMtI2J9KKYHN8Og=",
   "PasswordSalt": "YfrxBJpXnMzOBdNvt4ZM6g==",
@@ -136,16 +136,29 @@
     "gaming-fax-service": "serviceoption-disabledrecommended",
     "gaming-mixed-reality-service": "serviceoption-disabled",
     "gaming-mobile-hotspot-service": "serviceoption-disabled",
+    "gaming-task-program-data-updater": "Applied",
     "gaming-task-usb-ceip": "Applied",
+    "gaming-task-maps-update": "Applied",
     "gaming-task-windows-ai": "Applied",
     "gaming-task-office-actions-server": "Applied",
     "visual-effects-mode": "adjust-for-best-performance",
-    "font-smoothing": "Applied",
     "show-thumbnails": "Applied",
+    "font-smoothing": "Applied",
     "power-fast-startup": "Applied",
     "start-power-hibernate-option": "Applied",
     "processor-min-state": "Applied",
     "power-throttling": "Applied",
+    "updates-policy-mode": "disabled-not-recommended-security-risk",
+    "updates-delivery-optimization": "serviceoption-disabled",
+    "updates-latest-updates": "Applied",
+    "updates-other-products": "Applied",
+    "updates-metered-connection": "Applied",
+    "updates-driver-controls": "Applied",
+    "updates-driver-coinstallers": "Applied",
+    "updates-disable-wu-access": "Applied",
+    "updates-disable-waasmedic": "Applied",
+    "updates-disable-usosvc": "Applied",
+    "updates-disable-dosvc": "Applied",
     "theme-mode-windows": "dark-mode",
     "taskbar-clean": "Applied",
     "taskbar-alignment": "left",
@@ -249,6 +262,7 @@
     "opt-windows-search-cortana-web": "Applied",
     "opt-windows-background-browsers": "Applied",
     "opt-windows-device-capability-access": "Applied",
+    "opt-windows-update-driver-security-pack": "Applied",
     "opt-network-network-system-profile": "Applied",
     "opt-network-lanman-server-throughput": "Applied",
     "opt-network-lanman-workstation-throughput": "Applied",
@@ -282,7 +296,6 @@
     "opt-storage-enable-disk-cache-power-protection": "Applied",
     "opt-storage-enable-user-write-cache": "Applied",
     "opt-storage-nvme-low-latency-power": "Applied",
-    "opt-storage-disable-8dot3": "Applied",
     "opt-usb-device-driver-thread-priority": "Applied",
     "opt-usb-usb-system-thread-priority": "Applied",
     "opt-usb-usb-low-latency-core": "Applied",
@@ -303,6 +316,7 @@
     "opt-network-tcp-ack-nagle-strip": "Applied",
     "opt-network-ecn-capability": "Applied",
     "opt-network-disable-rsc": "Applied",
+    "opt-storage-disable-8dot3": "Applied",
     "opt-advanced-global-timer-resolution-requests": "Applied",
     "opt-advanced-direct-x-kernel-thread-priority-settings": "Applied",
     "opt-advanced-i-o-priority-tweaks": "Applied",
@@ -328,83 +342,90 @@
     "modern-ai-settings-agent-disable": "Applied",
     "modern-ai-notepad-rewrite-disable": "Applied",
     "modern-ai-hide-settings-components": "Applied",
-    "taskbar-search-box": "hide",
-    "gaming-task-maps-update": "Applied",
-    "gaming-task-program-data-updater": "Applied",
-    "opt-windows-update-driver-security-pack": "Applied",
-    "updates-delivery-optimization": "serviceoption-disabled",
-    "updates-disable-dosvc": "Applied",
-    "updates-disable-usosvc": "Applied",
-    "updates-disable-waasmedic": "Applied",
-    "updates-disable-wu-access": "Applied",
-    "updates-driver-coinstallers": "Applied",
-    "updates-driver-controls": "Applied",
-    "updates-latest-updates": "Applied",
-    "updates-metered-connection": "Applied",
-    "updates-other-products": "Applied",
-    "updates-policy-mode": "disabled-not-recommended-security-risk"
+    "taskbar-search-box": "hide"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rrxm2j.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/qr/wallhaven-qrm58q.png",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": null,
-  "NvidiaProfileName": null,
-  "PowerPlanUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/PowerPlans/Tech%20Bites%20Esports%200-Delay%20%28Desktop%20PC%20or%20Heavy-Cooled%20Laptop%29.pow",
+  "NvidiaProfileName": "Ultra Low Latency (Max FPS)",
+  "PowerPlanUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/PowerPlans/Tech%20Bites%20Esports%200-Delay%20(Desktop%20PC%20or%20Heavy-Cooled%20Laptop).pow",
   "PowerPlanName": "Tech Bites Esports 0-Delay (Desktop PC or Heavy-Cooled Laptop)",
   "MsiConfig": {
     "EnableLowLatencyBoost": true,
     "DeviceRules": [
       {
-        "DeviceCategory": "GPU",
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "High Definition Audio Controller",
+        "MsiEnabled": true,
+        "InterruptPriority": 2,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "High Definition Audio Controller",
+        "MsiEnabled": true,
+        "InterruptPriority": 2,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
         "DeviceMatchPattern": "NVIDIA",
         "MsiEnabled": true,
         "InterruptPriority": 3,
         "MessageLimit": 1
       },
       {
-        "DeviceCategory": "GPU",
-        "DeviceMatchPattern": "AMD",
-        "MsiEnabled": true,
-        "InterruptPriority": 3,
-        "MessageLimit": 1
-      },
-      {
-        "DeviceCategory": "GPU",
-        "DeviceMatchPattern": "Intel",
-        "MsiEnabled": true,
-        "InterruptPriority": 3,
-        "MessageLimit": 1
-      },
-      {
-        "DeviceCategory": "Network",
-        "DeviceMatchPattern": "Realtek",
-        "MsiEnabled": true,
-        "InterruptPriority": 3,
-        "MessageLimit": 1
-      },
-      {
-        "DeviceCategory": "Network",
-        "DeviceMatchPattern": "Intel",
-        "MsiEnabled": true,
-        "InterruptPriority": 3,
-        "MessageLimit": 1
-      },
-      {
-        "DeviceCategory": "Storage",
+        "DeviceCategory": "Device",
         "DeviceMatchPattern": "Standard NVM Express Controller",
         "MsiEnabled": true,
         "InterruptPriority": 3,
         "MessageLimit": 1
       },
       {
-        "DeviceCategory": "Storage",
+        "DeviceCategory": "Device",
         "DeviceMatchPattern": "Standard SATA AHCI Controller",
         "MsiEnabled": true,
         "InterruptPriority": 2,
         "MessageLimit": 1
       },
       {
-        "DeviceCategory": "Audio",
-        "DeviceMatchPattern": "High Definition Audio Controller",
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Standard SATA AHCI Controller",
         "MsiEnabled": true,
         "InterruptPriority": 2,
         "MessageLimit": 1
@@ -416,37 +437,43 @@
     "Rules": [
       {
         "AppName": "Discord",
-        "ExecutableName": "Discord.exe",
+        "ExecutableName": "Update.exe",
         "TargetEnabled": false,
         "PreferredSource": null
       },
       {
-        "AppName": "Epic Games Launcher",
+        "AppName": "EpicGamesLauncher",
         "ExecutableName": "EpicGamesLauncher.exe",
         "TargetEnabled": false,
         "PreferredSource": null
       },
       {
-        "AppName": "Microsoft OneDrive",
+        "AppName": "MicrosoftEdgeAutoLaunch_011DA32910B0DEBE65567567A7BFA6A5",
+        "ExecutableName": "msedge.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "MicrosoftEdgeAutoLaunch_011DA32910B0DEBE65567567A7BFA6A5",
+        "ExecutableName": "msedge.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "OneDrive",
         "ExecutableName": "OneDrive.exe",
         "TargetEnabled": false,
         "PreferredSource": null
       },
       {
         "AppName": "Steam",
-        "ExecutableName": "Steam.exe",
+        "ExecutableName": "steam.exe",
         "TargetEnabled": false,
         "PreferredSource": null
       },
       {
-        "AppName": "Spotify",
-        "ExecutableName": "Spotify.exe",
-        "TargetEnabled": false,
-        "PreferredSource": null
-      },
-      {
-        "AppName": "Microsoft Edge",
-        "ExecutableName": "msedge.exe",
+        "AppName": "Steam",
+        "ExecutableName": "steam.exe",
         "TargetEnabled": false,
         "PreferredSource": null
       }
@@ -521,7 +548,7 @@
     ]
   },
   "WindowsUpdateConfig": {
-    "PauseUpdates": true,
+    "PauseUpdates": false,
     "PauseDays": 3650,
     "BlockWindowsUpdateCompletely": true,
     "ExcludeDrivers": true,
