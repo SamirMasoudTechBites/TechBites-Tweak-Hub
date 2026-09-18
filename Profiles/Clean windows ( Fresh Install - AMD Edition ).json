@@ -348,7 +348,7 @@
     "gpu-tdr": "Applied",
     "gpu-preemption": "Applied"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/e8/wallhaven-e8vzmw.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/xe/wallhaven-xez3pz.png",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": null,
   "NvidiaProfileName": "Ultra Low Latency (Max FPS)",
@@ -368,20 +368,13 @@
         "DeviceCategory": "Device",
         "DeviceMatchPattern": "High Definition Audio Controller",
         "MsiEnabled": true,
-        "InterruptPriority": 2,
+        "InterruptPriority": 3,
         "MessageLimit": 1
       },
       {
         "DeviceCategory": "Device",
         "DeviceMatchPattern": "High Definition Audio Controller",
         "MsiEnabled": true,
-        "InterruptPriority": 2,
-        "MessageLimit": 1
-      },
-      {
-        "DeviceCategory": "Device",
-        "DeviceMatchPattern": "Intel",
-        "MsiEnabled": true,
         "InterruptPriority": 3,
         "MessageLimit": 1
       },
@@ -402,6 +395,20 @@
       {
         "DeviceCategory": "Device",
         "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "Intel",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "NVIDIA",
         "MsiEnabled": true,
         "InterruptPriority": 3,
         "MessageLimit": 1
@@ -417,14 +424,21 @@
         "DeviceCategory": "Device",
         "DeviceMatchPattern": "Standard SATA AHCI Controller",
         "MsiEnabled": true,
-        "InterruptPriority": 2,
+        "InterruptPriority": 3,
         "MessageLimit": 1
       },
       {
         "DeviceCategory": "Device",
         "DeviceMatchPattern": "Standard SATA AHCI Controller",
         "MsiEnabled": true,
-        "InterruptPriority": 2,
+        "InterruptPriority": 3,
+        "MessageLimit": 1
+      },
+      {
+        "DeviceCategory": "Device",
+        "DeviceMatchPattern": "VMware VMCI Host Device",
+        "MsiEnabled": true,
+        "InterruptPriority": 3,
         "MessageLimit": 1
       }
     ]
@@ -432,6 +446,18 @@
   "BiosConfig": null,
   "StartupConfig": {
     "Rules": [
+      {
+        "AppName": "com.squirrel.Teams.Teams",
+        "ExecutableName": "Samir",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "com.squirrel.Teams.Teams",
+        "ExecutableName": "Samir",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
       {
         "AppName": "Discord",
         "ExecutableName": "Update.exe",
@@ -471,6 +497,18 @@
       {
         "AppName": "Steam",
         "ExecutableName": "steam.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "BraveSoftwareUpdateTaskMachineCore{0A3EA8F2-F7B0-480F-AA7A-1ABCACB9E9F8}",
+        "ExecutableName": "BraveUpdate.exe",
+        "TargetEnabled": false,
+        "PreferredSource": null
+      },
+      {
+        "AppName": "MicrosoftEdgeUpdateTaskMachineCore{9412D7B7-E726-459D-8914-944046822D81}",
+        "ExecutableName": "Program",
         "TargetEnabled": false,
         "PreferredSource": null
       }
