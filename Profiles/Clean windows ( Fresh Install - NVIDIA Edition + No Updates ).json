@@ -1,9 +1,9 @@
 {
   "Id": "e9467dc44c184761a837b7c37fd4a1c2",
   "Name": "Clean windows ( Fresh Install - NVIDIA Edition + No Updates )",
-  "Description": "Clean gaming and debloat profile for NVIDIA users with zero animations, full low-latency display pipeline, direct flip presentation, P-States locked, RTX DRS profile integration, and Windows Updates fully blocked.",
+  "Description": "Clean gaming and debloat profile for NVIDIA users with zero animations, low-latency display pipeline, direct flip presentation, P-States locked, RTX DRS integration, Windows Updates blocked, and bundled 5K matrix core wallpaper.",
   "Author": "Samir Masoud",
-  "Icon": "⚡",
+  "Icon": "",
   "IsCommunityProfile": true,
   "PasswordHash": "8PwfLYhgy5Ajrzc59WE82yRmnzqftMtI2J9KKYHN8Og=",
   "PasswordSalt": "YfrxBJpXnMzOBdNvt4ZM6g==",
@@ -15,6 +15,8 @@
   "Tags": [
     "Gaming",
     "NVIDIA",
+    "GeForce",
+    "RTX",
     "LowLatency",
     "Debloat",
     "FreshInstall",
@@ -387,7 +389,7 @@
     "gaming-task-program-data-updater": "Applied",
     "gaming-task-maps-update": "Applied"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rrxm2j.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/3z/wallhaven-3zgz2y.png",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Nvidia%20Profiles/RTX%20Profile%20(use%20it%20for%20RTX%20GPU).nip",
   "NvidiaProfileName": "RTX Profile (use it for RTX GPU)",

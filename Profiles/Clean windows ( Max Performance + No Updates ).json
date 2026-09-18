@@ -1,9 +1,9 @@
 {
   "Id": "e87c8867c32146f9bc67a29bd7239255",
   "Name": "Clean windows ( Max Performance + No Updates )",
-  "Description": "God-mode ultimate performance profile with 420+ optimizations: VBS & Core Isolation disabled, Spectre/Meltdown mitigations disabled, 0.5ms kernel timer, game-specific high CPU priorities, full NVIDIA DRS & GPU low-latency pipeline, extreme RAM & CPU tuning, zero animations, full debloat, and Windows updates paused (3650 days) with Microsoft Store fully working.",
+  "Description": "Maximum gaming performance profile with aggressive latency tuning, deep debloat, zero background throttling, Windows Updates blocked, and bundled 4K synthwave speed racer wallpaper.",
   "Author": "Samir Masoud",
-  "Icon": "⚡",
+  "Icon": "",
   "IsCommunityProfile": true,
   "PasswordHash": "8PwfLYhgy5Ajrzc59WE82yRmnzqftMtI2J9KKYHN8Og=",
   "PasswordSalt": "YfrxBJpXnMzOBdNvt4ZM6g==",
@@ -17,7 +17,8 @@
     "MaxPerformance",
     "LowLatency",
     "Debloat",
-    "NoUpdates"
+    "NoUpdates",
+    "FPSBoost"
   ],
   "Version": "1.0",
   "HasUpdateAvailable": false,
@@ -428,7 +429,7 @@
     "updates-other-products": "Applied",
     "updates-policy-mode": "disabled-not-recommended-security-risk"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rrxm2j.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/3l/wallhaven-3l8wgy.png",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": null,
   "NvidiaProfileName": null,

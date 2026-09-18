@@ -1,9 +1,9 @@
 {
   "Id": "e0daa1d365f8497f8182080878ad391e",
   "Name": "Clean windows ( Fresh Install )",
-  "Description": "Clean gaming and debloat profile with zero animations and full performance.",
+  "Description": "Clean gaming and debloat baseline profile with zero animations, Windows Updates and Microsoft Store fully working, background telemetry eliminated, and bundled 4K futuristic city wallpaper.",
   "Author": "Samir Masoud",
-  "Icon": "🛡️",
+  "Icon": "",
   "IsCommunityProfile": true,
   "PasswordHash": "8PwfLYhgy5Ajrzc59WE82yRmnzqftMtI2J9KKYHN8Og=",
   "PasswordSalt": "YfrxBJpXnMzOBdNvt4ZM6g==",
@@ -16,7 +16,8 @@
     "Gaming",
     "LowLatency",
     "Debloat",
-    "FreshInstall"
+    "FreshInstall",
+    "CleanBase"
   ],
   "Version": "1.0",
   "HasUpdateAvailable": false,
@@ -329,7 +330,7 @@
     "modern-ai-hide-settings-components": "Applied",
     "taskbar-search-box": "hide"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rrxm2j.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/13/wallhaven-136g9v.png",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": null,
   "NvidiaProfileName": null,

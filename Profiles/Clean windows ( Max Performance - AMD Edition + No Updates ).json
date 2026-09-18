@@ -1,9 +1,9 @@
 {
   "Id": "0601fb3e78d243d3ae9d96285acc22ca",
   "Name": "Clean windows ( Max Performance - AMD Edition + No Updates )",
-  "Description": "Ultimate god-mode performance profile for AMD Radeon GPUs with aggressive 3D overrides, ULPS off, compute preemption tuning, 0.5ms kernel timer, VBS off, Wi-Fi and Printers working, and Windows Updates fully blocked.",
+  "Description": "Ultimate performance gaming preset for AMD Radeon with Windows Updates blocked. Aggressive clock profiles, disabled ULPS, zero power gating, maximum frametime stability, and bundled 4K dark crimson cyber warrior wallpaper.",
   "Author": "Samir Masoud",
-  "Icon": "⚡",
+  "Icon": "",
   "IsCommunityProfile": true,
   "PasswordHash": "8PwfLYhgy5Ajrzc59WE82yRmnzqftMtI2J9KKYHN8Og=",
   "PasswordSalt": "YfrxBJpXnMzOBdNvt4ZM6g==",
@@ -434,7 +434,7 @@
     "gaming-task-program-data-updater": "Applied",
     "gaming-task-maps-update": "Applied"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rrxm2j.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/4y/wallhaven-4yy21g.jpg",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": null,
   "NvidiaProfileName": null,

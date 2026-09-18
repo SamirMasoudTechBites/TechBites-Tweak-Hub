@@ -1,9 +1,9 @@
 {
   "Id": "c342eb011ec94ec48689c7bdaaee644b",
   "Name": "Clean windows ( Fresh Install - NVIDIA Edition )",
-  "Description": "Clean gaming and debloat profile for NVIDIA users with zero animations, full low-latency display pipeline, direct flip presentation, P-States locked, and RTX DRS profile integration.",
+  "Description": "Clean gaming and debloat profile for NVIDIA users with zero animations, low-latency display pipeline, direct flip presentation, P-States locked, RTX DRS profile integration, and bundled 4K cyberpunk neon green wallpaper.",
   "Author": "Samir Masoud",
-  "Icon": "\u26A1",
+  "Icon": "",
   "IsCommunityProfile": true,
   "PasswordHash": "8PwfLYhgy5Ajrzc59WE82yRmnzqftMtI2J9KKYHN8Og=",
   "PasswordSalt": "YfrxBJpXnMzOBdNvt4ZM6g==",
@@ -15,6 +15,8 @@
   "Tags": [
     "Gaming",
     "NVIDIA",
+    "GeForce",
+    "RTX",
     "LowLatency",
     "Debloat",
     "FreshInstall"
@@ -372,7 +374,7 @@
     "gpu-tdr": "Applied",
     "gpu-preemption": "Applied"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/zp/wallhaven-zpp57w.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/2e/wallhaven-2e3wjg.jpg",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Nvidia%20Profiles/RTX%20Profile%20(use%20it%20for%20RTX%20GPU).nip",
   "NvidiaProfileName": "RTX Profile (use it for RTX GPU)",

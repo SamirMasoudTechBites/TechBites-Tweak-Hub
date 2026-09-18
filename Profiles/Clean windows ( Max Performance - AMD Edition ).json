@@ -1,9 +1,9 @@
 {
   "Id": "55223310cad2415f94e2bd9f371bd3d3",
   "Name": "Clean windows ( Max Performance - AMD Edition )",
-  "Description": "Ultimate god-mode performance profile for AMD Radeon GPUs with aggressive 3D overrides, ULPS off, compute preemption tuning, 0.5ms kernel timer, VBS off, and fully working Windows Updates, Store, Wi-Fi, and Printers.",
+  "Description": "Ultimate performance gaming preset fine-tuned for AMD Radeon GPUs. Aggressive memory timing, disabled ULPS power saving, low-latency flip queue, zero microstutters, and bundled 4K cyber samurai blade wallpaper.",
   "Author": "Samir Masoud",
-  "Icon": "⚡",
+  "Icon": "",
   "IsCommunityProfile": true,
   "PasswordHash": "8PwfLYhgy5Ajrzc59WE82yRmnzqftMtI2J9KKYHN8Og=",
   "PasswordSalt": "YfrxBJpXnMzOBdNvt4ZM6g==",
@@ -18,8 +18,7 @@
     "AMD",
     "Radeon",
     "LowLatency",
-    "DailySafe",
-    "StoreCompatible"
+    "FPSBoost"
   ],
   "Version": "1.0",
   "HasUpdateAvailable": false,
@@ -420,7 +419,7 @@
     "opt-advanced-graphics-drivers-scheduler-optimizations": "Applied",
     "opt-advanced-graphics-drivers-settings": "Applied"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rrxm2j.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/x6/wallhaven-x6ozdl.png",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": null,
   "NvidiaProfileName": null,

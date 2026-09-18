@@ -1,9 +1,9 @@
 {
   "Id": "9a3753ebcc6b44de81e4cde5c0a3635f",
   "Name": "Clean windows ( Max Performance - NVIDIA Edition )",
-  "Description": "Ultimate god-mode performance profile for NVIDIA GPUs with all 41 live NVIDIA optimizations, RTX DRS profile integration, 0.5ms kernel timer, VBS off, and fully working Windows Updates, Store, Wi-Fi, and Printers.",
+  "Description": "Ultimate performance gaming preset fine-tuned for NVIDIA GeForce RTX. Deep driver tuning, locked high-performance P-States, direct flip, low-latency Reflex pipeline, and bundled 4K cyberpunk RTX neon wallpaper.",
   "Author": "Samir Masoud",
-  "Icon": "⚡",
+  "Icon": "",
   "IsCommunityProfile": true,
   "PasswordHash": "8PwfLYhgy5Ajrzc59WE82yRmnzqftMtI2J9KKYHN8Og=",
   "PasswordSalt": "YfrxBJpXnMzOBdNvt4ZM6g==",
@@ -16,6 +16,8 @@
     "Gaming",
     "MaxPerformance",
     "NVIDIA",
+    "GeForce",
+    "RTX",
     "LowLatency",
     "DailySafe",
     "StoreCompatible"
@@ -452,7 +454,7 @@
     "opt-gpu-nvidia-advanced-driver-debloat": "Applied",
     "opt-power-gpu-powermizer": "Applied"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rrxm2j.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/ey/wallhaven-eydv8k.jpg",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Nvidia%20Profiles/RTX%20Profile%20(use%20it%20for%20RTX%20GPU).nip",
   "NvidiaProfileName": "RTX Profile (use it for RTX GPU)",

@@ -1,9 +1,9 @@
 {
   "Id": "0233144b0f264bf596148e7efe569119",
   "Name": "Clean windows ( Max Performance - NVIDIA Edition + No Updates )",
-  "Description": "Ultimate god-mode performance profile for NVIDIA GPUs with all 41 live NVIDIA optimizations, RTX DRS profile integration, 0.5ms kernel timer, VBS off, Wi-Fi and Printers working, and Windows Updates fully blocked.",
+  "Description": "Ultimate performance gaming preset for NVIDIA GeForce RTX with Windows Updates blocked. Deep driver tuning, locked P-States, direct flip, ultra-low DPC latency, and bundled 5K neural matrix wallpaper.",
   "Author": "Samir Masoud",
-  "Icon": "⚡",
+  "Icon": "",
   "IsCommunityProfile": true,
   "PasswordHash": "8PwfLYhgy5Ajrzc59WE82yRmnzqftMtI2J9KKYHN8Og=",
   "PasswordSalt": "YfrxBJpXnMzOBdNvt4ZM6g==",
@@ -16,6 +16,8 @@
     "Gaming",
     "MaxPerformance",
     "NVIDIA",
+    "GeForce",
+    "RTX",
     "LowLatency",
     "NoUpdates",
     "Debloat"
@@ -466,7 +468,7 @@
     "gaming-task-program-data-updater": "Applied",
     "gaming-task-maps-update": "Applied"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rrxm2j.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/p8/wallhaven-p8dxz3.jpg",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Nvidia%20Profiles/RTX%20Profile%20(use%20it%20for%20RTX%20GPU).nip",
   "NvidiaProfileName": "RTX Profile (use it for RTX GPU)",

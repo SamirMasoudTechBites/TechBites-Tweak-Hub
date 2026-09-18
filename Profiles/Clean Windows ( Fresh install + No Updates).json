@@ -1,9 +1,9 @@
 {
   "Id": "4b377a0c25d246c3b9909dd4561c7cde",
-  "Name": "Clean Windows ( Fresh Install \u002B No Updates )",
-  "Description": "Clean gaming and debloat profile with zero animations, Windows updates completely blocked, Microsoft Store working, and full performance.",
+  "Name": "Clean Windows ( Fresh Install + No Updates )",
+  "Description": "Clean gaming and debloat profile with zero animations, Windows Updates completely blocked, Microsoft Store operational, and bundled 4K futuristic megacity wallpaper.",
   "Author": "Samir Masoud",
-  "Icon": "\uD83D\uDEE1\uFE0F",
+  "Icon": "",
   "IsCommunityProfile": true,
   "PasswordHash": "8PwfLYhgy5Ajrzc59WE82yRmnzqftMtI2J9KKYHN8Og=",
   "PasswordSalt": "YfrxBJpXnMzOBdNvt4ZM6g==",
@@ -17,7 +17,8 @@
     "LowLatency",
     "Debloat",
     "FreshInstall",
-    "NoUpdates"
+    "NoUpdates",
+    "CleanBase"
   ],
   "Version": "1.0",
   "HasUpdateAvailable": false,
@@ -344,7 +345,7 @@
     "modern-ai-hide-settings-components": "Applied",
     "taskbar-search-box": "hide"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/qr/wallhaven-qrm58q.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/vm/wallhaven-vm7k5p.jpg",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": null,
   "NvidiaProfileName": "Ultra Low Latency (Max FPS)",

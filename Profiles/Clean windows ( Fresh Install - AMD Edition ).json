@@ -1,9 +1,9 @@
 {
   "Id": "caf035c5ebfd4ebdbf0a9f8bdaacd471",
   "Name": "Clean windows ( Fresh Install - AMD Edition )",
-  "Description": "Clean gaming and debloat profile for AMD Radeon users with zero animations, aggressive 3D profile, ULPS disabled, power gating eliminated, and low-latency graphics scheduling.",
+  "Description": "Clean gaming and debloat profile for AMD Radeon users with zero animations, aggressive 3D profile, ULPS disabled, power gating eliminated, low-latency graphics scheduling, and bundled 4K crimson horizon wallpaper.",
   "Author": "Samir Masoud",
-  "Icon": "\uD83C\uDFAF",
+  "Icon": "",
   "IsCommunityProfile": true,
   "PasswordHash": "8PwfLYhgy5Ajrzc59WE82yRmnzqftMtI2J9KKYHN8Og=",
   "PasswordSalt": "YfrxBJpXnMzOBdNvt4ZM6g==",
@@ -348,12 +348,12 @@
     "gpu-tdr": "Applied",
     "gpu-preemption": "Applied"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/xe/wallhaven-xez3pz.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/o3/wallhaven-o3km89.png",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": null,
   "NvidiaProfileName": "Ultra Low Latency (Max FPS)",
   "PowerPlanUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/PowerPlans/Tech%20Bites%20AMD%20Ryzen%20CPUs%20(Ryzen%203000%20%205000%20%207000%20%209000%20%26%20X3D).pow",
-  "PowerPlanName": "Tech Bites AMD Ryzen CPUs (Ryzen 3000  5000  7000  9000 \u0026 X3D)",
+  "PowerPlanName": "Tech Bites AMD Ryzen CPUs (Ryzen 3000  5000  7000  9000 & X3D)",
   "MsiConfig": {
     "EnableLowLatencyBoost": true,
     "DeviceRules": [

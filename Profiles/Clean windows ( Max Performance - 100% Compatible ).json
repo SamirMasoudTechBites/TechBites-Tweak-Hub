@@ -1,9 +1,9 @@
 {
   "Id": "cb5012d322dd40638d850767acc5e223",
   "Name": "Clean windows ( Max Performance - 100% Compatible )",
-  "Description": "Ultimate god-mode performance profile with 400+ optimizations for extreme gaming, ultra-low latency, and maximum FPS across any hardware, with Windows Update, Microsoft Store, Wi-Fi, Notepad, and Printer services 100% intact.",
+  "Description": "100% everyday compatible max performance profile. Full gaming latency tweaks and smoothness with Microsoft Store, Xbox App, and Windows features intact, plus bundled 4K synthwave sunset wallpaper.",
   "Author": "Samir Masoud",
-  "Icon": "⚡",
+  "Icon": "",
   "IsCommunityProfile": true,
   "PasswordHash": "8PwfLYhgy5Ajrzc59WE82yRmnzqftMtI2J9KKYHN8Og=",
   "PasswordSalt": "YfrxBJpXnMzOBdNvt4ZM6g==",
@@ -414,7 +414,7 @@
     "legacy-nic-power-saving-sweep": "Applied",
     "legacy-scheduled-maintenance-tasks": "Applied"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rrxm2j.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/85/wallhaven-85zp6o.png",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": null,
   "NvidiaProfileName": null,

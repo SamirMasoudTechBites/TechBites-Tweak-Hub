@@ -1,9 +1,9 @@
 {
   "Id": "c6e93eec707344e1b6e13e261e7b6cb9",
   "Name": "Clean windows ( Max Performance )",
-  "Description": "God-mode ultimate performance profile with 420+ optimizations: VBS & Core Isolation disabled, Spectre/Meltdown mitigations disabled, 0.5ms kernel timer, game-specific high CPU priorities, full NVIDIA DRS & GPU low-latency pipeline, extreme RAM & CPU tuning, zero animations, and full debloat.",
+  "Description": "Maximum gaming performance profile with aggressive CPU & GPU latency tuning, deep debloat, DWM scheduling, timer resolution optimization, and bundled 4K cyberpunk supercar wallpaper.",
   "Author": "Samir Masoud",
-  "Icon": "⚡",
+  "Icon": "",
   "IsCommunityProfile": true,
   "PasswordHash": "8PwfLYhgy5Ajrzc59WE82yRmnzqftMtI2J9KKYHN8Og=",
   "PasswordSalt": "YfrxBJpXnMzOBdNvt4ZM6g==",
@@ -16,7 +16,8 @@
     "Gaming",
     "MaxPerformance",
     "LowLatency",
-    "Debloat"
+    "Debloat",
+    "FPSBoost"
   ],
   "Version": "1.0",
   "HasUpdateAvailable": false,
@@ -413,7 +414,7 @@
     "legacy-nic-power-saving-sweep": "Applied",
     "legacy-scheduled-maintenance-tasks": "Applied"
   },
-  "WallpaperUrl": "https://w.wallhaven.cc/full/rr/wallhaven-rrxm2j.png",
+  "WallpaperUrl": "https://w.wallhaven.cc/full/j5/wallhaven-j5pr65.png",
   "CursorUrl": "https://raw.githubusercontent.com/SamirMasoudTechBites/TechBites-Tweak-Hub/main/Cursors/windows-11-cursors-concept-v2.zip",
   "NvidiaProfileUrl": null,
   "NvidiaProfileName": null,
