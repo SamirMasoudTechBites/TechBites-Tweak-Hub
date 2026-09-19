@@ -15,7 +15,7 @@
 [![WinUI 3](https://img.shields.io/badge/WinUI-3%20Fluent-8A2BE2?style=for-the-badge&logo=windows&logoColor=white)](https://microsoft.github.io/microsoft-ui-xaml/)
 [![.NET 8 LTS](https://img.shields.io/badge/.NET-8%20LTS-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![Security Verified](https://img.shields.io/badge/Security-ECDSA%20Signed-2ECC71?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/SamirMasoudTechBites/TechBites-Tweak-Hub)
-[![VirusTotal Clean](https://img.shields.io/badge/VirusTotal-Verified_Clean-00C9FF?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/e7b95c8564a9759012d156e15e47202c176bc53dd2e7fdda61e25e0b54541126/detection)
+[![VirusTotal Clean](https://img.shields.io/badge/VirusTotal-Verified_Clean-00C9FF?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/b2f31dbd357c7e23be4b3332b64a7cd54a1cbbe06948d4a0ceb697552a2944f2/detection)
 [![Latest Release](https://img.shields.io/github/v/release/SamirMasoudTechBites/TechBites-Tweak-Hub?style=for-the-badge&color=FF6F00&label=Release)](https://github.com/SamirMasoudTechBites/TechBites-Tweak-Hub/releases)
 [![Downloads](https://img.shields.io/github/downloads/SamirMasoudTechBites/TechBites-Tweak-Hub/total?style=for-the-badge&color=orange&label=Downloads)](https://github.com/SamirMasoudTechBites/TechBites-Tweak-Hub/releases)
 [![Stars](https://img.shields.io/github/stars/SamirMasoudTechBites/TechBites-Tweak-Hub?style=for-the-badge&color=yellow&label=Stars)](https://github.com/SamirMasoudTechBites/TechBites-Tweak-Hub/stargazers)
@@ -286,11 +286,11 @@ User safety, privacy, and system stability are fundamental. Every official relea
 
 | Security Attribute | Verified Value |
 |---|---|
-| **VirusTotal Status** | [![VirusTotal Report](https://img.shields.io/badge/VirusTotal-Verified_Clean-00C9FF?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/e7b95c8564a9759012d156e15e47202c176bc53dd2e7fdda61e25e0b54541126/detection) |
-| **SHA-256 Hash** | `e7b95c8564a9759012d156e15e47202c176bc53dd2e7fdda61e25e0b54541126` |
+| **VirusTotal Status** | [![VirusTotal Report](https://img.shields.io/badge/VirusTotal-Verified_Clean-00C9FF?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/b2f31dbd357c7e23be4b3332b64a7cd54a1cbbe06948d4a0ceb697552a2944f2/detection) |
+| **SHA-256 Hash** | `b2f31dbd357c7e23be4b3332b64a7cd54a1cbbe06948d4a0ceb697552a2944f2` |
 | **Digital Integrity** | Asymmetric ECDSA P-256 Signed Manifest |
 | **Tamper Protection** | Memory Virtualization & Kernel Read Locks |
-| **Live Scan Link** | 🔗 [Inspect Live VirusTotal Analysis Report](https://www.virustotal.com/gui/file/e7b95c8564a9759012d156e15e47202c176bc53dd2e7fdda61e25e0b54541126/detection) |
+| **Live Scan Link** | 🔗 [Inspect Live VirusTotal Analysis Report](https://www.virustotal.com/gui/file/b2f31dbd357c7e23be4b3332b64a7cd54a1cbbe06948d4a0ceb697552a2944f2/detection) |
 
 </div>
 
