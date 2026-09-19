@@ -1,7 +1,7 @@
 {
   "version": "1.0.5",
   "minAllowedVersion": "1.0.0",
-  "createdUtc": "2026-09-19T16:59:37.3212536+00:00",
+  "createdUtc": "2026-09-19T17:06:18.3094803+00:00",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -3715,8 +3715,8 @@
     },
     {
       "path": "TechBites Hub.dll",
-      "size": 16292352,
-      "sha256": "c5620e391cb57daa0b3ff7d7650117e693e7624b58bec2eb8037f6eebfad4d5d"
+      "size": 16116224,
+      "sha256": "b1881f9af57d73e1cac3d03547a0c0df56446ac585d5a2dbbeeb4c46ba2cfc61"
     },
     {
       "path": "TechBites Hub.exe",
@@ -3740,8 +3740,8 @@
     },
     {
       "path": "TechBites.Hub.Core.dll",
-      "size": 8870400,
-      "sha256": "7fca1803dc90ca84de2a7062f2f979229a228e8a53809c7f8dc8760e1618ebe1"
+      "size": 8736256,
+      "sha256": "d48e87ca9658593e9b3550755510c1b7c590d65cd26a6e63c192396414c0e4b2"
     },
     {
       "path": "TechBites.Hub.Updater.exe",
