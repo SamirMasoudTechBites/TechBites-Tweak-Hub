@@ -1,128 +1,128 @@
 {
   "Packages": [
     {
-      "FamilyName": "WindowsWorkload.PSOnnxRuntime.4.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "FamilyName": "WindowsWorkload.PSOnnxRuntime.3.7_8wekyb3d8bbwe",
+      "Version": "1.2509.1022.0"
     },
     {
-      "FamilyName": "WindowsWorkload.PSTokenizerShared.4.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "FamilyName": "WindowsWorkload.PSTokenizerShared.3.7_8wekyb3d8bbwe",
+      "Version": "1.2509.1022.0"
     },
     {
-      "FamilyName": "WindowsWorkload.PSTokenizerShared.Data.4.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "FamilyName": "WindowsWorkload.PSTokenizerShared.Data.3.7_8wekyb3d8bbwe",
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageContentModeration.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageContentModeration.Data.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2508.888.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageScaler.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageScaler.Data.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2508.879.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageSegmentation.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageSegmentation.Data.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageObjectExtractor.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageObjectExtractor.Data.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2508.879.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageObjectRemover.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageObjectRemover.Data.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2508.879.0"
     },
     {
       "FamilyName": "WindowsWorkload.Parallax.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.Parallax.Data.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.7.817.0"
     },
     {
       "FamilyName": "WindowsWorkload.ScrRegDetection.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.ScrRegDetection.Data.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2508.879.0"
     },
     {
       "FamilyName": "WindowsWorkload.TextRecognition.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2508.888.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageSearch.2_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageTextSearch.2_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageSearch.3_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageSearch.Data.3_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.7.817.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageTextSearch.3_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.ImageTextSearch.Data.3_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.7.817.0"
     },
     {
       "FamilyName": "WindowsWorkload.FaceAnalysis.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.Manager.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2506.707.0"
     },
     {
       "FamilyName": "WindowsWorkload.SessionManager.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1203.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.Data.ContentExtraction.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.Data.ImageProcessing.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.Data.ImageTransform.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     },
     {
       "FamilyName": "WindowsWorkload.Data.ImageSearch.1_8wekyb3d8bbwe",
-      "Version": "1.2511.1196.0"
+      "Version": "1.2509.1022.0"
     }
   ],
   "Workloads": [
@@ -137,7 +137,7 @@
           "FamilyName": "WindowsWorkload.Manager.1_8wekyb3d8bbwe"
         },
         {
-          "FamilyName": "WindowsWorkload.PSOnnxRuntime.4.1_8wekyb3d8bbwe"
+          "FamilyName": "WindowsWorkload.PSOnnxRuntime.3.7_8wekyb3d8bbwe"
         },
         {
           "FamilyName": "WindowsWorkload.ScrRegDetection.1_8wekyb3d8bbwe"
@@ -197,7 +197,7 @@
           "FamilyName": "WindowsWorkload.Parallax.Data.1_8wekyb3d8bbwe"
         },
         {
-          "FamilyName": "WindowsWorkload.PSOnnxRuntime.4.1_8wekyb3d8bbwe"
+          "FamilyName": "WindowsWorkload.PSOnnxRuntime.3.7_8wekyb3d8bbwe"
         },
         {
           "FamilyName": "WindowsWorkload.SessionManager.1_8wekyb3d8bbwe"
@@ -239,13 +239,13 @@
           "FamilyName": "WindowsWorkload.Manager.1_8wekyb3d8bbwe"
         },
         {
-          "FamilyName": "WindowsWorkload.PSOnnxRuntime.4.1_8wekyb3d8bbwe"
+          "FamilyName": "WindowsWorkload.PSOnnxRuntime.3.7_8wekyb3d8bbwe"
         },
         {
-          "FamilyName": "WindowsWorkload.PSTokenizerShared.4.1_8wekyb3d8bbwe"
+          "FamilyName": "WindowsWorkload.PSTokenizerShared.3.7_8wekyb3d8bbwe"
         },
         {
-          "FamilyName": "WindowsWorkload.PSTokenizerShared.Data.4.1_8wekyb3d8bbwe"
+          "FamilyName": "WindowsWorkload.PSTokenizerShared.Data.3.7_8wekyb3d8bbwe"
         },
         {
           "FamilyName": "WindowsWorkload.SessionManager.1_8wekyb3d8bbwe"
@@ -269,7 +269,7 @@
           "FamilyName": "WindowsWorkload.Manager.1_8wekyb3d8bbwe"
         },
         {
-          "FamilyName": "WindowsWorkload.PSOnnxRuntime.4.1_8wekyb3d8bbwe"
+          "FamilyName": "WindowsWorkload.PSOnnxRuntime.3.7_8wekyb3d8bbwe"
         },
         {
           "FamilyName": "WindowsWorkload.SessionManager.1_8wekyb3d8bbwe"
@@ -278,13 +278,6 @@
     }
   ],
   "ApiInfos": [
-    {
-      "ApiClassName": "Microsoft.Windows.AI.Imaging.ImageForegroundExtractor",
-      "SessionClassName": "Microsoft.Graphics.Internal.Imaging.ImageSegmenterSession",
-      "Workload": "Windows.Workload.ImageProcessing",
-      "SessionPackage": "WindowsWorkload.ImageSegmentation.1_8wekyb3d8bbwe",
-      "Public": true
-    },
     {
       "ApiClassName": "Microsoft.Windows.AI.Imaging.ImageObjectExtractor",
       "SessionClassName": "Microsoft.Graphics.Internal.Imaging.ImageObjectExtractorSession",

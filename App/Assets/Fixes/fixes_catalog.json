@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sfc-dism-repair",
+    "title": "System File Checker & DISM Repair",
+    "description": "Scans and repairs corrupted Windows system files using SFC and DISM.",
+    "severity": "Critical",
+    "minBuild": 19041,
+    "scriptFile": "sfc_dism.ps1",
+    "requiresReboot": true
+  },
+  {
+    "id": "network-stack-reset",
+    "title": "Network Stack & Winsock Reset",
+    "description": "Resets Winsock catalog, TCP/IP stack, flushes DNS cache, and renews IP configuration.",
+    "severity": "High",
+    "minBuild": 10240,
+    "scriptFile": "network_reset.ps1",
+    "requiresReboot": true
+  },
+  {
+    "id": "spooler-service-fix",
+    "title": "Print Spooler Service Repair",
+    "description": "Clears stuck print queue files and restarts the Windows Print Spooler service.",
+    "severity": "Medium",
+    "minBuild": 10240,
+    "scriptFile": "spooler_fix.ps1",
+    "requiresReboot": false
+  },
+  {
+    "id": "win-update-reset",
+    "title": "Windows Update Agent Reset",
+    "description": "Resets Windows Update components, clears SoftwareDistribution cache, and re-registers update DLLs.",
+    "severity": "Critical",
+    "minBuild": 19041,
+    "scriptFile": "windows_update_reset.ps1",
+    "requiresReboot": true
+  }
+]
