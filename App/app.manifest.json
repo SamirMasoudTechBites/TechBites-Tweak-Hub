@@ -1,7 +1,7 @@
 {
   "version": "1.0.5",
   "minAllowedVersion": "1.0.0",
-  "createdUtc": "2026-09-19T16:23:46.2019436+00:00",
+  "createdUtc": "2026-09-19T16:59:37.3212536+00:00",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -2512,11 +2512,6 @@
       "path": "Recommendation/rec-techbites-samir/Logo.png",
       "size": 33340,
       "sha256": "0aa0e8d0f133d81939af0c1e35559ec47a7e7284bb6881aabde7ab73b400076e"
-    },
-    {
-      "path": "Recommendation/recommendations.json",
-      "size": 2218,
-      "sha256": "0d10ebf5211b1b60ebdfde168a60c02c93ed109171f9ce3523486c76f7be5586"
     },
     {
       "path": "RestartAgent.exe",
