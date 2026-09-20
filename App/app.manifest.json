@@ -1,7 +1,7 @@
 {
-  "version": "1.0.10",
+  "version": "1.0.12",
   "minAllowedVersion": "1.0.0",
-  "createdUtc": "2026-09-20T20:51:55.9479501+00:00",
+  "createdUtc": "2026-09-20T23:09:57.8763801+00:00",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -3711,17 +3711,17 @@
     {
       "path": "TechBites Hub.deps.json",
       "size": 75812,
-      "sha256": "46f1fae8c9cbab51c29373acd8a4d58f8d342795b378a2cdd03cb2ddedfc585c"
+      "sha256": "0fcda612c9fb62f9ca13856600b3e12655361f796cb871ea67fd9ac530a7bdab"
     },
     {
       "path": "TechBites Hub.dll",
-      "size": 16111616,
-      "sha256": "76e766b7cc5ed4b500b1b9ffec8a5948728c6e6c1f688b97e8930e519a1e5556"
+      "size": 16120832,
+      "sha256": "fa11f2fc4c0b05ae4b1288c87c34224af4c45e81a107d930c855101bb020f86a"
     },
     {
       "path": "TechBites Hub.exe",
       "size": 649728,
-      "sha256": "a7392faa6bfe5a36c460d4741fa1136a0c32b16b752d7e1500548c463f5964de"
+      "sha256": "899a0b8d3a0c95ec54af1e80b565cca9887402689e830eb9507e94d170e4b155"
     },
     {
       "path": "TechBites Hub.pri",
@@ -3740,13 +3740,13 @@
     },
     {
       "path": "TechBites.Hub.Core.dll",
-      "size": 8714752,
-      "sha256": "1ad7356db67f87e5909a3990dc6c76c5dc20e87fd89c152c9b38eb9ec78860c3"
+      "size": 8709632,
+      "sha256": "415c3301f0d32b240e9d847ebabc28e0f34b701420c29f53522eaf4b7e566884"
     },
     {
       "path": "TechBites.Hub.Updater.exe",
-      "size": 28729399,
-      "sha256": "4997128cbd938a0b802b768cf543cdfda7415502d466c9650568851fc3ca4396"
+      "size": 28724854,
+      "sha256": "59442c31478591de70f9cae4f5b53596b523635e107c2b9eadc6be242f8d13f9"
     },
     {
       "path": "th-TH/Microsoft.ui.xaml.dll.mui",

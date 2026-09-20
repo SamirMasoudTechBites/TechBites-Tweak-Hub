@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {},
     ".NETCoreApp,Version=v8.0/win-x64": {
-      "TechBites Hub/1.0.10": {
+      "TechBites Hub/1.0.12": {
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.4.0",
           "FluentIcons.WinUI": "2.2.331",
@@ -1625,7 +1625,7 @@
     }
   },
   "libraries": {
-    "TechBites Hub/1.0.10": {
+    "TechBites Hub/1.0.12": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
