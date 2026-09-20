@@ -1,7 +1,7 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.9",
   "minAllowedVersion": "1.0.0",
-  "createdUtc": "2026-09-20T19:05:31.1522053+00:00",
+  "createdUtc": "2026-09-20T20:30:37.1933807+00:00",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -27,6 +27,11 @@
       "path": "am-ET/Microsoft.UI.Xaml.Phone.dll.mui",
       "size": 13624,
       "sha256": "b9ff2e3b37bebd27ff14a3ea22c32523b062ad0a31f123b8e5b17792ef653326"
+    },
+    {
+      "path": "appsettings.json",
+      "size": 512,
+      "sha256": "7d804320f1b4e31e3ba6fbd163cb3907c6bd09e66dffd6c69b890f7f19f5ba8a"
     },
     {
       "path": "ar-SA/Microsoft.ui.xaml.dll.mui",
@@ -3711,17 +3716,17 @@
     {
       "path": "TechBites Hub.deps.json",
       "size": 75810,
-      "sha256": "726f81ef6a1fde5ac5ed75ce146bda916a74b90951b4ed2586777705728312e7"
+      "sha256": "c6bcb053a3b9f1cd960e9a83826b41b9e1019bf14ad2ea2f8d795e2ab555a9c1"
     },
     {
       "path": "TechBites Hub.dll",
-      "size": 16122368,
-      "sha256": "d0c090d4ad42656daffa822ca133be6cebfe2ccf22caac9aff15a01e250b1083"
+      "size": 16113664,
+      "sha256": "1b1bd477dfc3f08519bf3d44d78a64748e86733ff5ceec1f0451984d3eb4a65b"
     },
     {
       "path": "TechBites Hub.exe",
       "size": 649728,
-      "sha256": "5c3f2a0721cc687ea5e77ac36f67cc4159c25057397b13b1a42a3bdb5a3585c7"
+      "sha256": "ad63df9ec34e27dde9e3abcfa71d4df4c1b96b4831ab26d2f42225c54e5d0833"
     },
     {
       "path": "TechBites Hub.pri",
@@ -3740,13 +3745,13 @@
     },
     {
       "path": "TechBites.Hub.Core.dll",
-      "size": 8724480,
-      "sha256": "6fd076246e8a561932a86ec9396c5777409bb1f0e1e3a209a22864a5c3baec7e"
+      "size": 8715264,
+      "sha256": "cd5e5ca4b197e2011e0448ae85bf2241d0d39b7541c738bb09d8c2c357940192"
     },
     {
       "path": "TechBites.Hub.Updater.exe",
-      "size": 28727748,
-      "sha256": "7fb79a466ed33a51ec71e7d3b7ab379536fe732e7434a361ab44cae620739475"
+      "size": 28729399,
+      "sha256": "4997128cbd938a0b802b768cf543cdfda7415502d466c9650568851fc3ca4396"
     },
     {
       "path": "th-TH/Microsoft.ui.xaml.dll.mui",
