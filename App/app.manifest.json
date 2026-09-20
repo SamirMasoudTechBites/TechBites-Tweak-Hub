@@ -1,7 +1,7 @@
 {
-  "version": "1.0.9",
+  "version": "1.0.10",
   "minAllowedVersion": "1.0.0",
-  "createdUtc": "2026-09-20T20:30:37.1933807+00:00",
+  "createdUtc": "2026-09-20T20:51:55.9479501+00:00",
   "files": [
     {
       "path": "Accessibility.dll",
@@ -27,11 +27,6 @@
       "path": "am-ET/Microsoft.UI.Xaml.Phone.dll.mui",
       "size": 13624,
       "sha256": "b9ff2e3b37bebd27ff14a3ea22c32523b062ad0a31f123b8e5b17792ef653326"
-    },
-    {
-      "path": "appsettings.json",
-      "size": 512,
-      "sha256": "7d804320f1b4e31e3ba6fbd163cb3907c6bd09e66dffd6c69b890f7f19f5ba8a"
     },
     {
       "path": "ar-SA/Microsoft.ui.xaml.dll.mui",
@@ -3715,18 +3710,18 @@
     },
     {
       "path": "TechBites Hub.deps.json",
-      "size": 75810,
-      "sha256": "c6bcb053a3b9f1cd960e9a83826b41b9e1019bf14ad2ea2f8d795e2ab555a9c1"
+      "size": 75812,
+      "sha256": "46f1fae8c9cbab51c29373acd8a4d58f8d342795b378a2cdd03cb2ddedfc585c"
     },
     {
       "path": "TechBites Hub.dll",
-      "size": 16113664,
-      "sha256": "1b1bd477dfc3f08519bf3d44d78a64748e86733ff5ceec1f0451984d3eb4a65b"
+      "size": 16111616,
+      "sha256": "76e766b7cc5ed4b500b1b9ffec8a5948728c6e6c1f688b97e8930e519a1e5556"
     },
     {
       "path": "TechBites Hub.exe",
       "size": 649728,
-      "sha256": "ad63df9ec34e27dde9e3abcfa71d4df4c1b96b4831ab26d2f42225c54e5d0833"
+      "sha256": "a7392faa6bfe5a36c460d4741fa1136a0c32b16b752d7e1500548c463f5964de"
     },
     {
       "path": "TechBites Hub.pri",
@@ -3745,8 +3740,8 @@
     },
     {
       "path": "TechBites.Hub.Core.dll",
-      "size": 8715264,
-      "sha256": "cd5e5ca4b197e2011e0448ae85bf2241d0d39b7541c738bb09d8c2c357940192"
+      "size": 8714752,
+      "sha256": "1ad7356db67f87e5909a3990dc6c76c5dc20e87fd89c152c9b38eb9ec78860c3"
     },
     {
       "path": "TechBites.Hub.Updater.exe",
