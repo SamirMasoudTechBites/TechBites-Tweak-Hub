@@ -1,0 +1,10 @@
+{
+  "DFIntTaskSchedulerTargetFps": 9999,
+  "FFlagDebugGraphicsDisableDirect3D11": "True",
+  "FFlagDebugGraphicsPreferVulkan": "True",
+  "FFlagDisablePostFx": "True",
+  "FIntRenderShadowIntensity": 0,
+  "DFIntCSGLevelOfDetailSwitchingDistance": 0,
+  "FFlagGlobalWindActivated": "False",
+  "FIntCameraMaxZoomDistance": 10000
+}

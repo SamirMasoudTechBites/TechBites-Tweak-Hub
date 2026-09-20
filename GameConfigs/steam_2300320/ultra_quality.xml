@@ -1,0 +1,7 @@
+<game>
+  <graphicPreferences>
+    <vsync>false</vsync>
+    <shadowQuality>2</shadowQuality>
+    <fogQuality>2</fogQuality>
+  </graphicPreferences>
+</game>

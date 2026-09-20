@@ -1,0 +1,9 @@
+// Call of Duty Black Ops 6 High Quality Configuration
+LowLatencyMode = "On+Boost"
+VSync = "Off"
+ShadowQuality = "High"
+VolumetricQuality = "High"
+WaterQuality = "High"
+ParticleQuality = "High"
+MotionBlur = "Off"
+DepthOfField = "On"

@@ -1,0 +1,11 @@
+<root>
+  <graphicsPreferences>
+    <enableVSync>false</enableVSync>
+    <maxFrameRate>0</maxFrameRate>
+    <shadowsQuality>2</shadowsQuality>
+    <lightingQuality>2</lightingQuality>
+    <terrainQuality>3</terrainQuality>
+    <waterQuality>2</waterQuality>
+    <foliageQuality>2</foliageQuality>
+  </graphicsPreferences>
+</root>

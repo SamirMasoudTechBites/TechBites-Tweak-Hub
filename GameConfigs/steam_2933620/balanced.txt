@@ -1,0 +1,9 @@
+// Call of Duty Black Ops 6 Balanced Configuration
+LowLatencyMode = "On+Boost"
+VSync = "Off"
+ShadowQuality = "Normal"
+VolumetricQuality = "Medium"
+WaterQuality = "Normal"
+ParticleQuality = "Normal"
+MotionBlur = "Off"
+DepthOfField = "Off"

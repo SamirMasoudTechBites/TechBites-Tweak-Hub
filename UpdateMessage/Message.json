@@ -1,0 +1,50 @@
+v-0.058
+============================================================
+              TECHBITESHUB - CRITICAL UPDATE
+============================================================
+
+[ NEW FEATURES ]
+* HUB Apps (Beta): Integrated application hub for fast discovery and installs.
+* Game Configs: In-game settings optimization for maximum FPS and reduced input lag.
+
+
+[ CORE PROFILES & SYSTEM PRESETS ]
+* Admin-Curated Profiles: Fully fine-tuned and verified by Samir Masoud for 100% compatibility, stability, and raw performance.
+* Complete System Overhauls: Profiles now handle complete debloating and install essential software from A to Z, delivering a clean OS tuned for heavy workloads and competitive gaming.
+* Restore Points: Resolved stability issues and fixed critical bugs for reliable recovery points.
+
+
+[ OPTIMIZATIONS & TWEAKS ]
+* Massively expanded tweaks library with enhanced NVIDIA and AMD adjustments.
+* Added tweak categories: Applied, Unapplied, and Favorites.
+* Added a 1-click "Apply All" button per page.
+* Added fast page filters for quick navigation.
+* DPC / ISR: Reworked spike detection sensitivity (fixed overly aggressive triggers).
+* NVIDIA Deep Optimization: Profiles updated to match the latest GPU drivers.
+* Deep Power Optimization: Simplified UI with easy options to clear and delete custom power plans.
+
+
+[ HARDWARE & SYSTEM UTILITIES ]
+* MSI Utility: Added 1-click Gaming Profile application.
+* BIOS Tweaks: Added automated BIOS profiles tailored for gaming, 0.1% low stability, and general performance, complete with a recovery failsafe.
+* Turbo Boot: 1-click cleanup to eliminate unnecessary startup apps; fixed icon detection bugs.
+
+
+[ CLEANUP & SYSTEM INTEGRITY ]
+* Debloat: Added 1-click Bulk Debloat to strip all junk apps at once.
+* Disk Cleanup: Upgraded engine for deep temporary file and cache removal.
+* Windows Fixes: Added new repair routines with faster and more accurate diagnostics.
+* Windows Update: Fixed bugs and restructured the interface for better clarity.
+
+
+[ CUSTOMIZATION & INTERFACE ]
+* Context Menu: Completely redesigned UI for simpler customization.
+* Cursors: Added real-time cursor preview before applying.
+* Wallpapers: Added a dedicated wallpaper gallery with optimized loading pages.
+* Software Installer: Fixed missing icon bugs and added forced-install support for stubborn packages.
+* Privacy & Security: Enhanced design and visual clarity.
+* Arabic Localization: Fully revamped and polished Arabic interface translation.
+
+============================================================
+           Thank you for supporting TechBitesHub!
+============================================================

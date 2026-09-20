@@ -1,0 +1,6 @@
+{
+  "DFIntTaskSchedulerTargetFps": 240,
+  "FFlagDebugGraphicsDisableDirect3D11": "False",
+  "FFlagDisablePostFx": "False",
+  "FIntRenderShadowIntensity": 1
+}

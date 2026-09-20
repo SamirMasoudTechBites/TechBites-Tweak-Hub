@@ -1,0 +1,21 @@
+graphics{
+  anisotropy:i=16
+  backgroundScale:r=1
+  cloudsQuality:i=2
+  contactShadowsQuality:i=2
+  dirtFx:b=yes
+  fxDensityMul:r=1
+  fxTarget:t="high"
+  giQuality:t="high"
+  grassRadiusMul:r=1
+  landquality:i=3
+  motionBlur:b=no
+  shadowQuality:t="high"
+  texquality:t="high"
+  waterQuality:t="high"
+}
+video{
+  vsync:b=no
+  resolution:t="1920 x 1080"
+  mode:t="fullscreen"
+}
