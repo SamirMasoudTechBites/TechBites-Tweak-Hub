@@ -18,7 +18,7 @@
     "AntiCheatSafe",
     "DailySafe"
   ],
-  "Version": "1.0",
+  "Version": "1.1",
   "HasUpdateAvailable": false,
   "TweakStates": {
     "sec-harden-defender-pua": "Applied",
@@ -27,7 +27,7 @@
     "sec-harden-firewall-drop-log": "Applied",
     "modern-sec-autorun-disable": "Applied",
     "modern-sec-llmnr-disable": "Applied",
-    "modern-sec-netbios-disable": "Applied",
+    "opt-network-disable-netbios-over-tcp-ip": "Applied",
     "modern-sec-powershell-v2-disable": "Applied",
     "modern-sec-smbv1-disable": "Applied",
     "modern-sec-wpad-disable": "Applied"
