@@ -30,6 +30,8 @@
     "opt-network-disable-netbios-over-tcp-ip": "Applied",
     "modern-sec-powershell-v2-disable": "Applied",
     "modern-sec-smbv1-disable": "Applied",
-    "modern-sec-wpad-disable": "Applied"
+    "modern-sec-wpad-disable": "Applied",
+    "sec-harden-defender-network-protection": "Applied",
+    "opt-extra-periodic-registry-backup": "Applied"
   }
 }
