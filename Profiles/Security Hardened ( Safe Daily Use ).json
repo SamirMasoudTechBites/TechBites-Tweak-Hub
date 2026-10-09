@@ -1,0 +1,35 @@
+{
+  "Id": "54c59f921f1451dabf829434954c9f28",
+  "Name": "Security Hardened ( Safe Daily Use )",
+  "Description": "Turns Windows protection UP instead of down: blocks unwanted apps in Defender, blocks Office macros from the internet, disables SMBv1, LLMNR, NetBIOS, WPAD, PowerShell v2 and AutoRun, hides the password reveal button and logs dropped firewall connections. No performance tweaks. Safe for any PC and works with every anti-cheat. Not included on purpose: NTLMv2-only (can break old NAS and printers) and RDP/ASR rules (can block software) - enable those manually if you need them.",
+  "Author": "Samir Masoud",
+  "Icon": "",
+  "IsCommunityProfile": true,
+  "Comments": [],
+  "LastCommentDate": null,
+  "Rating": 5,
+  "ReviewCount": 1,
+  "DownloadCount": 0,
+  "Tags": [
+    "Security",
+    "Hardening",
+    "Safe",
+    "Beginner",
+    "AntiCheatSafe",
+    "DailySafe"
+  ],
+  "Version": "1.0",
+  "HasUpdateAvailable": false,
+  "TweakStates": {
+    "sec-harden-defender-pua": "Applied",
+    "sec-harden-office-macros-internet": "Applied",
+    "sec-harden-hide-password-reveal": "Applied",
+    "sec-harden-firewall-drop-log": "Applied",
+    "modern-sec-autorun-disable": "Applied",
+    "modern-sec-llmnr-disable": "Applied",
+    "modern-sec-netbios-disable": "Applied",
+    "modern-sec-powershell-v2-disable": "Applied",
+    "modern-sec-smbv1-disable": "Applied",
+    "modern-sec-wpad-disable": "Applied"
+  }
+}
