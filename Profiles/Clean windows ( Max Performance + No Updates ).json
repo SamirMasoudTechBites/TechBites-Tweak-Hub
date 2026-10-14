@@ -20,7 +20,7 @@
     "NoUpdates",
     "FPSBoost"
   ],
-  "Version": "1.4",
+  "Version": "1.5",
   "HasUpdateAvailable": false,
   "TweakStates": {
     "security-workplace-join-messages": "Applied",
@@ -194,7 +194,6 @@
     "opt-cpu-disable-processor-throttling": "Applied",
     "opt-cpu-idle-scrub-profile": "aggressive",
     "opt-cpu-dynamic-tick": "Applied",
-    "opt-cpu-hpet-synthetic-timer": "Applied",
     "opt-cpu-system-priority-scheduling": "Applied",
     "opt-cpu-vendor-power-managers": "Applied",
     "opt-cpu-powercfg-advanced-profile": "Applied",
@@ -247,7 +246,6 @@
     "opt-network-network-system-profile": "Applied",
     "opt-network-lanman-server-throughput": "Applied",
     "opt-network-lanman-workstation-throughput": "Applied",
-    "opt-network-tcp-ip-latency-profile": "Applied",
     "opt-network-afd-socket-buffers": "Applied",
     "opt-network-service-provider-priority": "Applied",
     "opt-network-disable-qos-reserve-limit": "Applied",
@@ -259,11 +257,9 @@
     "opt-network-enable-onboard-packet-processing": "Applied",
     "opt-network-disable-netbios-over-tcp-ip": "Applied",
     "opt-network-bufferbloat-latency-profile": "Applied",
-    "opt-network-network-adapter-device-priority": "Applied",
     "opt-network-competitive-packet-coalescing": "Applied",
     "opt-network-rss-processor-budget": "Applied",
     "opt-network-force-contiguous-memory-allocation": "Applied",
-    "opt-priority-service-host-priority": "Applied",
     "opt-priority-win32-priority-separation": "fixed-gaming",
     "opt-priority-gpu-driver-thread-priority": "Applied",
     "opt-priority-irq8-priority": "Applied",
@@ -272,7 +268,6 @@
     "opt-priority-window-manager-mmcss-priority": "Applied",
     "opt-advanced-games-task-optimizations": "Applied",
     "opt-advanced-low-latency-task-optimizations": "Applied",
-    "opt-priority-windows-i-o-priority-tweaks": "Applied",
     "opt-storage-fsutil-ssd-profile": "Applied",
     "opt-storage-enable-disk-cache-power-protection": "Applied",
     "opt-storage-enable-user-write-cache": "Applied",
@@ -291,7 +286,6 @@
     "opt-network-lso-rsc": "Applied",
     "opt-network-eee-green": "Applied",
     "opt-network-disable-ndu": "Applied",
-    "opt-input-csrss-priority": "Applied",
     "opt-hardware-pcie-msi-mode": "Applied",
     "opt-hardware-irq-priority-steering": "Applied",
     "opt-network-tcp-ack-nagle-strip": "Applied",
@@ -323,10 +317,8 @@
     "modern-ai-hide-settings-components": "Applied",
     "taskbar-search-box": "hide",
     "opt-gpu-tdr-debug-mode": "Applied",
-    "gpu-write-combining": "Applied",
     "gpu-tdr": "Applied",
     "gpu-preemption": "Applied",
-    "graphics-driver-optimizations": "Applied",
     "response-optimizations": "Applied",
     "opt-latency-disable-acpi-battery": "Applied",
     "modern-kernel-global-timer-resolution": "Applied",
@@ -338,7 +330,6 @@
     "opt-advanced-graphics-driver-power-optimizations": "Applied",
     "opt-advanced-graphics-driver-preemption-settings": "Applied",
     "opt-advanced-direct-x-kernel-latency-settings": "Applied",
-    "opt-advanced-graphics-drivers-scheduler-optimizations": "Applied",
     "opt-advanced-optimize-resource-policy": "Applied",
     "opt-advanced-multimedia-system-profile-games": "Applied",
     "opt-advanced-graphics-drivers-settings": "Applied",
@@ -361,9 +352,7 @@
     "sys-opt-standby-fix": "Applied",
     "sys-opt-reserved-storage": "Applied",
     "opt-system-port-thread-priority": "Applied",
-    "opt-system-font-driver-host": "Applied",
     "opt-ram-pool-usage-tuning": "Applied",
-    "reduce-startup-time": "Applied",
     "reduce-background-disk-activity": "Applied",
     "modern-services-fax-disable": "Applied",
     "modern-services-geolocation-disable": "Applied",
@@ -425,57 +414,49 @@
         "DeviceCategory": "GPU",
         "DeviceMatchPattern": "NVIDIA",
         "MsiEnabled": true,
-        "InterruptPriority": 3,
-        "MessageLimit": 1
+        "InterruptPriority": 3
       },
       {
         "DeviceCategory": "GPU",
         "DeviceMatchPattern": "AMD",
         "MsiEnabled": true,
-        "InterruptPriority": 3,
-        "MessageLimit": 1
+        "InterruptPriority": 3
       },
       {
         "DeviceCategory": "GPU",
         "DeviceMatchPattern": "Intel",
         "MsiEnabled": true,
-        "InterruptPriority": 3,
-        "MessageLimit": 1
+        "InterruptPriority": 3
       },
       {
         "DeviceCategory": "Network",
         "DeviceMatchPattern": "Realtek",
         "MsiEnabled": true,
-        "InterruptPriority": 3,
-        "MessageLimit": 1
+        "InterruptPriority": 3
       },
       {
         "DeviceCategory": "Network",
         "DeviceMatchPattern": "Intel",
         "MsiEnabled": true,
-        "InterruptPriority": 3,
-        "MessageLimit": 1
+        "InterruptPriority": 3
       },
       {
         "DeviceCategory": "Storage",
         "DeviceMatchPattern": "Standard NVM Express Controller",
         "MsiEnabled": true,
-        "InterruptPriority": 3,
-        "MessageLimit": 1
+        "InterruptPriority": 3
       },
       {
         "DeviceCategory": "Storage",
         "DeviceMatchPattern": "Standard SATA AHCI Controller",
         "MsiEnabled": true,
-        "InterruptPriority": 2,
-        "MessageLimit": 1
+        "InterruptPriority": 2
       },
       {
         "DeviceCategory": "Audio",
         "DeviceMatchPattern": "High Definition Audio Controller",
         "MsiEnabled": true,
-        "InterruptPriority": 2,
-        "MessageLimit": 1
+        "InterruptPriority": 2
       }
     ]
   },
